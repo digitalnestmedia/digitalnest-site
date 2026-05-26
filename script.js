@@ -4,6 +4,7 @@
    ========================================================================== */
 
 document.addEventListener('DOMContentLoaded', () => {
+  initMobileMenu();
   initViewfinderCursor();
   initSpatialPanoramaViewer();
   initBeforeAfterSlider();
@@ -471,5 +472,54 @@ function initContactForm() {
     const subject = `Website Inquiry from ${params.from_name || 'Anonymous'}`;
     const body = `Name: ${params.from_name}\nEmail: ${params.from_email || ''}\n\nMessage:\n${params.message}\n\nPage: ${location.href}`;
     window.location.href = `mailto:digital@nest360.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  }
+}
+
+/**
+ * 9. Premium Mobile Slide-Over Navigation Overlay Interaction
+ */
+function initMobileMenu() {
+  const trigger = document.querySelector('.mobile-menu-trigger');
+  const overlay = document.querySelector('.mobile-menu-overlay');
+  const links = document.querySelectorAll('.mobile-nav-link');
+  const inquireBtn = document.querySelector('.mobile-inquire-btn');
+
+  if (!trigger || !overlay) return;
+
+  const toggleMenu = () => {
+    const isOpen = overlay.classList.contains('active');
+    if (isOpen) {
+      overlay.classList.remove('active');
+      trigger.classList.remove('active');
+      overlay.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+    } else {
+      overlay.classList.add('active');
+      trigger.classList.add('active');
+      overlay.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden'; // Lock background scrolling
+    }
+  };
+
+  trigger.addEventListener('click', toggleMenu);
+
+  // Close overlay on nav link selection
+  links.forEach((link) => {
+    link.addEventListener('click', () => {
+      overlay.classList.remove('active');
+      trigger.classList.remove('active');
+      overlay.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+    });
+  });
+
+  // Close overlay on Inquire CTA selection
+  if (inquireBtn) {
+    inquireBtn.addEventListener('click', () => {
+      overlay.classList.remove('active');
+      trigger.classList.remove('active');
+      overlay.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+    });
   }
 }

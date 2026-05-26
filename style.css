@@ -61,7 +61,7 @@ html::-webkit-scrollbar {
 
 body {
   font-family: var(--font-body);
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.6;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -263,7 +263,7 @@ select,
 /* --- Typography --- */
 .display-xl {
   font-family: var(--font-sans);
-  font-size: 6.5vh;
+  font-size: 7vh;
   /* Scales beautifully with viewport height */
   font-weight: 800;
   line-height: 0.95;
@@ -272,7 +272,7 @@ select,
 
 .headline-lg {
   font-family: var(--font-sans);
-  font-size: 4.8vh;
+  font-size: 5.3vh;
   /* Scales beautifully with viewport height */
   font-weight: 700;
   line-height: 1.05;
@@ -287,7 +287,7 @@ select,
 
 .body-lg {
   font-family: var(--font-body);
-  font-size: 18px;
+  font-size: 20.5px;
   font-weight: 300;
   line-height: 1.65;
   color: rgba(28, 28, 26, 0.7);
@@ -295,7 +295,7 @@ select,
 
 .label-caps {
   font-family: var(--font-body);
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.2em;
@@ -304,21 +304,21 @@ select,
 /* Fluid responsive typography scaling */
 @media (max-width: 1024px) {
   .display-xl {
-    font-size: 64px;
+    font-size: 72px;
   }
 
   .headline-lg {
-    font-size: 40px;
+    font-size: 46px;
   }
 }
 
 @media (max-width: 768px) {
   .display-xl {
-    font-size: 44px;
+    font-size: 52px;
   }
 
   .headline-lg {
-    font-size: 32px;
+    font-size: 38px;
   }
 }
 
@@ -396,7 +396,7 @@ select,
 
 .logo-text {
   font-family: var(--font-sans);
-  font-size: 24px;
+  font-size: 27px;
   /* Enhanced visibility size */
   font-weight: 800;
   letter-spacing: -0.02em;
@@ -427,7 +427,7 @@ select,
 
 .nav-link {
   font-family: var(--font-body);
-  font-size: 11px;
+  font-size: 12.5px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.15em;
@@ -467,7 +467,7 @@ select,
   color: var(--ink-black);
   padding: 10px 24px;
   font-family: var(--font-body);
-  font-size: 11px;
+  font-size: 12.5px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.15em;
@@ -520,7 +520,7 @@ select,
   border: none;
   padding: 18px 36px;
   font-family: var(--font-body);
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.2em;
@@ -542,7 +542,7 @@ select,
   color: var(--ink-black);
   padding: 18px 36px;
   font-family: var(--font-body);
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.2em;
@@ -728,13 +728,13 @@ section {
 .hero-studio-label {
   color: var(--forest-green);
   font-weight: 700;
-  font-size: 13.5px;
+  font-size: 18px;
   letter-spacing: 0.25em;
 }
 
 .hero-main-title {
   color: var(--ink-black);
-  font-size: 7.5vh;
+  font-size: 10.5vh;
   margin-top: 4px;
   margin-bottom: 4px;
 }
@@ -744,10 +744,10 @@ section {
 }
 
 .hero-centered-desc {
-  max-width: 480px;
+  max-width: 640px;
   margin-bottom: 24px;
   color: rgba(28, 28, 26, 0.6);
-  font-size: 14.5px;
+  font-size: 20px;
   line-height: 1.6;
 }
 
@@ -832,7 +832,7 @@ section {
 
 .scroll-text {
   font-family: var(--font-body);
-  font-size: 9px;
+  font-size: 10.5px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.25em;
@@ -959,7 +959,7 @@ section {
 
 .section-label {
   font-family: var(--font-body);
-  font-size: 11px;
+  font-size: 12.5px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.25em;
@@ -1000,7 +1000,7 @@ section {
 
 .tech-title {
   font-family: var(--font-sans);
-  font-size: 11px;
+  font-size: 12.5px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.15em;
@@ -1067,7 +1067,7 @@ section {
 
 .service-row-num {
   font-family: var(--font-serif);
-  font-size: 20px;
+  font-size: 28px;
   color: var(--forest-green);
   line-height: 1.2;
 }
@@ -1080,17 +1080,17 @@ section {
 
 .service-row-title {
   font-family: var(--font-sans);
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   color: var(--ink-black);
 }
 
 .service-row-desc {
   font-family: var(--font-body);
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.4;
   color: rgba(28, 28, 26, 0.6);
-  max-width: 480px;
+  max-width: 520px;
   height: 0;
   overflow: hidden;
   opacity: 0;
@@ -1376,7 +1376,7 @@ section {
 
 .project-title {
   font-family: var(--font-sans);
-  font-size: 26px;
+  font-size: 29px;
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: -0.02em;
@@ -1387,7 +1387,7 @@ section {
 
 .project-desc {
   font-family: var(--font-body);
-  font-size: 13.5px;
+  font-size: 15px;
   line-height: 1.5;
   color: rgba(245, 244, 240, 0.6);
   margin-bottom: 16px;
@@ -1435,8 +1435,8 @@ section {
 }
 
 .node-dot {
-  width: 6px;
-  height: 6px;
+  width: 8px;
+  height: 8px;
   border: 1px solid var(--chalk-white);
   background-color: transparent;
   border-radius: 50%;
@@ -1451,7 +1451,7 @@ section {
 
 .node-label {
   font-family: var(--font-body);
-  font-size: 10px;
+  font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.15em;
@@ -1491,7 +1491,7 @@ section {
   position: absolute;
   left: 0;
   right: 0;
-  top: 20px;
+  top: 26px;
   height: 1px;
   background-color: rgba(28, 28, 26, 0.08);
   z-index: 1;
@@ -1508,8 +1508,8 @@ section {
 .step-node {
   position: relative;
   z-index: 10;
-  width: 40px;
-  height: 40px;
+  width: 52px;
+  height: 52px;
   background-color: var(--chalk-white);
   border: 1px solid rgba(28, 28, 26, 0.1);
   display: flex;
@@ -1520,7 +1520,7 @@ section {
 
 .step-number {
   font-family: var(--font-serif);
-  font-size: 16px;
+  font-size: 22px;
   color: rgba(28, 28, 26, 0.4);
   transition: color 0.5s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -1544,7 +1544,7 @@ section {
 
 .step-meta {
   color: rgba(28, 28, 26, 0.3);
-  font-size: 10px;
+  font-size: 11.5px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.15em;
@@ -1552,7 +1552,7 @@ section {
 
 .step-title {
   font-family: var(--font-sans);
-  font-size: 18px;
+  font-size: 20px;
   /* Optimized for 5 steps horizontally */
   font-weight: 700;
   letter-spacing: -0.01em;
@@ -1561,7 +1561,7 @@ section {
 
 .step-desc {
   font-family: var(--font-body);
-  font-size: 13px;
+  font-size: 15px;
   /* Clean look */
   line-height: 1.5;
   color: rgba(28, 28, 26, 0.6);
@@ -2046,7 +2046,7 @@ section {
   border: none;
   padding: 18px 36px;
   font-family: var(--font-body);
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.2em;
@@ -2213,8 +2213,8 @@ section {
 
 .copyright {
   font-family: var(--font-body);
-  font-size: 12px;
-  color: rgba(245, 244, 240, 0.3);
+  font-size: 12.5px;
+  color: rgba(245, 244, 240, 0.55);
 }
 
 /* --- MOTION & ANIMATION SYSTEM --- */
@@ -2244,4 +2244,503 @@ section {
 
 .delay-400 {
   transition-delay: 400ms;
+}
+
+/* --- Hide Mobile Nav Components on Desktop Viewports --- */
+.mobile-menu-trigger {
+  display: none;
+}
+
+.mobile-menu-overlay {
+  display: none;
+}
+
+/* ==========================================================================
+   DIGITALNEST | MOBILE RESPONSIVENESS ENGINE
+   MEDIA QUERY: COVERS PHONES, TABLETS & PORTABLE SCREENS (max-width: 900px)
+   ========================================================================== */
+
+/* 1. Global Reset & Performance Improvements on Mobile Devices */
+@media (max-width: 900px) {
+  html {
+    scroll-snap-type: none !important; /* Disable snapping to prevent weird layout locks */
+    scrollbar-width: auto; /* Reset standard browser scrollbar on mobile */
+  }
+
+  body {
+    overflow-y: scroll;
+    scrollbar-width: auto;
+  }
+
+  html::-webkit-scrollbar,
+  body::-webkit-scrollbar {
+    display: block; /* Restore scrollbar for intuitive touch scrolling indicator */
+    width: 6px;
+  }
+  
+  html::-webkit-scrollbar-thumb,
+  body::-webkit-scrollbar-thumb {
+    background-color: rgba(28, 28, 26, 0.2);
+    border-radius: 3px;
+  }
+
+  /* Reset Cursor Overrides - restore normal pointers on touch screens */
+  html, body, a, button, input, textarea, select, [role="button"] {
+    cursor: auto !important;
+  }
+
+  #viewfinder-cursor {
+    display: none !important; /* Hide mouse tracking cursor */
+  }
+
+  #noise-overlay {
+    opacity: 0.015; /* Reduce CPU rendering load of background noise overlay */
+  }
+
+  /* Reset layout constraints for vertical content flows */
+  section {
+    height: auto !important;
+    min-height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    scroll-snap-align: none !important;
+    scroll-snap-stop: normal !important;
+    padding: 100px 0 60px 0 !important; /* Standard padding for header clearance */
+  }
+
+  .container {
+    max-height: none !important;
+    height: auto !important;
+  }
+}
+
+/* 2. Responsive Site Header & Hamburg Menu Integration */
+@media (max-width: 768px) {
+  .site-header {
+    height: 72px;
+    background-color: rgba(245, 244, 250, 0.85); /* Frosty backdrop on scroll */
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-bottom: 1px solid rgba(28, 28, 26, 0.05);
+  }
+
+  .site-header.in-dark-section {
+    background-color: rgba(28, 28, 26, 0.9);
+    border-bottom-color: rgba(255, 255, 255, 0.05);
+  }
+
+  .site-logo {
+    padding-left: 56px; /* Balance spacing next to the smaller logo */
+  }
+
+  .logo-text {
+    font-size: 20px;
+  }
+
+  .footer-brand .logo-text {
+    font-size: 20px;
+  }
+
+  /* Hide regular header Inquiry button to prevent clutter */
+  .site-header .btn-chrome {
+    display: none !important;
+  }
+
+  /* Mobile Hamburger Trigger Toggle */
+  .mobile-menu-trigger {
+    display: flex;
+    background: none;
+    border: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px;
+    height: 16px;
+    padding: 0;
+    z-index: 110;
+  }
+
+  .mobile-menu-trigger .bar {
+    width: 100%;
+    height: 2px;
+    background-color: var(--ink-black);
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .site-header.in-dark-section .mobile-menu-trigger .bar {
+    background-color: var(--chalk-white);
+  }
+
+  /* Hamburger transformation into active Close Icon */
+  .mobile-menu-trigger.active .bar:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .mobile-menu-trigger.active .bar:nth-child(2) {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  .mobile-menu-trigger.active .bar:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  /* Glassmorphic Fullscreen Mobile Navigation Menu Overlay */
+  .mobile-menu-overlay {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(28, 28, 26, 0.97);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    z-index: 105;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mobile-menu-overlay.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .mobile-menu-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+  }
+
+  .mobile-nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    text-align: center;
+  }
+
+  .mobile-nav-link {
+    font-family: var(--font-sans);
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--chalk-white);
+    text-decoration: none;
+    letter-spacing: -0.02em;
+    opacity: 0.6;
+    transition: opacity 0.3s ease, color 0.3s ease;
+  }
+
+  .mobile-nav-link:hover,
+  .mobile-nav-link:focus {
+    opacity: 1;
+    color: var(--forest-green);
+  }
+
+  .mobile-inquire-btn {
+    display: inline-flex !important;
+    margin-top: 12px;
+    border-color: rgba(245, 244, 240, 0.3) !important;
+    color: var(--chalk-white) !important;
+  }
+}
+
+/* 3. Section-Specific Responsive Adaptations */
+
+/* HERO SECTION */
+@media (max-width: 768px) {
+  #hero {
+    height: 92vh !important; /* Keep the landing screen prominent */
+    min-height: 520px !important;
+    padding-top: 72px !important;
+  }
+
+  .hero-main-title {
+    font-size: 56px !important;
+    line-height: 1.1 !important;
+  }
+
+  .hero-centered-desc {
+    font-size: 18px;
+    padding: 0 12px;
+    margin-bottom: 28px;
+  }
+
+  .hero-centered-ctas {
+    flex-direction: column;
+    width: 100%;
+    max-width: 280px;
+    gap: 12px;
+  }
+
+  .hero-centered-ctas .btn-primary,
+  .hero-centered-ctas .btn-secondary {
+    width: 100%;
+    justify-content: center;
+    padding: 15px 24px;
+  }
+
+  .scroll-indicator {
+    display: none !important;
+  }
+}
+
+/* ABOUT SECTION */
+@media (max-width: 768px) {
+  .about-visual {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .viewfinder-image-container {
+    height: 200px;
+  }
+
+  .about-details {
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-desc {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .about-tech-matrix {
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .tech-cell {
+    flex: 0 0 calc(50% - 8px);
+    align-items: center;
+  }
+}
+
+/* PORTFOLIO EXHIBITS SECTION */
+@media (max-width: 900px) {
+  .portfolio-wrapper {
+    gap: 24px;
+  }
+
+  .portfolio-exhibition-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+  }
+
+  .portfolio-exhibition-header .btn-portfolio-archive {
+    padding: 12px 24px;
+    font-size: 10px;
+  }
+
+  .portfolio-exhibition-frame {
+    flex-direction: column;
+    height: auto !important;
+    max-height: none !important;
+    gap: 20px;
+  }
+
+  /* Separate viewport viewer and let it lay out on top */
+  .portfolio-viewports {
+    position: relative !important;
+    width: 100% !important;
+    height: 260px !important;
+    right: auto !important;
+    padding: 8px !important;
+    box-sizing: border-box;
+  }
+
+  .viewport-item {
+    inset: 8px !important;
+  }
+
+  /* Make panoramic cards touch drag friendly */
+  .chrome-interactive-badge {
+    padding: 2px 6px;
+    font-size: 8px;
+  }
+
+  /* Stack project details panel underneath */
+  .portfolio-floating-panel {
+    position: relative !important;
+    width: 100% !important;
+    left: auto !important;
+    margin: 0 !important;
+    padding: 24px 20px !important;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-left: none !important;
+    border-top: 2px solid var(--forest-green) !important;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4) !important;
+  }
+
+  .project-title {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .project-desc {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .project-metadata {
+    justify-content: center;
+    font-size: 10px;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .btn-project-action {
+    align-self: center;
+    width: 100%;
+    max-width: 240px;
+    justify-content: center;
+    padding: 14px 24px;
+  }
+
+  /* Exhibition Selector Nodes - stacked vertically */
+  .portfolio-exhibition-nav {
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    margin-top: 12px;
+    padding-top: 16px;
+  }
+
+  .exhibit-node-btn {
+    width: 100%;
+    padding: 8px 12px;
+    background-color: rgba(255, 255, 255, 0.02);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+}
+
+/* PROCESS Timeline SECTION */
+@media (max-width: 900px) {
+  .process-sticky {
+    text-align: center;
+  }
+
+  .process-timeline {
+    padding-left: 26px; /* Leave space for vertical track line */
+  }
+
+  /* Reposition horizontal track to elegant vertical track behind nodes */
+  .process-timeline::before {
+    display: block !important;
+    left: 26px !important; /* Centers exactly behind the 52px wide step nodes */
+    top: 0 !important;
+    bottom: 0 !important;
+    width: 1.5px !important;
+    height: 100% !important;
+    background-color: rgba(28, 28, 26, 0.08);
+    right: auto !important;
+  }
+
+  .process-step {
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .step-node {
+    flex-shrink: 0;
+  }
+}
+
+/* CONTACT Form SECTION */
+@media (max-width: 768px) {
+  /* Disable heavy visual graphics for mobile optimization */
+  .room-neon-strips,
+  .room-pendant-lamps,
+  .room-monolith,
+  .room-floor,
+  .room-viewfinder-marker {
+    display: none !important;
+  }
+
+  #contact {
+    background-color: #0c0c0b !important;
+  }
+
+  .contact-card-wrap {
+    padding: 0 !important;
+  }
+
+  .contact-card {
+    max-width: 100% !important;
+    background-color: rgba(18, 18, 17, 0.95) !important;
+    padding: 32px 24px !important;
+    border-color: rgba(255, 255, 255, 0.08) !important;
+    box-shadow: none !important;
+  }
+
+  .contact-desc {
+    font-size: 13.5px;
+    text-align: center;
+  }
+
+  .btn-form-submit {
+    width: 100%;
+    justify-content: center;
+    padding: 16px 24px !important;
+  }
+}
+
+/* FOOTER SECTION */
+@media (max-width: 768px) {
+  .footer-top {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+  }
+
+  .footer-brand {
+    align-items: center;
+  }
+
+  .footer-brand .site-logo {
+    justify-content: center;
+  }
+
+  .footer-social-nav {
+    justify-content: center;
+  }
+
+  .footer-contact-column {
+    align-items: center;
+  }
+
+  .footer-contact-info {
+    align-items: center;
+    text-align: center;
+  }
+
+  .contact-item {
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .contact-item-icon {
+    margin-top: 0;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+    padding-top: 16px;
+  }
 }

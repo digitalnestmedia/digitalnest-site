@@ -59,7 +59,28 @@
     </nav>
 
     <a href="#contact" class="btn-chrome">Inquire</a>
+
+    <!-- Mobile Menu Trigger -->
+    <button class="mobile-menu-trigger" aria-label="Toggle Navigation Menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
   </header>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu-overlay" aria-hidden="true">
+    <div class="mobile-menu-inner">
+      <nav class="mobile-nav-links">
+        <a href="#about" class="mobile-nav-link">Studio</a>
+        <a href="#services" class="mobile-nav-link">Services</a>
+        <a href="#portfolio" class="mobile-nav-link">Featured Work</a>
+        <a href="#process" class="mobile-nav-link">Process</a>
+        <a href="#contact" class="mobile-nav-link">Contact</a>
+      </nav>
+      <a href="#contact" class="btn-chrome mobile-inquire-btn">Inquire</a>
+    </div>
+  </div>
 
   <!-- 1. HERO SECTION (Immersive Editorial Landing) -->
   <section id="hero">
@@ -786,7 +807,7 @@
       </div>
     </div>
 
-    <div class="footer-bottom reveal-block delay-100">
+    <div class="footer-bottom">
       <span class="copyright">© 2026 DigitalNest. Building Your Digital Presence.</span>
     </div>
 
