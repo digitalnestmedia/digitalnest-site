@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>DigitalNest</title>
+  <meta name="description"
+    content="DigitalNest translates physical architecture into cinematic digital walkthroughs, 360 virtual tours, and premium spatial narratives.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Film Grain Overlay for Tactile Texture -->
+  <div id="noise-overlay" aria-hidden="true"></div>
+
+  <!-- Ambient spotlight tracker on backgrounds -->
+  <div id="ambient-spotlight" aria-hidden="true"></div>
+
+  <!-- Custom Viewfinder camera cursor -->
+  <div id="viewfinder-cursor" aria-hidden="true">
+    <div class="cursor-bracket top-left"></div>
+    <div class="cursor-bracket top-right"></div>
+    <div class="cursor-bracket bottom-left"></div>
+    <div class="cursor-bracket bottom-right"></div>
+    <div class="cursor-center"></div>
+  </div>
+
+  <!-- Blueprint Vertical Structural Lines -->
+  <div class="blueprint-grid" aria-hidden="true">
+    <div class="blueprint-line vertical-1"></div>
+    <div class="blueprint-line vertical-2"></div>
+  </div>
+
+  <!-- Isolated Logo Graphic to prevent mix-blend-mode inversion -->
+  <a href="#" class="fixed-site-logo">
+    <img src="logo.png" alt="DigitalNest Logo" class="logo-image">
+  </a>
+
+  <!-- Minimalist Site Header -->
+  <header class="site-header">
+    <a href="#" class="site-logo">
+      <span class="logo-text">Digital<span class="editorial-accent">Nest</span></span>
+    </a>
+
+    <nav class="nav-links">
+      <a href="#about" class="nav-link">Studio</a>
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#portfolio" class="nav-link">Featured Work</a>
+      <a href="#process" class="nav-link">Process</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <a href="#contact" class="btn-chrome">Inquire</a>
+  </header>
+
+  <!-- 1. HERO SECTION (Immersive Editorial Landing) -->
+  <section id="hero">
+
+    <!-- 360 Revolving Space Backdrop -->
+    <div class="hero-revolving-backdrop" aria-hidden="true">
+      <img src="hero_revolving_bg.png" class="revolving-bg-img" alt="Revolving 360 spatial virtual tour backdrop">
+      <div class="backdrop-fog-overlay"></div>
+    </div>
+
+    <!-- Concentric Orbit Rings background layers -->
+    <div class="hero-orbit-rings" aria-hidden="true">
+      <div class="orbit-ring ring-1"></div>
+      <div class="orbit-ring ring-2"></div>
+      <div class="orbit-ring ring-3"></div>
+      <div class="orbit-ring ring-4"></div>
+    </div>
+
+
+    <!-- Centered Editorial Content -->
+    <div class="container hero-content-centered">
+      <div class="hero-center-block reveal-block">
+
+        <!-- Top vertical line marker -->
+        <div class="hero-v-line"></div>
+
+        <span class="label-caps hero-studio-label">BUILDING YOUR DIGITAL PRESENCE</span>
+
+        <!-- Inner vertical line marker -->
+        <div class="hero-v-line short"></div>
+
+        <h1 class="display-xl hero-main-title">
+          Every Space<br>Has a <span class="editorial-accent">Story.</span>
+        </h1>
+
+        <!-- Inner vertical line marker -->
+        <div class="hero-v-line short"></div>
+
+        <p class="body-lg hero-centered-desc">
+          We bring spaces to life with cinematic 360° virtual tours, professional photography, and immersive
+          digital storytelling.
+        </p>
+
+        <div class="hero-centered-ctas">
+          <a href="#portfolio" class="btn-primary btn-hero-accent">Explore Work</a>
+          <a href="#contact" class="btn-secondary btn-hero-outline">Book a Demo</a>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Blueprint Scroll Down Indicator -->
+    <div class="scroll-indicator">
+      <div class="mouse-icon">
+        <div class="mouse-dot"></div>
+      </div>
+      <span class="scroll-text">Scroll to Discover</span>
+    </div>
+  </section>
+
+  <!-- 2. ABOUT SECTION (Philosophy - Warm Light Editorial) -->
+  <section id="about">
+    <div class="container about-grid">
+
+      <!-- Asymmetric Viewfinder Image frame -->
+      <div class="about-visual reveal-block">
+        <div class="viewfinder-frame">
+          <div class="viewfinder-corner tl"></div>
+          <div class="viewfinder-corner tr"></div>
+          <div class="viewfinder-corner bl"></div>
+          <div class="viewfinder-corner br"></div>
+
+          <div class="viewfinder-image-container">
+            <img class="viewfinder-img" src="cover.png"
+              alt="Architectural space detail representing DigitalNest studio design philosophy">
+          </div>
+        </div>
+      </div>
+
+      <!-- Text & Blueprint highlights -->
+      <div class="about-details reveal-block delay-100">
+        <div class="section-label-row">
+          <div class="section-bullet"></div>
+          <span class="section-label">Studio Philosophy</span>
+        </div>
+
+        <h2 class="headline-lg about-heading">
+          We create <span class="editorial-accent">immersive</span> experiences.
+        </h2>
+
+        <p class="body-lg about-desc">
+          At DigitalNest, we help businesses bring their spaces to life online through immersive digital
+          experiences. We specialize in creating stunning 360° virtual tours and high-quality business photography that
+          allow customers to explore locations from anywhere in the world.
+        </p>
+
+        <!-- Dynamic Tech Capabilities Matrix -->
+        <div class="about-tech-matrix">
+          <div class="tech-cell">
+            <span class="material-symbols-outlined tech-icon">360</span>
+            <span class="tech-title">360° Tours</span>
+          </div>
+          <div class="tech-cell">
+            <span class="material-symbols-outlined tech-icon">camera</span>
+            <span class="tech-title">Photography</span>
+          </div>
+          <div class="tech-cell">
+            <span class="material-symbols-outlined tech-icon">location_on</span>
+            <span class="tech-title">Google Maps</span>
+          </div>
+          <div class="tech-cell">
+            <span class="material-symbols-outlined tech-icon">visibility</span>
+            <span class="tech-title">Showcasing</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 3. SERVICES SECTION (Immersive Editorial Index) -->
+  <section id="services">
+    <div class="container">
+      <div class="services-grid">
+
+        <!-- Left side: Editorial Index -->
+        <div class="services-index-side reveal-block">
+          <div class="section-label-row" style="margin-bottom: 16px;">
+            <div class="section-bullet"></div>
+            <span class="section-label">Capabilities</span>
+          </div>
+          <h2 class="display-xl" style="margin-bottom: 32px;">Services</h2>
+
+          <div class="services-directory">
+
+            <!-- Service Row 01 -->
+            <div class="service-row active" data-service="1">
+              <span class="service-row-num">01</span>
+              <div class="service-row-content">
+                <span class="service-row-title">Showroom Virtual Tours</span>
+                <p class="service-row-desc">
+                  Interactive virtual tours for car showrooms, furniture stores, and retail spaces to attract more
+                  walk-in customers.
+                </p>
+              </div>
+            </div>
+
+            <!-- Service Row 02 -->
+            <div class="service-row" data-service="2">
+              <span class="service-row-num">02</span>
+              <div class="service-row-content">
+                <span class="service-row-title">Corporate Office Virtual Tours</span>
+                <p class="service-row-desc">
+                  Showcase your modern IT parks, corporate offices, and co-working spaces with professional 360° virtual
+                  tours.
+                </p>
+              </div>
+            </div>
+
+            <!-- Service Row 03 -->
+            <div class="service-row" data-service="3">
+              <span class="service-row-num">03</span>
+              <div class="service-row-content">
+                <span class="service-row-title">Gym, Spa & Salon Virtual Tours</span>
+                <p class="service-row-desc">
+                  Let customers explore your gym, spa, or salon facilities virtually before they visit in person.
+                </p>
+              </div>
+            </div>
+
+            <!-- Service Row 04 -->
+            <div class="service-row" data-service="4">
+              <span class="service-row-num">04</span>
+              <div class="service-row-content">
+                <span class="service-row-title">Industrial / Factory Virtual Tours</span>
+                <p class="service-row-desc">
+                  Document and showcase manufacturing units, warehouses, and industrial facilities with precision 360°
+                  captures.
+                </p>
+              </div>
+            </div>
+
+            <!-- Service Row 05 -->
+            <div class="service-row" data-service="5">
+              <span class="service-row-num">05</span>
+              <div class="service-row-content">
+                <span class="service-row-title">Hotel & Hospitality Virtual Tours</span>
+                <p class="service-row-desc">
+                  Give guests a stunning preview of your hotel rooms, lobbies, and amenities with immersive virtual
+                  tours.
+                </p>
+              </div>
+            </div>
+
+            <!-- Service Row 06 -->
+            <div class="service-row" data-service="6">
+              <span class="service-row-num">06</span>
+              <div class="service-row-content">
+                <span class="service-row-title">Real Estate Virtual Tours</span>
+                <p class="service-row-desc">
+                  Help buyers explore properties remotely with detailed 360° tours that drive faster decisions.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Right side: Viewfinder Image Preview -->
+        <div class="services-preview-side reveal-block delay-100">
+          <div class="viewfinder-frame services-viewfinder">
+            <div class="viewfinder-corner tl"></div>
+            <div class="viewfinder-corner tr"></div>
+            <div class="viewfinder-corner bl"></div>
+            <div class="viewfinder-corner br"></div>
+
+            <div class="services-images-pane">
+              <div class="service-pane-img active" data-service="1">
+                <img src="Images/01.png" alt="Premium retail furniture store showroom preview">
+              </div>
+              <div class="service-pane-img" data-service="2">
+                <img src="Images/02.png" alt="Modern co-working space and office virtual tour preview">
+              </div>
+              <div class="service-pane-img" data-service="3">
+                <img src="Images/03.png" alt="Luxury botanical pavilion gym spa facility preview">
+              </div>
+              <div class="service-pane-img" data-service="4">
+                <img src="Images/04.png" alt="High-fidelity industrial warehouse reality capture mapping">
+              </div>
+              <div class="service-pane-img" data-service="5">
+                <img src="Images/05.png" alt="Stunning premium hotel room lobby hospitality showcase">
+              </div>
+              <div class="service-pane-img" data-service="6">
+                <img src="Images/06.png" alt="High-end penthouse real estate lounge virtual tour preview">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. PORTFOLIO SHOWCASE SECTION (Cinematic Layered Exhibition) -->
+  <section id="portfolio">
+    <div class="container portfolio-wrapper">
+
+      <div class="portfolio-exhibition-header reveal-block">
+        <div>
+          <div class="section-label-row" style="margin-bottom: 12px;">
+            <div class="section-bullet"></div>
+            <span class="section-label" style="color: var(--chalk-white);">Exhibits</span>
+          </div>
+          <h2 class="display-xl" style="color: var(--chalk-white);">Featured Spaces</h2>
+        </div>
+        <a href="#" class="btn-secondary btn-portfolio-archive">View Archive</a>
+      </div>
+
+      <!-- Cinematic Layered Exhibition Frame -->
+      <div class="portfolio-exhibition-frame reveal-block">
+
+        <!-- Foreground Floating Details Panel (Overlapping Glassmorphic) -->
+        <div class="portfolio-floating-panel">
+
+          <!-- Exhibit Info 1 -->
+          <div class="exhibit-info active" id="details-project-1">
+            <div class="project-metadata">
+              <span class="label-caps">Shahada, Maharashtra</span>
+              <span class="label-caps">—</span>
+              <span class="label-caps">Spa and Salon</span>
+            </div>
+            <h3 class="project-title">Kashima Beauty Care & Spa</h3>
+            <p class="project-desc">
+              Created a refined digital showcase for Kashima Beauty Care & Spa, highlighting its premium beauty and
+              wellness experience.
+            </p>
+            <a href="https://www.google.com/maps/place/Kashima+Beauty+Care+%26+Spa/@21.5490541,74.4760744,3a,70y,1.68h,90t/data=!3m7!1e1!3m5!1sCIABIhCmzK-FUkQLSlDuDksNXDnx!2e10!6shttps:%2F%2Flh3.googleusercontent.com%2Fgpms-cs-s%2FABJJf52YYGgDVjVBvNZe0kABy0uHZAyMj1K-MWueefSdvO2omwmJUV4e2hLLol3SXaBvzvAK6LVejJGbL1TLgdT87od0SH2tVpOMXIUCRSkWKzdw1V5wbdDDI5Z8w0XpUNhC-ItzeN20r_kgsMeM%3Dw900-h600-k-no-pi-0.004246329153545503-ya1.682387056654286-ro0-fo100!7i5952!8i2976!4m9!3m8!1s0x3bdf6d23890dba43:0x9d7ee9261b89fc96!8m2!3d21.5465625!4d74.4759375!10e5!14m1!1BCgIgARICCAI!16s%2Fg%2F11sqkqq44t?entry=ttu&g_ep=EgoyMDI2MDUyMC4wIKXMDSoASAFQAw%3D%3D"
+              class="btn-primary btn-project-action">
+              <span class="material-symbols-outlined">explore</span>
+              View on Google
+            </a>
+          </div>
+
+          <!-- Exhibit Info 2 -->
+          <div class="exhibit-info" id="details-project-2">
+            <div class="project-metadata">
+              <span class="label-caps">Dondaicha, Maharashtra</span>
+              <span class="label-caps">—</span>
+              <span class="label-caps">Hospital/College</span>
+            </div>
+            <h3 class="project-title">Ahinsa Institute of Ayurveda</h3>
+            <p class="project-desc">
+              Designed a clean and immersive digital presence for Ahinsa Institute of Ayurveda, showcasing their
+              holistic Ayurvedic education and campus experience.
+            </p>
+            <a href="https://www.google.com/maps/place/Ahinsa+Institute+of+Ayurveda/@21.3021332,74.6007874,3a,75y,357.42h,93.35t/data=!3m7!1e1!3m5!1sCIABIhBW3ixeTdG0CAQBf1qemui2!2e10!6shttps:%2F%2Flh3.googleusercontent.com%2Fgpms-cs-s%2FABJJf539YQM60H4TswSBqyohys5b2-avr7H7teii1P_79BsaBlE6O84XXE1mWc9YW56yjdhbRYsXauBiku6tHkxUiBDorEMUtxVjfYvdP5IYj1WZLQ0HDHN9LMQXrAvz5hkPQDU1cw53s6-jHNdn%3Dw900-h600-k-no-pi-3.348563331455466-ya357.4176485004505-ro0-fo100!7i5952!8i2976!4m9!3m8!1s0x3bdf230052b321d1:0xb1e63669d7194eb1!8m2!3d21.3021484!4d74.6007884!10e5!14m1!1BCgIgARICCAI!16s%2Fg%2F11vsf50zdt?entry=ttu&g_ep=EgoyMDI2MDUyMC4wIKXMDSoASAFQAw%3D%3D"
+              class="btn-primary btn-project-action">
+              <span class="material-symbols-outlined">explore</span>
+              View on Google
+            </a>
+          </div>
+
+          <!-- Exhibit Info 3 -->
+          <div class="exhibit-info" id="details-project-3">
+            <div class="project-metadata">
+              <span class="label-caps">Dondaicha, Maharashtra</span>
+              <span class="label-caps">—</span>
+              <span class="label-caps">Interior Showroom</span>
+            </div>
+            <h3 class="project-title">Rajlaxmi Tiles & Granite</h3>
+            <p class="project-desc">
+              Developed an immersive visual experience for Rajlaxmi Tiles & Granite to enhance customer engagement and
+              product presentation.
+            </p>
+            <a href="https://www.google.com/maps/place/RAJLAXMI+TILES+AND+GRANITE+DONDAICHA/@21.3245278,74.5579167,3a,75y,270.14h,85.43t/data=!3m7!1e1!3m5!1sCIABIhDXUip6ufXVV_SzZfvbASVc!2e10!6shttps:%2F%2Flh3.googleusercontent.com%2Fgpms-cs-s%2FABJJf50w-jhooet8YcSYky2bkSpIbhwEX6bsP9BynLihAv0dS0KF3T2ogsHxqVu0X67-60zvHjukqj6uUPDMFXG9rVk7cQYb3_XNHiago6pzwSZYHPTkGgOtHoURrrPjJnsDMCS7-BJFeVjpgju5%3Dw900-h600-k-no-pi4.565141998368873-ya358.48789721864637-ro0-fo100!7i5952!8i2976!4m9!3m8!1s0x3bdf170065d0162d:0xc7235e15f2b96b3!8m2!3d21.324547!4d74.557676!10e5!14m1!1BCgIgARICCAI!16s%2Fg%2F11z678p4nd?entry=ttu&g_ep=EgoyMDI2MDUyMC4wIKXMDSoASAFQAw%3D%3D"
+              class="btn-primary btn-project-action">
+              <span class="material-symbols-outlined">explore</span>
+              View on Google
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Right Side Panoramic Viewports -->
+        <div class="portfolio-viewports">
+
+          <!-- Viewport 1 -->
+          <div class="viewport-item active" id="viewport-project-1">
+            <div class="spatial-viewport">
+              <div class="viewport-chrome">
+                <span class="chrome-label">Camera Node 01 / Spa Room</span>
+                <div class="chrome-interactive-badge">
+                  <span class="material-symbols-outlined">explore</span>
+                  Hover to Pan
+                </div>
+              </div>
+
+              <div class="panorama-pan-container">
+                <div class="spatial-crosshair t-l"></div>
+                <div class="spatial-crosshair t-r"></div>
+                <div class="spatial-crosshair b-l"></div>
+                <div class="spatial-crosshair b-r"></div>
+
+                <img class="pan-image" src="Images\Kashima_Pano.jpg"
+                  alt="Kashima Beauty Care & Spa - Interactive 360° pan preview">
+              </div>
+            </div>
+          </div>
+
+          <!-- Viewport 2 -->
+          <div class="viewport-item" id="viewport-project-2">
+            <div class="spatial-viewport">
+              <div class="viewport-chrome">
+                <span class="chrome-label">Camera Node 02 / Library</span>
+                <div class="chrome-interactive-badge">
+                  <span class="material-symbols-outlined">explore</span>
+                  Hover to Pan
+                </div>
+              </div>
+
+              <div class="panorama-pan-container">
+                <div class="spatial-crosshair t-l"></div>
+                <div class="spatial-crosshair t-r"></div>
+                <div class="spatial-crosshair b-l"></div>
+                <div class="spatial-crosshair b-r"></div>
+
+                <img class="pan-image" src="#" alt="Ahinsa Institute of Ayurveda - Interactive 360° pan preview">
+              </div>
+            </div>
+          </div>
+
+          <!-- Viewport 3 -->
+          <div class="viewport-item" id="viewport-project-3">
+            <div class="spatial-viewport">
+              <div class="viewport-chrome">
+                <span class="chrome-label">Camera Node 03 / Showroom</span>
+                <div class="chrome-interactive-badge">
+                  <span class="material-symbols-outlined">explore</span>
+                  Hover to Pan
+                </div>
+              </div>
+
+              <div class="panorama-pan-container">
+                <div class="spatial-crosshair t-l"></div>
+                <div class="spatial-crosshair t-r"></div>
+                <div class="spatial-crosshair b-l"></div>
+                <div class="spatial-crosshair b-r"></div>
+
+                <img class="pan-image" src="#" alt="Rajlaxmi Tiles & Granite - Interactive 360° pan preview">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Exhibition Navigation Nodes -->
+      <div class="portfolio-exhibition-nav reveal-block">
+        <a href="javascript:void(0)" class="exhibit-node-btn active" data-project="1">
+          <div class="node-dot"></div>
+          <span class="node-label">Spa & Salon / Kashima Beauty Care & Spa</span>
+        </a>
+        <a href="javascript:void(0)" class="exhibit-node-btn" data-project="2">
+          <div class="node-dot"></div>
+          <span class="node-label">Hospital & College / Ahinsa Institute of Ayurveda</span>
+        </a>
+        <a href="javascript:void(0)" class="exhibit-node-btn" data-project="3">
+          <div class="node-dot"></div>
+          <span class="node-label">Interior Showroom / Rajlaxmi Tiles & Granite</span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 5. MID-CTA SECTION (Editorial atmospheric banner) -->
+  <section id="mid-cta">
+    <div class="container mid-cta-wrap reveal-block">
+      <span class="material-symbols-outlined mid-cta-icon">architecture</span>
+      <h2 class="display-xl" style="color: var(--chalk-white);">
+        Don’t just show the space.<br>Let them <span class="editorial-accent"
+          style="color: var(--forest-green);">feel</span> it.
+      </h2>
+      <p class="body-lg mid-cta-desc">
+        Our Professional 360° virtual tours eliminate the boundaries between the physical venue and screen, allowing
+        deep
+        emotional and atmospheric connection.
+      </p>
+      <a href="#contact" class="btn-primary"
+        style="background-color: var(--forest-green); color: var(--chalk-white); margin-top: 16px;">
+        Start Spatial Redesign
+      </a>
+    </div>
+  </section>
+
+  <!-- 6. PROCESS SECTION (Blueprint Timeline Steps) -->
+  <section id="process">
+    <div class="container process-grid">
+
+      <div class="process-sticky reveal-block">
+        <div class="section-label-row" style="margin-bottom: 12px;">
+          <div class="section-bullet"></div>
+          <span class="section-label">Methodology</span>
+        </div>
+        <h2 class="display-xl" style="margin-bottom: 8px;">Our <span class="editorial-accent"
+            style="color: var(--forest-green);">Process.</span></h2>
+      </div>
+
+      <div class="process-timeline">
+
+        <!-- Step 01 -->
+        <div class="process-step reveal-block">
+          <div class="step-node">
+            <span class="step-number">01</span>
+          </div>
+          <div class="step-content">
+            <span class="label-caps step-meta">Phase 01 / Initiation</span>
+            <h3 class="step-title">Contact Us</h3>
+            <p class="step-desc">
+              Reach out via call, WhatsApp or enquiry form to discuss your business and virtual tour requirements.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 02 -->
+        <div class="process-step reveal-block delay-100">
+          <div class="step-node">
+            <span class="step-number">02</span>
+          </div>
+          <div class="step-content">
+            <span class="label-caps step-meta">Phase 02 / Planning</span>
+            <h3 class="step-title">Location Visit</h3>
+            <p class="step-desc">
+              Our team visits your location to analyze the space and plan the perfect 360° shoot.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 03 -->
+        <div class="process-step reveal-block delay-200">
+          <div class="step-node">
+            <span class="step-number">03</span>
+          </div>
+          <div class="step-content">
+            <span class="label-caps step-meta">Phase 03 / Production</span>
+            <h3 class="step-title">Capture 360° Images</h3>
+            <p class="step-desc">
+              We capture high-quality panoramic images using professional 360° cameras.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 04 -->
+        <div class="process-step reveal-block delay-300">
+          <div class="step-node">
+            <span class="step-number">04</span>
+          </div>
+          <div class="step-content">
+            <span class="label-caps step-meta">Phase 04 / Development</span>
+            <h3 class="step-title">Create Virtual Tour</h3>
+            <p class="step-desc">
+              Images are stitched together to build a fully interactive 360° tour experience.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 05 -->
+        <div class="process-step reveal-block delay-400">
+          <div class="step-node">
+            <span class="step-number">05</span>
+          </div>
+          <div class="step-content">
+            <span class="label-caps step-meta">Phase 05 / Launch</span>
+            <h3 class="step-title">Publish Online</h3>
+            <p class="step-desc">
+              Your tour is published on Google Maps and your website so customers can explore anytime.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 7. THE COMPARISON SECTION (Precision Drag Slider) -->
+  <!-- <section id="comparison">
+    <div class="container">
+
+      <div class="comparison-intro reveal-block">
+        <div class="section-label-row" style="justify-content: center; margin-bottom: 12px;">
+          <div class="section-bullet"></div>
+          <span class="section-label">Fidelity Audit</span>
+        </div>
+        <h2 class="headline-lg">The DigitalNest Standard</h2>
+        <p class="label-caps" style="color: var(--forest-green); margin-top: 8px;">Drag mouse horizontally to compare
+          quality</p>
+      </div>
+
+      <div class="slider-container reveal-block"> -->
+  <!-- Background After Layer -->
+  <!-- <div class="comparison-layer after">
+          <img
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQkMiw8UTHzj7K-U_NiRJFv52WFVXdf3PSioTHD5oyFSh664FzlE_K_M8_tqxi92Aq5OoBNFyaLbwGgJGFhd0PMgzp04_-OnB36dE8fvFMxGRTp3oonsqhOMk3HlZKkvYO09GE5o57vv-uIXrrwmUjT0il8AhTWan6L2snvSOANt9uxZjlGk96sIybxWYpDuv5Igy8UFwp8_t0mwjtGtmZZ2tjYN1frXcYLTrdp54KHwhzNYenfuM1rfoSWRuwU3Rw_hT4cCrHapI"
+            alt="DigitalNest Standard HDR Capture comparison after details">
+          <div class="slider-badge a label-caps">DigitalNest HD</div>
+        </div> -->
+
+  <!-- Sliding Before Layer -->
+  <!-- <div class="comparison-layer before">
+          <img
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBP-_PYTLzgIcjn_ZyGWOEA4VlqGkyyOr9TrmWtDg3q86U17Pp-dTSMwLdhvML4OUzr8N7qO3Hh1qeQep1bK5gnc4KY_Kf6GjFYvK6frXEl2nCySSPzAMLGQdpnJHf3qYpnYVAvdvymshUP4gJ_Yq2N8oVWqkUI9gcXEsdc9RnKYeMHWLDikfkq7-ol5qHOj4uVW6jS_cWRbZHnzGTjakAsRFWbcyu3lmmxihf7DVXGjD8e-TL6P-JpoKObXz8XFid3LjEoeqAGfGA"
+            alt="Standard basic low-fidelity tour comparison before detail">
+          <div class="slider-badge b label-caps">Standard scan</div>
+        </div> -->
+
+  <!-- Physical interactive drag UI -->
+  <!-- <div class="slider-bar"></div>
+        <div class="slider-handle">
+          <span class="material-symbols-outlined">unfold_more</span>
+        </div>
+      </div>
+
+    </div>
+  </section> -->
+
+  <!-- 8. CONTACT SECTION (Unified 3D Spatial Room) -->
+  <section id="contact">
+    <!-- Spatial Room Background Elements -->
+    <div class="room-neon-strips" aria-hidden="true">
+      <div class="neon-strip"></div>
+      <div class="neon-strip"></div>
+      <div class="neon-strip"></div>
+      <div class="neon-strip"></div>
+      <div class="neon-strip"></div>
+    </div>
+
+    <div class="room-pendant-lamps" aria-hidden="true">
+      <!-- Lamp 1 -->
+      <div class="pendant-lamp lamp-1">
+        <div class="lamp-cord"></div>
+        <div class="lamp-fixture"></div>
+        <div class="lamp-light-cone"></div>
+      </div>
+      <!-- Lamp 2 -->
+      <div class="pendant-lamp lamp-2">
+        <div class="lamp-cord"></div>
+        <div class="lamp-fixture"></div>
+        <div class="lamp-light-cone"></div>
+      </div>
+      <!-- Lamp 3 -->
+      <div class="pendant-lamp lamp-3">
+        <div class="lamp-cord"></div>
+        <div class="lamp-fixture"></div>
+        <div class="lamp-light-cone"></div>
+      </div>
+    </div>
+
+    <div class="room-monolith" aria-hidden="true">
+      <div class="monolith-reflection"></div>
+    </div>
+
+    <div class="room-floor" aria-hidden="true"></div>
+
+    <!-- Centerpiece viewfinder crosshair overlay in background -->
+    <div class="room-viewfinder-marker" aria-hidden="true">
+      <div class="spatial-crosshair t-l"></div>
+      <div class="spatial-crosshair t-r"></div>
+      <div class="spatial-crosshair b-l"></div>
+      <div class="spatial-crosshair b-r"></div>
+    </div>
+
+    <!-- Floating Glassmorphic Contact Card -->
+    <div class="contact-card-wrap container">
+      <div class="contact-card reveal-block">
+        <div class="section-label-row">
+          <div class="section-bullet"></div>
+          <span class="section-label" style="color: var(--forest-green);">Inquiries</span>
+        </div>
+
+        <h2 class="headline-lg" style="color: var(--chalk-white); margin-top: 8px;">Let's Build Your Digital Presence.
+        </h2>
+
+        <p class="contact-desc"
+          style="color: rgba(245, 244, 240, 0.6); margin-top: 8px; font-size: 14px; line-height: 1.5;">
+          Provide a few brief architectural details about your physical venue. Our project engineers will draft a custom
+          spatial showcasing proposal for your review within 24 hours.
+        </p>
+
+        <form id="contact-form" class="studio-form" style="margin-top: 24px; gap: 24px;">
+          <div class="form-group">
+            <label class="form-label" for="client-name">Your Name</label>
+            <input class="form-input" id="client-name" name="from_name" type="text" placeholder="e.g. John Doe" required
+              style="padding: 8px 0; font-size: 15px;">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="client-email">Email</label>
+            <input class="form-input" id="client-email" name="from_email" type="email"
+              placeholder="e.g. you@company.com" required
+              style="padding: 8px 0; font-size: 15px;">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="client-message">Message</label>
+            <textarea class="form-input" id="client-message" name="message"
+              placeholder="e.g. Tell us about your space and requirements..." required
+              style="padding: 8px 0; font-size: 15px; height: 80px; resize: none;"></textarea>
+          </div>
+
+          <button class="btn-primary btn-form-submit" type="submit"
+            style="background-color: var(--forest-green); color: var(--chalk-white); align-self: flex-start; padding: 14px 28px;">
+            Send Inquiry
+          </button>
+          <div id="contact-status" class="contact-status" aria-live="polite" style="margin-top:12px;color:rgba(245,244,240,0.8);"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- SITE FOOTER -->
+  <footer class="site-footer">
+
+    <div class="footer-top reveal-block">
+      <div class="footer-brand">
+        <a href="#" class="site-logo">
+          <img src="logo.png" alt="DigitalNest Logo" class="logo-image">
+          <span class="logo-text">Digital<span class="editorial-accent">Nest</span></span>
+        </a>
+        <p class="footer-desc">
+          Creating immersive 360° virtual tour experiences for businesses worldwide.
+        </p>
+        <nav class="footer-social-nav">
+          <!-- Facebook -->
+          <a href="https://www.facebook.com/share/18Sb5RmuLD/" class="footer-social-link-btn" aria-label="Facebook">
+            <svg class="social-svg" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c4.56-.93 8-4.96 8-9.95z" />
+            </svg>
+          </a>
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/digitalnest.360/" class="footer-social-link-btn" aria-label="Instagram">
+            <svg class="social-svg" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+            </svg>
+          </a>
+
+          <!-- LinkedIn -->
+          <!-- <a href="#" class="footer-social-link-btn" aria-label="LinkedIn">
+            <svg class="social-svg" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+            </svg>
+          </a> -->
+          <!-- YouTube -->
+          <!-- <a href="#" class="footer-social-link-btn" aria-label="YouTube">
+            <svg class="social-svg" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.517 3.545 12 3.545 12 3.545s-7.517 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.033 0 12 0 12s0 3.967.502 5.837a3.003 3.003 0 002.11 2.11c1.871.508 9.388.508 9.388.508s7.517 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.967 24 12 24 12s0-3.967-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+            </svg>
+          </a> -->
+
+        </nav>
+      </div>
+
+      <div class="footer-contact-column">
+        <span class="footer-links-label">Contact</span>
+        <div class="footer-contact-info">
+          <div class="contact-item">
+            <span class="material-symbols-outlined contact-item-icon">mail</span>
+            <a href="mailto:digital@nest360.com" class="contact-item-link">digital@nest360.com</a>
+          </div>
+          <div class="contact-item">
+            <span class="material-symbols-outlined contact-item-icon">call</span>
+            <a href="tel:+919423493101" class="contact-item-link">+91 9423493101</a>
+          </div>
+          <div class="contact-item">
+            <span class="material-symbols-outlined contact-item-icon">location_on</span>
+            <span class="contact-item-text">Shahada, Dist- Nandurbar,<br>Maharashtra, India</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom reveal-block delay-100">
+      <span class="copyright">© 2026 DigitalNest. Building Your Digital Presence.</span>
+    </div>
+
+  </footer>
+
+  <!-- Scripts -->
+  <script src="vendor/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
