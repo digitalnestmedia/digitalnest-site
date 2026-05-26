@@ -111,65 +111,124 @@ function initSpatialPanoramaViewer() {
     const img = viewport.querySelector('.pan-image');
     if (!img) return;
 
-    // Centered initially
-    const centerImage = () => {
-      const rect = viewport.getBoundingClientRect();
-      img.style.transition = 'transform 0.8s cubic-bezier(0.16, 1, 0.3, 1)';
-      img.style.transform = `translateX(${-rect.width / 2}px)`;
-    };
+    // Create a wrapping div for the infinite loop scroll
+    const wrapper = document.createElement('div');
+    wrapper.className = 'pan-image-wrapper';
     
-    // Defer to ensure client width is mapped
-    setTimeout(centerImage, 100);
-    window.addEventListener('resize', centerImage);
+    wrapper.style.display = 'flex';
+    wrapper.style.height = '100%';
+    wrapper.style.width = '400%';
+    wrapper.style.position = 'absolute';
+    wrapper.style.top = '0';
+    wrapper.style.left = '0';
+    wrapper.style.pointerEvents = 'none';
 
-    viewport.addEventListener('mouseenter', () => {
-      img.style.transition = 'none'; // Instant responsive mapping
+    // Clone the image to create the second seamless loop
+    const imgClone = img.cloneNode(true);
+
+    // Set both images to have width 50% of the wrapper (each equals 200% of container)
+    img.style.width = '50%';
+    img.style.position = 'relative';
+    imgClone.style.width = '50%';
+    imgClone.style.position = 'relative';
+
+    // Insert wrapper and append both images
+    viewport.insertBefore(wrapper, img);
+    wrapper.appendChild(img);
+    wrapper.appendChild(imgClone);
+
+    let isDragging = false;
+    let startX = 0;
+    let currentPanX = 0; // Start at leftmost edge (0px)
+
+    // Reset/Align to leftmost position
+    const initLeftPosition = () => {
+      wrapper.style.transition = 'transform 0.5s cubic-bezier(0.16, 1, 0.3, 1)';
+      wrapper.style.transform = 'translateX(0px)';
+      currentPanX = 0;
+    };
+
+    // Initialize leftmost layout
+    setTimeout(initLeftPosition, 100);
+    
+    window.addEventListener('resize', () => {
+      initLeftPosition();
     });
 
-    // Map mouse movements horizontally across the container
-    viewport.addEventListener('mousemove', (e) => {
+    // Reset panning to leftmost when tabs are switched
+    const tabBtns = document.querySelectorAll('.exhibit-node-btn');
+    tabBtns.forEach((btn) => {
+      btn.addEventListener('click', initLeftPosition);
+    });
+
+    // Desktop mouse dragging support
+    viewport.addEventListener('mousedown', (e) => {
+      isDragging = true;
+      startX = e.clientX;
+      wrapper.style.transition = 'none'; // Instant responsive movement during active drag
+      viewport.style.cursor = 'grabbing';
+    });
+
+    window.addEventListener('mousemove', (e) => {
+      if (!isDragging) return;
       const rect = viewport.getBoundingClientRect();
-      const relativeX = e.clientX - rect.left; // Mouse position inside viewport
-      const percentage = relativeX / rect.width; // 0 to 1
+      const deltaX = e.clientX - startX;
+      startX = e.clientX;
 
-      // Map percentage: 0 to 1 -> translateX (0px to -rect.width px)
-      const panOffset = -percentage * rect.width;
+      currentPanX += deltaX;
       
-      img.style.transform = `translateX(${panOffset}px)`;
+      const loopWidth = 2 * rect.width;
+      
+      // Infinite seamless wrap-around
+      if (currentPanX > 0) {
+        currentPanX -= loopWidth;
+      } else if (currentPanX < -loopWidth) {
+        currentPanX += loopWidth;
+      }
+
+      wrapper.style.transform = `translateX(${currentPanX}px)`;
     });
 
-    // Reset panorama panning to center when leaving frame
-    viewport.addEventListener('mouseleave', () => {
-      centerImage();
+    window.addEventListener('mouseup', () => {
+      if (isDragging) {
+        isDragging = false;
+        viewport.style.cursor = 'grab';
+        wrapper.style.transition = 'transform 0.3s cubic-bezier(0.16, 1, 0.3, 1)';
+      }
     });
 
     // Mobile touch drag panning support
-    let startX = 0;
-    let currentPan = 0;
-    
     viewport.addEventListener('touchstart', (e) => {
-      const rect = viewport.getBoundingClientRect();
-      img.style.transition = 'none';
+      isDragging = true;
       startX = e.touches[0].clientX;
-      
-      const style = window.getComputedStyle(img);
-      const matrix = new WebKitCSSMatrix(style.transform);
-      currentPan = matrix.m41 || -rect.width / 2;
+      wrapper.style.transition = 'none';
     }, { passive: true });
 
     viewport.addEventListener('touchmove', (e) => {
+      if (!isDragging) return;
       const rect = viewport.getBoundingClientRect();
       const deltaX = e.touches[0].clientX - startX;
       startX = e.touches[0].clientX;
+
+      currentPanX += deltaX;
       
-      currentPan += deltaX;
-      currentPan = Math.max(-rect.width, Math.min(0, currentPan));
+      const loopWidth = 2 * rect.width;
       
-      img.style.transform = `translateX(${currentPan}px)`;
+      // Infinite seamless wrap-around
+      if (currentPanX > 0) {
+        currentPanX -= loopWidth;
+      } else if (currentPanX < -loopWidth) {
+        currentPanX += loopWidth;
+      }
+
+      wrapper.style.transform = `translateX(${currentPanX}px)`;
     }, { passive: true });
 
     viewport.addEventListener('touchend', () => {
-      centerImage();
+      if (isDragging) {
+        isDragging = false;
+        wrapper.style.transition = 'transform 0.3s cubic-bezier(0.16, 1, 0.3, 1)';
+      }
     });
   });
 }
@@ -316,13 +375,11 @@ function initExhibitionTabs() {
       if (viewport) {
         viewport.classList.add('active');
 
-        // Center the 360 panorama viewport beautifully
-        const img = viewport.querySelector('.pan-image');
-        const container = viewport.querySelector('.panorama-pan-container');
-        if (img && container) {
-          const rect = container.getBoundingClientRect();
-          img.style.transition = 'transform 0.5s cubic-bezier(0.16, 1, 0.3, 1)';
-          img.style.transform = `translateX(${-rect.width / 2}px)`;
+        // Align to the leftmost of the 360 panorama viewport wrapper
+        const wrapper = viewport.querySelector('.pan-image-wrapper');
+        if (wrapper) {
+          wrapper.style.transition = 'transform 0.5s cubic-bezier(0.16, 1, 0.3, 1)';
+          wrapper.style.transform = 'translateX(0px)';
         }
       }
     };
@@ -502,6 +559,11 @@ function initMobileMenu() {
   };
 
   trigger.addEventListener('click', toggleMenu);
+
+  const closeBtn = document.querySelector('.mobile-menu-close');
+  if (closeBtn) {
+    closeBtn.addEventListener('click', toggleMenu);
+  }
 
   // Close overlay on nav link selection
   links.forEach((link) => {

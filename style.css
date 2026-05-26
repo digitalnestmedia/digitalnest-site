@@ -337,7 +337,7 @@ select,
 
 @media (max-width: 768px) {
   .fixed-site-logo {
-    height: 64px;
+    height: 72px;
     left: var(--margin-mobile);
   }
 }
@@ -970,6 +970,10 @@ section {
   margin-bottom: 8px;
 }
 
+.about-heading .editorial-accent {
+  color: var(--forest-green);
+}
+
 .about-desc {
   max-width: 500px;
 }
@@ -1276,6 +1280,7 @@ section {
   flex: 1;
   overflow: hidden;
   position: relative;
+  cursor: grab;
 }
 
 .pan-image {
@@ -2329,8 +2334,12 @@ section {
     border-bottom-color: rgba(255, 255, 255, 0.05);
   }
 
+  .fixed-site-logo .logo-image {
+    height: 38px; /* Slightly smaller logo image for clean mobile proportion */
+  }
+
   .site-logo {
-    padding-left: 56px; /* Balance spacing next to the smaller logo */
+    padding-left: 56px; /* Balanced spacing next to the smaller logo with a tight clean gap */
   }
 
   .logo-text {
@@ -2384,7 +2393,47 @@ section {
     transform: translateY(-7px) rotate(-45deg);
   }
 
-  /* Glassmorphic Fullscreen Mobile Navigation Menu Overlay */
+  .mobile-menu-trigger.active .bar {
+    background-color: var(--chalk-white);
+  }
+
+  /* Mobile Menu Close Button */
+  .mobile-menu-close {
+    position: absolute;
+    top: 22px;
+    right: var(--margin-mobile);
+    width: 28px;
+    height: 28px;
+    background: none;
+    border: none;
+    padding: 0;
+    z-index: 120;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .mobile-menu-close:hover {
+    transform: scale(1.1) rotate(90deg);
+  }
+
+  .mobile-menu-close .close-bar {
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    background-color: var(--chalk-white);
+    transition: background-color 0.3s ease;
+  }
+
+  .mobile-menu-close .close-bar:nth-child(1) {
+    transform: rotate(45deg);
+  }
+
+  .mobile-menu-close .close-bar:nth-child(2) {
+    transform: rotate(-45deg);
+  }
+
   .mobile-menu-overlay {
     position: fixed;
     inset: 0;
@@ -2454,9 +2503,32 @@ section {
 /* HERO SECTION */
 @media (max-width: 768px) {
   #hero {
-    height: 92vh !important; /* Keep the landing screen prominent */
-    min-height: 520px !important;
+    height: auto !important; /* Allow dynamic height on mobile to prevent content cropping */
+    min-height: 92vh !important; /* Keep the landing screen prominent */
     padding-top: 72px !important;
+    padding-bottom: 40px !important; /* Clear spacing at the bottom below CTAs */
+  }
+
+  #hero .container {
+    justify-content: flex-start;
+    padding-top: 24px;
+    height: auto !important;
+    max-height: none !important;
+  }
+
+  .hero-v-line {
+    height: 24px !important;
+    margin: 8px 0 !important;
+  }
+
+  .hero-v-line.short {
+    height: 12px !important;
+    margin: 6px 0 !important;
+  }
+
+  .hero-studio-label {
+    font-size: 13px !important;
+    letter-spacing: 0.2em !important;
   }
 
   .hero-main-title {
@@ -2600,9 +2672,10 @@ section {
   .btn-project-action {
     align-self: center;
     width: 100%;
-    max-width: 240px;
+    max-width: 280px;
     justify-content: center;
     padding: 14px 24px;
+    white-space: nowrap;
   }
 
   /* Exhibition Selector Nodes - stacked vertically */
