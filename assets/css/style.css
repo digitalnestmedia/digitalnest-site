@@ -2282,24 +2282,19 @@ section {
 @media (max-width: 900px) {
   html {
     scroll-snap-type: none !important; /* Disable snapping to prevent weird layout locks */
-    scrollbar-width: auto; /* Reset standard browser scrollbar on mobile */
+    scrollbar-width: none !important; /* Hide scrollbar completely on mobile */
+    -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
   }
 
   body {
     overflow-y: scroll;
-    scrollbar-width: auto;
+    scrollbar-width: none !important; /* Hide scrollbar completely on mobile */
+    -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
   }
 
   html::-webkit-scrollbar,
   body::-webkit-scrollbar {
-    display: block; /* Restore scrollbar for intuitive touch scrolling indicator */
-    width: 6px;
-  }
-  
-  html::-webkit-scrollbar-thumb,
-  body::-webkit-scrollbar-thumb {
-    background-color: rgba(28, 28, 26, 0.2);
-    border-radius: 3px;
+    display: none !important; /* Hide scrollbar completely on mobile */
   }
 
   /* Reset Cursor Overrides - restore normal pointers on touch screens */
@@ -2947,6 +2942,7 @@ section {
   transform: scale(0.96) translate3d(0, 20px, 0);
   transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
   box-shadow: 0 40px 100px rgba(0, 0, 0, 0.8);
+  overflow: hidden;
 }
 
 #spatial-tour-modal.active-modal .modal-viewport {
@@ -3018,7 +3014,7 @@ section {
   flex: 1;
   position: relative;
   width: 100%;
-  height: calc(100% - 48px);
+  overflow: hidden;
 }
 
 .modal-iframe {
