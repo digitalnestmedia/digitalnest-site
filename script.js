@@ -13,31 +13,30 @@ document.addEventListener('DOMContentLoaded', () => {
   initExhibitionTabs();
   initHeaderThemeSwitcher();
   initContactForm();
+  initExternalLinks();
+  initIframeShields();
 });
 
-/**
- * 1. Viewfinder Camera Cursor & Spotlight Track Loop
- */
 function initViewfinderCursor() {
   const cursor = document.getElementById('viewfinder-cursor');
   const spotlight = document.getElementById('ambient-spotlight');
 
   if (!cursor) return;
 
-  // Track raw mouse target positions
-  let mouseX = window.innerWidth / 2;
-  let mouseY = window.innerHeight / 2;
-
-  // Current interpolated values (Lerp variables)
-  let currentX = mouseX;
-  let currentY = mouseY;
-
-  // Smooth lerp speed constant (0.35 gives a highly responsive, premium weighted camera feel)
-  const lerpFactor = 0.35;
+  // Initialize cursor position at the center
+  const initialX = window.innerWidth / 2;
+  const initialY = window.innerHeight / 2;
+  const padding = 22; // Half of cursor width/height (44px / 2)
+  cursor.style.transform = `translate3d(${Math.max(padding, Math.min(initialX, window.innerWidth - padding))}px, ${Math.max(padding, Math.min(initialY, window.innerHeight - padding))}px, 0)`;
 
   document.addEventListener('mousemove', (e) => {
-    mouseX = e.clientX;
-    mouseY = e.clientY;
+    const mouseX = e.clientX;
+    const mouseY = e.clientY;
+
+    // Direct, zero-delay positioning of custom cursor on the GPU
+    const clampedX = Math.max(padding, Math.min(mouseX, window.innerWidth - padding));
+    const clampedY = Math.max(padding, Math.min(mouseY, window.innerHeight - padding));
+    cursor.style.transform = `translate3d(${clampedX}px, ${clampedY}px, 0)`;
 
     // Direct update of the spotlight variables to keep reactive ambient lighting perfectly under the cursor
     if (spotlight) {
@@ -64,21 +63,6 @@ function initViewfinderCursor() {
     }
   });
 
-  // Main animation frame loop for lag-interpolated cursor physics
-  function updateCursorPhysics() {
-    let dx = mouseX - currentX;
-    let dy = mouseY - currentY;
-
-    currentX += dx * lerpFactor;
-    currentY += dy * lerpFactor;
-
-    // Use GPU-accelerated transform instead of left/top to avoid layout reflows
-    cursor.style.transform = `translate3d(${currentX}px, ${currentY}px, 0)`;
-
-    requestAnimationFrame(updateCursorPhysics);
-  }
-  updateCursorPhysics();
-
   // Handle active cursor hover transformations on links/buttons
   const interactableSelectors = 'a, button, input, select, textarea, .interactive-trigger';
   const interactables = document.querySelectorAll(interactableSelectors);
@@ -94,7 +78,7 @@ function initViewfinderCursor() {
 
   // Track if mouse leaves viewport to fade cursor
   document.addEventListener('mouseleave', () => {
-    cursor.style.opacity = '0';
+    cursor.style.opacity = '0.35'; // Dim instead of hiding completely to prevent edge confusion
   });
   document.addEventListener('mouseenter', () => {
     cursor.style.opacity = '1';
@@ -582,6 +566,77 @@ function initMobileMenu() {
       trigger.classList.remove('active');
       overlay.setAttribute('aria-hidden', 'true');
       document.body.style.overflow = '';
+    });
+  }
+}
+
+/**
+ * 10. Premium Dynamic Link Target Controller
+ * Ensures all external & action hyperlinks open in a new browser tab with strict security attributes
+ */
+function initExternalLinks() {
+  const links = document.querySelectorAll('a');
+  links.forEach((link) => {
+    const href = link.getAttribute('href');
+    // Open all non-anchor, non-javascript action URLs in a new tab
+    if (href && !href.startsWith('#') && !href.startsWith('javascript:') && href !== '') {
+      link.setAttribute('target', '_blank');
+      link.setAttribute('rel', 'noopener noreferrer');
+    }
+  });
+}
+
+/**
+ * 11. Premium Google Maps streetview iframe activation shield
+ * Solves viewport hijacks and enables perfect cursor/scroll tracking
+ */
+function initIframeShields() {
+  const containers = document.querySelectorAll('.iframe-embed-container');
+  const modal = document.getElementById('spatial-tour-modal');
+  const modalIframe = modal ? modal.querySelector('.modal-iframe') : null;
+  const modalLabel = modal ? modal.querySelector('.modal-label') : null;
+  const closeBtn = modal ? modal.querySelector('.modal-close-btn') : null;
+
+  containers.forEach(container => {
+    const shield = container.querySelector('.iframe-interaction-shield');
+    const iframe = container.querySelector('.spatial-iframe');
+    const label = container.closest('.viewport-item').querySelector('.chrome-label')?.textContent;
+
+    if (!shield || !iframe) return;
+
+    // Launch the immersive spatial tour modal on click (Slight Full Screen Mode)
+    shield.addEventListener('click', () => {
+      const src = iframe.getAttribute('src');
+      if (src && src !== '') {
+        if (modal && modalIframe) {
+          modalIframe.setAttribute('src', src);
+          if (modalLabel && label) {
+            modalLabel.textContent = `Spatial Exhibition / ${label}`;
+          }
+          modal.classList.add('active-modal');
+          modal.setAttribute('aria-hidden', 'false');
+        }
+      }
+    });
+  });
+
+  // Handle closing of the modal
+  if (modal && closeBtn) {
+    const closeModal = () => {
+      modal.classList.remove('active-modal');
+      modal.setAttribute('aria-hidden', 'true');
+      if (modalIframe) {
+        modalIframe.setAttribute('src', ''); // Clear iframe to stop audio/loading
+      }
+    };
+
+    closeBtn.addEventListener('click', closeModal);
+    
+    // Close modal if user clicks on the backdrop blur area outside the viewport
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        closeModal();
+      }
     });
   }
 }
