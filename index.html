@@ -10,10 +10,10 @@
     content="DigitalNest translates physical architecture into cinematic digital walkthroughs, 360 virtual tours, and premium spatial narratives.">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
 
   <!-- CSS Stylesheet -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -43,7 +43,7 @@
 
   <!-- Isolated Logo Graphic to prevent mix-blend-mode inversion -->
   <a href="#" class="fixed-site-logo">
-    <img src="logo.png" alt="DigitalNest Logo" class="logo-image">
+    <img src="assets/images/logo.png" alt="DigitalNest Logo" class="logo-image">
   </a>
 
   <!-- Minimalist Site Header -->
@@ -93,7 +93,7 @@
 
     <!-- 360 Revolving Space Backdrop -->
     <div class="hero-revolving-backdrop" aria-hidden="true">
-      <img src="hero_revolving_bg.png" class="revolving-bg-img" alt="Revolving 360 spatial virtual tour backdrop">
+      <img src="assets/images/hero_revolving_bg.png" class="revolving-bg-img" alt="Revolving 360 spatial virtual tour backdrop">
       <div class="backdrop-fog-overlay"></div>
     </div>
 
@@ -160,8 +160,8 @@
           <div class="viewfinder-corner br"></div>
 
           <div class="viewfinder-image-container">
-            <img class="viewfinder-img" src="cover.png"
-              alt="Architectural space detail representing DigitalNest studio design philosophy">
+            <img class="viewfinder-img" src="assets/images/cover.png"
+              alt="Architectural space detail representing DigitalNest studio design philosophy" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -305,22 +305,22 @@
 
             <div class="services-images-pane">
               <div class="service-pane-img active" data-service="1">
-                <img src="Images/01.png" alt="Premium retail furniture store showroom preview">
+                <img src="assets/images/01.png" alt="Premium retail furniture store showroom preview" loading="lazy" decoding="async">
               </div>
               <div class="service-pane-img" data-service="2">
-                <img src="Images/02.png" alt="Modern co-working space and office virtual tour preview">
+                <img src="assets/images/02.png" alt="Modern co-working space and office virtual tour preview" loading="lazy" decoding="async">
               </div>
               <div class="service-pane-img" data-service="3">
-                <img src="Images/03.png" alt="Luxury botanical pavilion gym spa facility preview">
+                <img src="assets/images/03.png" alt="Luxury botanical pavilion gym spa facility preview" loading="lazy" decoding="async">
               </div>
               <div class="service-pane-img" data-service="4">
-                <img src="Images/04.png" alt="High-fidelity industrial warehouse reality capture mapping">
+                <img src="assets/images/04.png" alt="High-fidelity industrial warehouse reality capture mapping" loading="lazy" decoding="async">
               </div>
               <div class="service-pane-img" data-service="5">
-                <img src="Images/05.png" alt="Stunning premium hotel room lobby hospitality showcase">
+                <img src="assets/images/05.png" alt="Stunning premium hotel room lobby hospitality showcase" loading="lazy" decoding="async">
               </div>
               <div class="service-pane-img" data-service="6">
-                <img src="Images/06.png" alt="High-end penthouse real estate lounge virtual tour preview">
+                <img src="assets/images/06.png" alt="High-end penthouse real estate lounge virtual tour preview" loading="lazy" decoding="async">
               </div>
             </div>
           </div>
@@ -424,14 +424,15 @@
                 </div>
               </div>
 
-              <div class="iframe-embed-container">
+              <!-- Store Google Maps embed URL inside data-src to load on-demand -->
+              <div class="iframe-embed-container" data-src="https://www.google.com/maps/embed?pb=!4v1779871630393!6m8!1m7!1sCAoSHENJQUJJaEFPbl9YRjFWYWh0WWdKOEhQNm5LQ0I.!2m2!1d21.5492085946544!2d74.47606310726262!3f238.01966622529923!4f-7.595753533717186!5f0.7820865974627469">
                 <div class="spatial-crosshair t-l"></div>
                 <div class="spatial-crosshair t-r"></div>
                 <div class="spatial-crosshair b-l"></div>
                 <div class="spatial-crosshair b-r"></div>
 
-                <!-- Google Maps 360 Virtual Tour Iframe -->
-                <iframe class="spatial-iframe" src="https://www.google.com/maps/embed?pb=!4v1779871630393!6m8!1m7!1sCAoSHENJQUJJaEFPbl9YRjFWYWh0WWdKOEhQNm5LQ0I.!2m2!1d21.5492085946544!2d74.47606310726262!3f238.01966622529923!4f-7.595753533717186!5f0.7820865974627469" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!-- High-fidelity preview image instead of heavy WebGL Map on load -->
+                <img class="spatial-preview-img" src="assets/images/Kashima_Pano.jpg" alt="Kashima Spa Tour Preview" loading="lazy" decoding="async">
 
                 <!-- Active Interaction Shield / Overlay -->
                 <div class="iframe-interaction-shield">
@@ -455,14 +456,15 @@
                 </div>
               </div>
 
-              <div class="iframe-embed-container">
+              <!-- Store Google Maps embed URL inside data-src to load on-demand -->
+              <div class="iframe-embed-container" data-src="https://www.google.com/maps/embed?pb=!4v1779872000486!6m8!1m7!1sCAoSHENJQUJJaEMzYU1IajhzbUVFd2pCcXhzdG5Ed3k.!2m2!1d21.30224095913063!2d74.60078890004839!3f358.37200786067723!4f-8.325961047776232!5f0.7820865974627469">
                 <div class="spatial-crosshair t-l"></div>
                 <div class="spatial-crosshair t-r"></div>
                 <div class="spatial-crosshair b-l"></div>
                 <div class="spatial-crosshair b-r"></div>
 
-                <!-- Google Maps 360 Virtual Tour Iframe -->
-                <iframe class="spatial-iframe" src="https://www.google.com/maps/embed?pb=!4v1779872000486!6m8!1m7!1sCAoSHENJQUJJaEMzYU1IajhzbUVFd2pCcXhzdG5Ed3k.!2m2!1d21.30224095913063!2d74.60078890004839!3f358.37200786067723!4f-8.325961047776232!5f0.7820865974627469" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!-- High-fidelity preview image instead of heavy WebGL Map on load -->
+                <img class="spatial-preview-img" src="assets/images/Ahinsa_Pano.jpg" alt="Ahinsa Library Tour Preview" loading="lazy" decoding="async">
 
                 <!-- Active Interaction Shield / Overlay -->
                 <div class="iframe-interaction-shield">
@@ -486,14 +488,15 @@
                 </div>
               </div>
 
-              <div class="iframe-embed-container">
+              <!-- Store Google Maps embed URL inside data-src to load on-demand -->
+              <div class="iframe-embed-container" data-src="https://www.google.com/maps/embed?pb=!4v1779872064865!6m8!1m7!1sCAoSHENJQUJJaENtNklzSHFiUEZ4c29ZWk1raW9yODM.!2m2!1d21.32452719549367!2d74.55772362000297!3f355.2702383094209!4f-18.574039935976003!5f0.7820865974627469">
                 <div class="spatial-crosshair t-l"></div>
                 <div class="spatial-crosshair t-r"></div>
                 <div class="spatial-crosshair b-l"></div>
                 <div class="spatial-crosshair b-r"></div>
 
-                <!-- Google Maps 360 Virtual Tour Iframe -->
-                <iframe class="spatial-iframe" src="https://www.google.com/maps/embed?pb=!4v1779872064865!6m8!1m7!1sCAoSHENJQUJJaENtNklzSHFiUEZ4c29ZWk1raW9yODM.!2m2!1d21.32452719549367!2d74.55772362000297!3f355.2702383094209!4f-18.574039935976003!5f0.7820865974627469" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!-- High-fidelity preview image instead of heavy WebGL Map on load -->
+                <img class="spatial-preview-img" src="assets/images/Rajlaxmi_Pano.jpg" alt="Rajlaxmi Showroom Tour Preview" loading="lazy" decoding="async">
 
                 <!-- Active Interaction Shield / Overlay -->
                 <div class="iframe-interaction-shield">
@@ -780,7 +783,7 @@
     <div class="footer-top reveal-block">
       <div class="footer-brand">
         <a href="#" class="site-logo">
-          <img src="logo.png" alt="DigitalNest Logo" class="logo-image">
+          <img src="assets/images/logo.png" alt="DigitalNest Logo" class="logo-image" loading="lazy" decoding="async">
           <span class="logo-text">Digital<span class="editorial-accent">Nest</span></span>
         </a>
         <p class="footer-desc">
@@ -868,8 +871,8 @@
   </div>
 
   <!-- Scripts -->
-  <script src="vendor/email.min.js"></script>
-  <script src="script.js"></script>
+  <script src="assets/js/email.min.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 
 </html>

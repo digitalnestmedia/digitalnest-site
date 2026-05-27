@@ -6,8 +6,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   initMobileMenu();
   initViewfinderCursor();
-  initSpatialPanoramaViewer();
-  initBeforeAfterSlider();
   initScrollObserver();
   initServicesDirectory();
   initExhibitionTabs();
@@ -22,6 +20,10 @@ function initViewfinderCursor() {
   const spotlight = document.getElementById('ambient-spotlight');
 
   if (!cursor) return;
+
+  // Cache elements outside event listener to prevent high-frequency DOM querying
+  const revolvingBackdrop = document.querySelector('.hero-revolving-backdrop');
+  const contactSection = document.getElementById('contact');
 
   // Initialize cursor position at the center
   const initialX = window.innerWidth / 2;
@@ -45,7 +47,6 @@ function initViewfinderCursor() {
     }
 
     // Update revolving backdrop parallax
-    const revolvingBackdrop = document.querySelector('.hero-revolving-backdrop');
     if (revolvingBackdrop) {
       const backdropDriftX = (mouseX / window.innerWidth - 0.5) * -40; // Horizontal drift opposite to mouse
       const backdropDriftY = (mouseY / window.innerHeight - 0.5) * -15; // Vertical drift opposite to mouse
@@ -54,7 +55,6 @@ function initViewfinderCursor() {
     }
 
     // Update spatial room drift variables for contact section
-    const contactSection = document.getElementById('contact');
     if (contactSection) {
       const driftX = (mouseX / window.innerWidth - 0.5) * 60; // Up to 30px translation left/right
       const driftY = (mouseY / window.innerHeight - 0.5) * 30; // Up to 15px translation up/down
@@ -85,196 +85,7 @@ function initViewfinderCursor() {
   });
 }
 
-/**
- * 2. Immersive 360° Panorama Pan Interaction on Portfolio Cards
- */
-function initSpatialPanoramaViewer() {
-  const viewports = document.querySelectorAll('.panorama-pan-container');
 
-  viewports.forEach((viewport) => {
-    const img = viewport.querySelector('.pan-image');
-    if (!img) return;
-
-    // Create a wrapping div for the infinite loop scroll
-    const wrapper = document.createElement('div');
-    wrapper.className = 'pan-image-wrapper';
-    
-    wrapper.style.display = 'flex';
-    wrapper.style.height = '100%';
-    wrapper.style.width = '400%';
-    wrapper.style.position = 'absolute';
-    wrapper.style.top = '0';
-    wrapper.style.left = '0';
-    wrapper.style.pointerEvents = 'none';
-
-    // Clone the image to create the second seamless loop
-    const imgClone = img.cloneNode(true);
-
-    // Set both images to have width 50% of the wrapper (each equals 200% of container)
-    img.style.width = '50%';
-    img.style.position = 'relative';
-    imgClone.style.width = '50%';
-    imgClone.style.position = 'relative';
-
-    // Insert wrapper and append both images
-    viewport.insertBefore(wrapper, img);
-    wrapper.appendChild(img);
-    wrapper.appendChild(imgClone);
-
-    let isDragging = false;
-    let startX = 0;
-    let currentPanX = 0; // Start at leftmost edge (0px)
-
-    // Reset/Align to leftmost position
-    const initLeftPosition = () => {
-      wrapper.style.transition = 'transform 0.5s cubic-bezier(0.16, 1, 0.3, 1)';
-      wrapper.style.transform = 'translateX(0px)';
-      currentPanX = 0;
-    };
-
-    // Initialize leftmost layout
-    setTimeout(initLeftPosition, 100);
-    
-    window.addEventListener('resize', () => {
-      initLeftPosition();
-    });
-
-    // Reset panning to leftmost when tabs are switched
-    const tabBtns = document.querySelectorAll('.exhibit-node-btn');
-    tabBtns.forEach((btn) => {
-      btn.addEventListener('click', initLeftPosition);
-    });
-
-    // Desktop mouse dragging support
-    viewport.addEventListener('mousedown', (e) => {
-      isDragging = true;
-      startX = e.clientX;
-      wrapper.style.transition = 'none'; // Instant responsive movement during active drag
-      viewport.style.cursor = 'grabbing';
-    });
-
-    window.addEventListener('mousemove', (e) => {
-      if (!isDragging) return;
-      const rect = viewport.getBoundingClientRect();
-      const deltaX = e.clientX - startX;
-      startX = e.clientX;
-
-      currentPanX += deltaX;
-      
-      const loopWidth = 2 * rect.width;
-      
-      // Infinite seamless wrap-around
-      if (currentPanX > 0) {
-        currentPanX -= loopWidth;
-      } else if (currentPanX < -loopWidth) {
-        currentPanX += loopWidth;
-      }
-
-      wrapper.style.transform = `translateX(${currentPanX}px)`;
-    });
-
-    window.addEventListener('mouseup', () => {
-      if (isDragging) {
-        isDragging = false;
-        viewport.style.cursor = 'grab';
-        wrapper.style.transition = 'transform 0.3s cubic-bezier(0.16, 1, 0.3, 1)';
-      }
-    });
-
-    // Mobile touch drag panning support
-    viewport.addEventListener('touchstart', (e) => {
-      isDragging = true;
-      startX = e.touches[0].clientX;
-      wrapper.style.transition = 'none';
-    }, { passive: true });
-
-    viewport.addEventListener('touchmove', (e) => {
-      if (!isDragging) return;
-      const rect = viewport.getBoundingClientRect();
-      const deltaX = e.touches[0].clientX - startX;
-      startX = e.touches[0].clientX;
-
-      currentPanX += deltaX;
-      
-      const loopWidth = 2 * rect.width;
-      
-      // Infinite seamless wrap-around
-      if (currentPanX > 0) {
-        currentPanX -= loopWidth;
-      } else if (currentPanX < -loopWidth) {
-        currentPanX += loopWidth;
-      }
-
-      wrapper.style.transform = `translateX(${currentPanX}px)`;
-    }, { passive: true });
-
-    viewport.addEventListener('touchend', () => {
-      if (isDragging) {
-        isDragging = false;
-        wrapper.style.transition = 'transform 0.3s cubic-bezier(0.16, 1, 0.3, 1)';
-      }
-    });
-  });
-}
-
-/**
- * 3. Before & After Sliding Mechanism with Drag Coordinates mapping
- */
-function initBeforeAfterSlider() {
-  const container = document.querySelector('.slider-container');
-  const beforeLayer = document.querySelector('.comparison-layer.before');
-  const bar = document.querySelector('.slider-bar');
-  const handle = document.querySelector('.slider-handle');
-
-  if (!container || !beforeLayer || !bar || !handle) return;
-
-  let isDragging = false;
-
-  const moveSlider = (clientX) => {
-    const rect = container.getBoundingClientRect();
-    // Clamp coordinates inside the boundary box
-    const x = Math.max(0, Math.min(clientX - rect.left, rect.width));
-    const percentage = (x / rect.width) * 100;
-
-    // Apply widths and offsets dynamically
-    beforeLayer.style.width = `${percentage}%`;
-    bar.style.left = `${percentage}%`;
-    handle.style.left = `${percentage}%`;
-  };
-
-  // Event handlers
-  container.addEventListener('mousedown', () => {
-    isDragging = true;
-  });
-
-  window.addEventListener('mouseup', () => {
-    isDragging = false;
-  });
-
-  container.addEventListener('mousemove', (e) => {
-    if (!isDragging) {
-      // Allow tracking comparison without active click as well for smooth spatial control
-      moveSlider(e.clientX);
-    } else {
-      moveSlider(e.clientX);
-    }
-  });
-
-  // Touch handlers
-  container.addEventListener('touchstart', () => {
-    isDragging = true;
-  }, { passive: true });
-
-  window.addEventListener('touchend', () => {
-    isDragging = false;
-  });
-
-  container.addEventListener('touchmove', (e) => {
-    if (isDragging && e.touches.length > 0) {
-      moveSlider(e.touches[0].clientX);
-    }
-  }, { passive: true });
-}
 
 /**
  * 4. Cinematic Scroll Revel Observer (staggered editorial fade reveals)
@@ -599,40 +410,34 @@ function initIframeShields() {
 
   containers.forEach(container => {
     const shield = container.querySelector('.iframe-interaction-shield');
-    const iframe = container.querySelector('.spatial-iframe');
+    const embedUrl = container.getAttribute('data-src');
     const label = container.closest('.viewport-item').querySelector('.chrome-label')?.textContent;
 
-    if (!shield || !iframe) return;
+    if (!shield || !embedUrl) return;
 
-    // Launch the immersive spatial tour modal on click (Slight Full Screen Mode)
+    // Launch widescreen modal and inject URL dynamically on-demand
     shield.addEventListener('click', () => {
-      const src = iframe.getAttribute('src');
-      if (src && src !== '') {
-        if (modal && modalIframe) {
-          modalIframe.setAttribute('src', src);
-          if (modalLabel && label) {
-            modalLabel.textContent = `Spatial Exhibition / ${label}`;
-          }
-          modal.classList.add('active-modal');
-          modal.setAttribute('aria-hidden', 'false');
+      if (modal && modalIframe) {
+        modalIframe.setAttribute('src', embedUrl);
+        if (modalLabel && label) {
+          modalLabel.textContent = `Spatial Exhibition / ${label}`;
         }
+        modal.classList.add('active-modal');
+        modal.setAttribute('aria-hidden', 'false');
       }
     });
   });
 
-  // Handle closing of the modal
+  // Handle close
   if (modal && closeBtn) {
     const closeModal = () => {
       modal.classList.remove('active-modal');
       modal.setAttribute('aria-hidden', 'true');
       if (modalIframe) {
-        modalIframe.setAttribute('src', ''); // Clear iframe to stop audio/loading
+        modalIframe.setAttribute('src', '');
       }
     };
-
     closeBtn.addEventListener('click', closeModal);
-    
-    // Close modal if user clicks on the backdrop blur area outside the viewport
     modal.addEventListener('click', (e) => {
       if (e.target === modal) {
         closeModal();
