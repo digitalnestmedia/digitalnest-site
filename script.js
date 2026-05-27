@@ -32,8 +32,8 @@ function initViewfinderCursor() {
   let currentX = mouseX;
   let currentY = mouseY;
 
-  // Smooth lerp speed constant (0.15 gives a solid, premium weighted camera feel)
-  const lerpFactor = 0.14;
+  // Smooth lerp speed constant (0.35 gives a highly responsive, premium weighted camera feel)
+  const lerpFactor = 0.35;
 
   document.addEventListener('mousemove', (e) => {
     mouseX = e.clientX;
@@ -72,8 +72,8 @@ function initViewfinderCursor() {
     currentX += dx * lerpFactor;
     currentY += dy * lerpFactor;
 
-    cursor.style.left = `${currentX}px`;
-    cursor.style.top = `${currentY}px`;
+    // Use GPU-accelerated transform instead of left/top to avoid layout reflows
+    cursor.style.transform = `translate3d(${currentX}px, ${currentY}px, 0)`;
 
     requestAnimationFrame(updateCursorPhysics);
   }
