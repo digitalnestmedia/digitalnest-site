@@ -156,8 +156,10 @@ select,
   mix-blend-mode: difference;
   left: 0;
   top: 0;
-  transform: translate3d(0, 0, 0); /* Positioned dynamically via translate3d in JS */
-  transition: opacity 0.3s ease; /* No transform transition here to eliminate movement lag */
+  transform: translate3d(0, 0, 0);
+  /* Positioned dynamically via translate3d in JS */
+  transition: opacity 0.3s ease;
+  /* No transform transition here to eliminate movement lag */
   will-change: transform;
 }
 
@@ -166,7 +168,8 @@ select,
   width: 100%;
   height: 100%;
   position: relative;
-  transform: translate3d(-50%, -50%, 0); /* Center alignment */
+  transform: translate3d(-50%, -50%, 0);
+  /* Center alignment */
   transition: transform 0.25s cubic-bezier(0.25, 1, 0.5, 1);
   will-change: transform;
 }
@@ -2281,33 +2284,48 @@ section {
 /* 1. Global Reset & Performance Improvements on Mobile Devices */
 @media (max-width: 900px) {
   html {
-    scroll-snap-type: none !important; /* Disable snapping to prevent weird layout locks */
-    scrollbar-width: none !important; /* Hide scrollbar completely on mobile */
-    -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+    scroll-snap-type: none !important;
+    /* Disable snapping to prevent weird layout locks */
+    scrollbar-width: none !important;
+    /* Hide scrollbar completely on mobile */
+    -ms-overflow-style: none;
+    /* Hide scrollbar for IE and Edge */
   }
 
   body {
     overflow-y: scroll;
-    scrollbar-width: none !important; /* Hide scrollbar completely on mobile */
-    -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+    scrollbar-width: none !important;
+    /* Hide scrollbar completely on mobile */
+    -ms-overflow-style: none;
+    /* Hide scrollbar for IE and Edge */
   }
 
   html::-webkit-scrollbar,
   body::-webkit-scrollbar {
-    display: none !important; /* Hide scrollbar completely on mobile */
+    display: none !important;
+    /* Hide scrollbar completely on mobile */
   }
 
   /* Reset Cursor Overrides - restore normal pointers on touch screens */
-  html, body, a, button, input, textarea, select, [role="button"] {
+  html,
+  body,
+  a,
+  button,
+  input,
+  textarea,
+  select,
+  [role="button"] {
     cursor: auto !important;
   }
 
   #viewfinder-cursor {
-    display: none !important; /* Hide mouse tracking cursor */
+    display: none !important;
+    /* Hide mouse tracking cursor */
   }
 
   #noise-overlay {
-    opacity: 0.015; /* Reduce CPU rendering load of background noise overlay */
+    opacity: 0.015;
+    /* Reduce CPU rendering load of background noise overlay */
   }
 
   /* Reset layout constraints for vertical content flows */
@@ -2318,7 +2336,8 @@ section {
     overflow: visible !important;
     scroll-snap-align: none !important;
     scroll-snap-stop: normal !important;
-    padding: 100px 0 60px 0 !important; /* Standard padding for header clearance */
+    padding: 100px 0 60px 0 !important;
+    /* Standard padding for header clearance */
   }
 
   .container {
@@ -2331,7 +2350,8 @@ section {
 @media (max-width: 768px) {
   .site-header {
     height: 72px;
-    background-color: rgba(245, 244, 250, 0.85); /* Frosty backdrop on scroll */
+    background-color: rgba(245, 244, 250, 0.85);
+    /* Frosty backdrop on scroll */
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     border-bottom: 1px solid rgba(28, 28, 26, 0.05);
@@ -2343,11 +2363,13 @@ section {
   }
 
   .fixed-site-logo .logo-image {
-    height: 38px; /* Slightly smaller logo image for clean mobile proportion */
+    height: 38px;
+    /* Slightly smaller logo image for clean mobile proportion */
   }
 
   .site-logo {
-    padding-left: 56px; /* Balanced spacing next to the smaller logo with a tight clean gap */
+    padding-left: 56px;
+    /* Balanced spacing next to the smaller logo with a tight clean gap */
   }
 
   .logo-text {
@@ -2511,10 +2533,13 @@ section {
 /* HERO SECTION */
 @media (max-width: 768px) {
   #hero {
-    height: auto !important; /* Allow dynamic height on mobile to prevent content cropping */
-    min-height: 92vh !important; /* Keep the landing screen prominent */
+    height: auto !important;
+    /* Allow dynamic height on mobile to prevent content cropping */
+    min-height: 92vh !important;
+    /* Keep the landing screen prominent */
     padding-top: 72px !important;
-    padding-bottom: 40px !important; /* Clear spacing at the bottom below CTAs */
+    padding-bottom: 40px !important;
+    /* Clear spacing at the bottom below CTAs */
   }
 
   #hero .container {
@@ -2711,13 +2736,15 @@ section {
   }
 
   .process-timeline {
-    padding-left: 26px; /* Leave space for vertical track line */
+    padding-left: 26px;
+    /* Leave space for vertical track line */
   }
 
   /* Reposition horizontal track to elegant vertical track behind nodes */
   .process-timeline::before {
     display: block !important;
-    left: 26px !important; /* Centers exactly behind the 52px wide step nodes */
+    left: 26px !important;
+    /* Centers exactly behind the 52px wide step nodes */
     top: 0 !important;
     bottom: 0 !important;
     width: 1.5px !important;
@@ -2740,6 +2767,7 @@ section {
 
 /* CONTACT Form SECTION */
 @media (max-width: 768px) {
+
   /* Disable heavy visual graphics for mobile optimization */
   .room-neon-strips,
   .room-pendant-lamps,
@@ -2858,9 +2886,11 @@ section {
   align-items: center;
   justify-content: center;
   z-index: 10;
-  cursor: none !important; /* Enforces custom viewfinder cursor */
+  cursor: none !important;
+  /* Enforces custom viewfinder cursor */
   transition: opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1), backdrop-filter 0.4s ease;
-  pointer-events: auto; /* Intercepts mouse events initially */
+  pointer-events: auto;
+  /* Intercepts mouse events initially */
 }
 
 /* Hover state styling on interaction shield */
@@ -2876,7 +2906,8 @@ section {
   align-items: center;
   gap: 12px;
   color: var(--chalk-white);
-  pointer-events: none; /* Let viewfinder cursor move freely */
+  pointer-events: none;
+  /* Let viewfinder cursor move freely */
   transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
@@ -2901,7 +2932,8 @@ section {
 /* When the iframe is activated */
 .iframe-embed-container.active-map .iframe-interaction-shield {
   opacity: 0;
-  pointer-events: none; /* Pass events directly to the iframe map */
+  pointer-events: none;
+  /* Pass events directly to the iframe map */
   backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
 }
@@ -2981,7 +3013,8 @@ section {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  cursor: none !important; /* Retains viewfinder cursor */
+  cursor: none !important;
+  /* Retains viewfinder cursor */
   transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
@@ -2999,12 +3032,14 @@ section {
     flex-wrap: wrap;
     gap: 12px;
   }
+
   .modal-label {
     font-size: 10px;
     line-height: 1.4;
     flex: 1 1 auto;
     min-width: 150px;
   }
+
   .modal-close-btn {
     flex-shrink: 0;
   }
@@ -3036,4 +3071,183 @@ section {
 .iframe-embed-container:hover .spatial-preview-img {
   transform: scale(1.04);
   filter: brightness(0.72) contrast(1.05) saturate(1);
+}
+
+/* ==========================================================================
+   07. TEAM SECTION (Quiet Editorial Showcase)
+   ========================================================================== */
+#team {
+  background-color: var(--chalk-white);
+  border-top: 1px solid rgba(28, 28, 26, 0.06);
+  overflow: hidden;
+}
+
+.team-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  max-height: 84vh;
+  gap: 32px;
+}
+
+.team-header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.team-divider {
+  border: none;
+  border-top: 1px solid rgba(28, 28, 26, 0.08);
+  margin: 12px 0 20px 0;
+  width: 100%;
+}
+
+.team-header-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  gap: 40px;
+}
+
+.team-title {
+  margin: 0;
+  line-height: 1.1;
+}
+
+.team-title .editorial-accent {
+  color: var(--forest-green);
+}
+
+.team-desc {
+  max-width: 420px;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  color: rgba(28, 28, 26, 0.7);
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+  width: 100%;
+}
+
+.team-card {
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  width: 100%;
+}
+
+.team-image-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  border-radius: 14px;
+  background-color: var(--paper-beige);
+  margin-bottom: 16px;
+}
+
+.team-image-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: contrast(98%) brightness(98%);
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), filter 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.team-underline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--forest-green);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Subtle Hover zoom and lift */
+.team-card:hover img {
+  transform: scale(1.03);
+  filter: contrast(100%) brightness(1.03);
+}
+
+.team-card:hover .team-underline {
+  transform: scaleX(1);
+}
+
+.team-name {
+  font-family: var(--font-sans);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--ink-black);
+  margin: 0 0 4px 0;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+}
+
+.team-role {
+  font-family: var(--font-body);
+  font-size: 11.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--ink-black);
+  opacity: 0.55;
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Responsive constraints */
+@media (max-width: 1024px) {
+  .team-grid {
+    gap: 20px;
+  }
+  .team-name {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  #team {
+    height: auto;
+    max-height: none;
+    overflow: visible;
+    padding: 80px 0;
+  }
+  
+  .team-container {
+    max-height: none;
+    gap: 40px;
+  }
+  
+  .team-header-main {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  
+  .team-image-wrap {
+    aspect-ratio: 4 / 5;
+  }
 }
