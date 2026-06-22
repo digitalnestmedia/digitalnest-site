@@ -1321,6 +1321,13 @@ section {
   background-color: var(--forest-green);
   color: var(--chalk-white);
   border: 1px solid var(--forest-green);
+  font-size: 11px;
+  padding: 8px 16px;
+  gap: 8px;
+  letter-spacing: 0.15em;
+  height: 42px;
+  line-height: 1;
+  white-space: nowrap;
 }
 
 .btn-project-action:hover {
@@ -1329,18 +1336,22 @@ section {
   border-color: var(--chalk-white);
 }
 
+.btn-project-action .material-symbols-outlined {
+  font-size: 16px;
+}
+
 .project-actions {
   display: flex;
-  gap: 12px;
+  gap: 10px;
   flex-wrap: wrap;
   align-self: stretch;
   width: 100%;
-  margin-top: 8px;
+  margin-top: 12px;
 }
 
 .project-actions a {
-  flex: 1 1 calc(50% - 6px);
-  min-width: 220px;
+  flex: 1 1 calc(50% - 5px);
+  min-width: 180px;
   justify-content: center;
   text-align: center;
   align-self: auto;
