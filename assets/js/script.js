@@ -5,7 +5,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
   initMobileMenu();
-  initViewfinderCursor();
+  initAtmosphericTracker();
   initScrollObserver();
   initServicesDirectory();
   initExhibitionTabs();
@@ -15,30 +15,16 @@ document.addEventListener('DOMContentLoaded', () => {
   initIframeShields();
 });
 
-function initViewfinderCursor() {
-  const cursor = document.getElementById('viewfinder-cursor');
+function initAtmosphericTracker() {
   const spotlight = document.getElementById('ambient-spotlight');
-
-  if (!cursor) return;
-
-  // Cache elements outside event listener to prevent high-frequency DOM querying
   const revolvingBackdrop = document.querySelector('.hero-revolving-backdrop');
   const contactSection = document.getElementById('contact');
 
-  // Initialize cursor position at the center
-  const initialX = window.innerWidth / 2;
-  const initialY = window.innerHeight / 2;
-  const padding = 22; // Half of cursor width/height (44px / 2)
-  cursor.style.transform = `translate3d(${Math.max(padding, Math.min(initialX, window.innerWidth - padding))}px, ${Math.max(padding, Math.min(initialY, window.innerHeight - padding))}px, 0)`;
+  if (!spotlight && !revolvingBackdrop && !contactSection) return;
 
   document.addEventListener('mousemove', (e) => {
     const mouseX = e.clientX;
     const mouseY = e.clientY;
-
-    // Direct, zero-delay positioning of custom cursor on the GPU
-    const clampedX = Math.max(padding, Math.min(mouseX, window.innerWidth - padding));
-    const clampedY = Math.max(padding, Math.min(mouseY, window.innerHeight - padding));
-    cursor.style.transform = `translate3d(${clampedX}px, ${clampedY}px, 0)`;
 
     // Direct update of the spotlight variables to keep reactive ambient lighting perfectly under the cursor
     if (spotlight) {
@@ -61,27 +47,6 @@ function initViewfinderCursor() {
       contactSection.style.setProperty('--drift-x', `${driftX}px`);
       contactSection.style.setProperty('--drift-y', `${driftY}px`);
     }
-  });
-
-  // Handle active cursor hover transformations on links/buttons
-  const interactableSelectors = 'a, button, input, select, textarea, .interactive-trigger';
-  const interactables = document.querySelectorAll(interactableSelectors);
-
-  interactables.forEach((el) => {
-    el.addEventListener('mouseenter', () => {
-      cursor.classList.add('hovering');
-    });
-    el.addEventListener('mouseleave', () => {
-      cursor.classList.remove('hovering');
-    });
-  });
-
-  // Track if mouse leaves viewport to fade cursor
-  document.addEventListener('mouseleave', () => {
-    cursor.style.opacity = '0.35'; // Dim instead of hiding completely to prevent edge confusion
-  });
-  document.addEventListener('mouseenter', () => {
-    cursor.style.opacity = '1';
   });
 }
 

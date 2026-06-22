@@ -1,0 +1,311 @@
+#: locale=en
+
+## Action
+
+### URL
+LinkBehaviour_1291B7B3_3555_F26B_4184_7A6C3800CFB0.source = https://ahinsaayurveda.in/Main/
+LinkBehaviour_1C2E2983_36C2_E2D1_41A3_308BF449B878.source = https://ahinsaayurveda.in/Main/
+LinkBehaviour_1C2E7984_36C2_E2D7_41A0_3E195B84E38B.source = https://ahinsaayurveda.in/Main/
+LinkBehaviour_298E4DE7_3643_A251_41A6_5034BDC6DF3C.source = https://ahinsaayurveda.in/Main/
+LinkBehaviour_1C3579A8_36C2_E2DF_41AA_56FD9CDA4BFE.source = https://ahinsaayurveda.in/Main/index.php
+LinkBehaviour_16724CE0_367E_624F_41C3_01A397EAF8A6.source = https://ahinsaayurveda.in/Main/index.php
+WebFrame_6FFB0C7E_4F7E_B603_41AD_F367B1D68E70.url = https://maps.google.com/maps?output=embed&center=21.3021534,74.5982135&z=17&q=Ahinsa+Institute+of+Ayurveda
+WebFrame_6FFB0C7E_4F7E_B603_41AD_F367B1D68E70_mobile.url = https://maps.google.com/maps?output=embed&center=21.3021534,74.5982135&z=17&q=Ahinsa+Institute+of+Ayurveda
+LinkBehaviour_2AACB066_3C2E_CD61_41C8_42B2BD7C2C6A.source = https://wa.me/919423493101?text=Hi%20DIGITAL%20NEST,%20I%20want%20to%20create%20a%20360%C2%B0%20Virtual%20Tour%20for%20my%20business.
+LinkBehaviour_2B4EC7BD_3C29_53E3_41CC_A077FCAA31F0.source = https://wa.me/919423493101?text=Hi%20DIGITAL%20NEST,%20I%20want%20to%20create%20a%20360%C2%B0%20Virtual%20Tour%20for%20my%20business.
+LinkBehaviour_1C2A8990_36C2_E2CF_41B1_2DA00559D43D.source = https://youtu.be/xYZjgzY9KTg?si=OJP4XPhRMKIVAz95
+LinkBehaviour_1E455E31_36B4_F264_41BB_6CDF783E5C78.source = https://youtu.be/xYZjgzY9KTg?si=OJP4XPhRMKIVAz95
+
+## Hotspot
+
+### Text
+HotspotPanoramaOverlayTextImage_2A3DD0B6_3BFB_4DE0_41B8_F51C622441AA.text = Admin Office
+HotspotPanoramaOverlayTextImage_299E800D_3BE9_CCA0_41C0_61A8B7173903.text = Class Room 1
+HotspotPanoramaOverlayTextImage_2A04205A_3BE9_4CA0_41B4_21FC2C3B1D61.text = Class Room 2
+HotspotPanoramaOverlayTextImage_29168CFD_3BEA_D563_419D_08C8B86479DC.text = Class Room 3
+HotspotPanoramaOverlayTextImage_28B9DBF4_3C19_B361_41C5_1AA26DF4D4F5.text = Dept. 0f Agada Tantra
+HotspotPanoramaOverlayTextImage_29A2C57F_3BEA_B760_41C4_1EFB807F3748.text = Dept. of Kriya Sharir
+HotspotPanoramaOverlayTextImage_2933560F_3BE6_B4A0_41A0_01294930F24F.text = Dept. of Rasashashastra
+HotspotPanoramaOverlayTextImage_2EC6DADE_3C1E_FDA0_41AA_4606A50B1A1B.text = Dept. of Rognidana
+HotspotPanoramaOverlayTextImage_2BA10AEA_3BE9_FD60_415A_E850CC7D2867.text = Dept. of Samhita Siddhanta & Sanskriti
+HotspotPanoramaOverlayTextImage_29649DDA_3BE9_77A1_41CB_9B4C0CE64D2A.text = Dept. of Swasthavitta
+HotspotPanoramaOverlayTextImage_2EBE8795_3C1E_D3A0_41A5_EFCD80FCD575.text = Dravyaguna Dept.
+HotspotPanoramaOverlayTextImage_29A5FB22_3BFB_5CE1_41C1_53F4D4EDFB5F.text = FIRST FLOOR
+HotspotPanoramaOverlayTextImage_29BE4A83_3BEF_5DA0_41AD_3C7FAFE66AAB.text = LIBRARY
+HotspotPanoramaOverlayTextImage_2E7F8308_3C1B_CCA0_4198_3EE8DDF1354E.text = MAIN ENTRANCE
+HotspotPanoramaOverlayTextImage_2EDEC2D9_3C1B_CDA0_41B0_D7761C2E2C8B.text = Quality Testing Lab
+HotspotPanoramaOverlayTextImage_29A180D4_3BE9_CDA1_4187_A1E018D9C94C.text = RACHANA  SHARIR  LAB
+HotspotPanoramaOverlayTextImage_29B08F0B_3BF9_B4A0_41C3_0FF02FFCB9CF.text = SECOND FLOOR
+HotspotPanoramaOverlayTextImage_294BA68E_3BEB_55A0_41A6_58759FD86BBC.text = Yogya Clinical Skill / Simulation Laboratory
+
+## Media
+
+### Audio
+audiores_2DA0E9AC_3643_E2D7_41B1_604123442D43.mp3Url = media/audio_2C436A43_3642_A651_41C5_074ADEC8F01D_en.mp3
+audiores_8FACBABE_98BA_9B56_41DE_9FB2761821B5.mp3Url = media/audio_8ED9096B_98BA_99FE_41D4_443D0182B110_en.mp3
+
+### Audio Subtitles
+
+### Image
+imlevel_2F465BF1_3C1A_D360_4177_E8AF58BBC020.url = media/panorama_A6607C04_A8B5_10BF_41AF_F1700A14D4CF_HS_prlth4ci_en.webp
+imlevel_29804841_3BF9_7CA0_419F_D3F1CA8017A4.url = media/panorama_A6FA18B5_A8AD_31D9_41DA_2BD092A9E733_HS_zgtxdj5d_en.webp
+imlevel_2943D84F_3BF9_BCA0_41CB_4B053E839578.url = media/panorama_A6FA3C89_A8AD_11B6_41D2_1A8D0DC8498D_HS_wdj75kwy_en.webp
+imlevel_2B6A68AA_3BEA_DDE0_41C6_2D65FB55C894.url = media/panorama_A6FE189F_A8AB_11CA_41B3_5723628CE0A8_HS_5sm9j49z_en.webp
+imlevel_29433821_3BF9_BCE0_41CA_320298A79A78.url = media/panorama_A6FE3141_A8AB_10B6_41D7_B879A59DFB28_HS_cl16ysmh_en.webp
+imlevel_294387E0_3BF9_B360_41C2_6063AEE5B4A4.url = media/panorama_A6FE3141_A8AB_10B6_41D7_B879A59DFB28_HS_fy0nvo90_en.webp
+imlevel_2E4DBBB8_3C1A_D3E0_41C0_373296D8D9B6.url = media/panorama_B9B26D85_ADA3_2288_41DC_659398BA8B9E_HS_z141frwp_en.webp
+imlevel_2E4C5B40_3C1A_DCA1_4170_20FB9F8DC790.url = media/panorama_BB753E78_AB68_138B_41C4_802BC81BDE11_HS_5y34uex7_en.webp
+imlevel_2E410AE0_3C1A_DD60_41BD_A075D90A2118.url = media/panorama_BB7565B6_AB68_1087_41E0_D4057C81A139_HS_6k9zvtbk_en.webp
+imlevel_2E42EABA_3C1A_DDE1_41AA_279DAA73044A.url = media/panorama_BB7565B6_AB68_1087_41E0_D4057C81A139_HS_ddy07zrk_en.webp
+imlevel_2E432B13_3C1A_DCA7_41B4_714771DC616A.url = media/panorama_BB75F2F8_AB68_108C_41D9_0D016190A7F4_HS_66toclq4_en.webp
+imlevel_2E410A7F_3C1A_DD5F_41C5_18D4026AFEAC.url = media/panorama_BB76D6DF_AB68_3085_41C6_03CC86429244_HS_zuxglmi4_en.webp
+imlevel_2E4CAB7C_3C1A_D360_4179_2DF41321CE74.url = media/panorama_BB770463_AB68_77BD_41B1_CC5D9EDF260C_HS_0u8nz9u7_en.webp
+imlevel_2E484C92_3C1A_D5A1_41C2_55A65856028A.url = media/panorama_BDA803F3_ADAC_E68F_41C2_1A2C1D3C274C_HS_1bicxbxp_en.webp
+imlevel_2E4FAC4E_3C1A_D4A1_41B0_E475B41F6433.url = media/panorama_BDA803F3_ADAC_E68F_41C2_1A2C1D3C274C_HS_3l8qufeo_en.webp
+imlevel_2E4A4D03_3C1A_D4A0_41BF_9E449B358664.url = media/panorama_BDA80BC5_ADAD_268B_41D4_4C9E4483DF8A_HS_qgslk2xr_en.webp
+imlevel_2E496CC6_3C1A_D5A0_41B1_65CD39E464BC.url = media/panorama_BDA819A6_ADAD_2289_41C6_171FC1C40212_HS_h6iueqyt_en.webp
+imlevel_2E4AAD37_3C1A_D4E0_41CA_87B0A1753A6E.url = media/panorama_BDA81A13_ADAD_218F_41D6_CE7002565C5C_HS_loi4aqwi_en.webp
+
+### Title
+panorama_A6607C04_A8B5_10BF_41AF_F1700A14D4CF.label = 1
+album_269ACC5A_363A_3250_41B5_D734AF1E2B6B_0.label = 1
+album_269ACC5A_363A_3250_41B5_D734AF1E2B6B_1.label = 2
+album_269ACC5A_363A_3250_41B5_D734AF1E2B6B_2.label = 3
+album_269ACC5A_363A_3250_41B5_D734AF1E2B6B_3.label = 4
+album_269ACC5A_363A_3250_41B5_D734AF1E2B6B_4.label = 5 (1)
+album_269ACC5A_363A_3250_41B5_D734AF1E2B6B_5.label = 5 (2)
+album_269ACC5A_363A_3250_41B5_D734AF1E2B6B_6.label = 5 (3)
+album_269ACC5A_363A_3250_41B5_D734AF1E2B6B_7.label = 5 (4)
+album_269ACC5A_363A_3250_41B5_D734AF1E2B6B_8.label = 5 (5)
+album_269ACC5A_363A_3250_41B5_D734AF1E2B6B_9.label = 5 (6)
+album_269ACC5A_363A_3250_41B5_D734AF1E2B6B_10.label = 5 (7)
+album_269ACC5A_363A_3250_41B5_D734AF1E2B6B_11.label = 5 (8)
+album_269ACC5A_363A_3250_41B5_D734AF1E2B6B_12.label = 5 (9)
+panorama_2BD5DAE0_3574_D3E4_41B1_D9520F5CE1C7.label = 8 (10)
+panorama_2BD572A3_3577_5264_4184_D372CA1BA985.label = 8 (15)
+panorama_2A5B20BA_3574_CE64_41B4_BCDB3AD82CD9.label = 8 (9)
+panorama_2AE3FC2A_3574_D664_41BA_380F73A2CE46.label = A (4)
+panorama_A6FE7A97_A8AB_11DA_4174_993C00F06AE5.label = A (7)
+panorama_A6FE1705_A8AB_30B9_41B1_9F38C7ED12D5.label = A (8)
+panorama_B6E5CFCC_A96F_0F4F_4199_27305BDE3B73.label = B (3)
+panorama_A6FE189F_A8AB_11CA_41B3_5723628CE0A8.label = C (1)
+panorama_A6FEE498_A8AB_31D7_41B3_0E335E9B0425.label = C (2)
+panorama_A6FE3141_A8AB_10B6_41D7_B879A59DFB28.label = C (3)
+panorama_A6FEFCF3_A8AB_115A_41C4_B1DC3A79AD1D.label = C (4)
+panorama_B7134F82_A955_0FBB_41DC_11C9309516BD.label = C (4) - Copy
+panorama_A6FEE940_A8AB_F0B6_41D5_F7B69ABB74C9.label = C (5)
+panorama_A6FEC14C_A8AB_334F_41E1_B17A95E4771D.label = C (7)
+panorama_A6FDCDFD_A8AB_334E_41E4_B1C08B3A9500.label = C (8)
+panorama_A6FE77C7_A8AB_7FBA_41DA_0F6B84F0EC20.label = D (0)
+panorama_A6FE13FC_A8AB_174E_41CD_83C441D3C863.label = D (1)
+panorama_A6FDDF96_A8AB_0FDA_41E4_DB850D3578DF.label = D (2)
+panorama_A6FE1C4B_A8AB_314A_41CC_9FECD61DA05B.label = D (3)
+panorama_A6FDE868_A8AB_1176_41D9_4269E160C351.label = D (4)
+panorama_A6F9D4D0_A8AC_F157_41E2_C1B18FAE9FAB.label = E (1)
+panorama_A6FA50B0_A8AD_11D6_41D6_2D65C7E788F3.label = E (2)
+panorama_A6FA3C89_A8AD_11B6_41D2_1A8D0DC8498D.label = E (3)
+panorama_A6FA18B5_A8AD_31D9_41DA_2BD092A9E733.label = E (4)
+panorama_A6FA047A_A8AD_114A_41E0_00A268B6976B.label = E (5)
+panorama_A6FA209B_A8AD_71CA_41D2_793CB287408B.label = E (6)
+panorama_A6FAFCB1_A8AD_71D6_41DC_20D40C3703AB.label = E (7)
+panorama_BB75F2F8_AB68_108C_41D9_0D016190A7F4.label = F (10)
+panorama_BB75C14C_AB68_F184_41E0_F4D65DA1C9FB.label = F (11)
+panorama_BB750FCC_AB68_F084_41DB_7B4521A8B86E.label = F (12)
+panorama_BB750E50_AB68_139C_41D1_0C2858798A71.label = F (13)
+panorama_BB757F28_AB68_318B_41DC_1DCB7768CED5.label = F (14)
+panorama_BB753E78_AB68_138B_41C4_802BC81BDE11.label = F (15)
+panorama_BB750060_AB68_6FBB_4177_97DFA8A895A0.label = F (16)
+panorama_BB7550FA_AB68_308F_41BA_AB79812DA188.label = F (17)
+panorama_BB750FCE_AB68_3087_41C0_553801A65522.label = F (18)
+panorama_BB76D6DF_AB68_3085_41C6_03CC86429244.label = F (2)
+panorama_BB7716C0_AB68_10FC_41C6_75B41CC3381A.label = F (20)
+panorama_BB76F708_AB68_318B_41D5_4D374A2130BF.label = F (21)
+panorama_BB7775BC_AB68_1084_41DA_E341F897D7E0.label = F (22)
+panorama_BB770463_AB68_77BD_41B1_CC5D9EDF260C.label = F (23)
+panorama_BB7702C6_AB68_1084_41D9_D2D37FCFDBC7.label = F (24)
+panorama_BB7589D7_AB69_F085_41E1_ED292B317F77.label = F (4)
+panorama_BB752D72_AB68_119F_41C5_98B64DA40F51.label = F (5)
+panorama_BB7565B6_AB68_1087_41E0_D4057C81A139.label = F (6)
+panorama_BB7555A5_AB68_7085_41C7_70CDE18DBB51.label = F (7)
+panorama_BB7515AA_AB68_108C_41D5_F255221C60F4.label = F (8)
+panorama_BB75246F_AB68_3784_41D0_5F4B1993F445.label = F (9)
+panorama_B9B26D85_ADA3_2288_41DC_659398BA8B9E.label = G (1)
+panorama_BDA8DF78_ADAD_1E79_41D8_BD358C60C040.label = G (10)
+panorama_BDA80BC5_ADAD_268B_41D4_4C9E4483DF8A.label = G (11)
+panorama_BDA8F830_ADAD_2189_41D1_8E32F12FB20B.label = G (12)
+panorama_BDA8055B_ADAD_E3BF_41D6_59CA54BC69B4.label = G (13)
+panorama_BDA8219A_ADAD_E2B8_41D7_7E2A61D71088.label = G (14)
+panorama_BDA83E1A_ADAD_E1B8_41CF_B4E2DA714C13.label = G (15)
+panorama_BDA81A13_ADAD_218F_41D6_CE7002565C5C.label = G (16)
+panorama_BDA866E6_ADAD_2E88_41E5_77319BF35570.label = G (17)
+panorama_BDA8306D_ADAD_619B_41E5_6FE414E719AC.label = G (19)
+panorama_BDA6AB89_ADA3_269B_41E1_31AA905F584D.label = G (2)
+panorama_BDA807C4_ADAC_EE89_41D1_5D3F363A9629.label = G (3)
+panorama_BDA803F3_ADAC_E68F_41C2_1A2C1D3C274C.label = G (4)
+panorama_BDA830A7_ADAD_2297_41E4_79DFEC3138D2.label = G (5)
+panorama_BDA87D03_ADAD_238F_41CB_9A8045181BD6.label = G (6)
+panorama_BDA819A6_ADAD_2289_41C6_171FC1C40212.label = G (7)
+panorama_BDA815DD_ADAD_62BB_41E0_72C930F96817.label = G (8)
+panorama_BDA832B5_ADAD_668B_41D6_D8E0FA1AF42E.label = G (9)
+album_269ACC5A_363A_3250_41B5_D734AF1E2B6B.label = Photo Album 1
+
+## Skin
+
+### Button
+Button_5AB87F7A_40D3_00DE_41AA_215C597649E9.label = Admin. Office
+Button_5AB87F7A_40D3_00DE_41AA_215C597649E9_mobile.label = Admin. Office
+Button_5C461B12_4F38_5703_41A5_2B58A57259CB_mobile.label = Agada Tantra
+Button_5C461B12_4F38_5703_41A5_2B58A57259CB.label = Agada Tantra
+Button_5AB8BF7B_40D3_00DE_41C1_48C8A4A660AA.label = Bar
+Button_5AB8BF7B_40D3_00DE_41C1_48C8A4A660AA_mobile.label = Bar
+Button_0399826A_2D79_4594_41BA_934A50D0E6B4_mobile.label = CANTEEN >
+Button_0399826A_2D79_4594_41BA_934A50D0E6B4.label = CANTEEN >
+Button_5AB88F7B_40D3_00DE_41BD_3AF4ED80C40D.label = Chill Out
+Button_5AB88F7B_40D3_00DE_41BD_3AF4ED80C40D_mobile.label = Chill Out
+Button_5AB8AF7B_40D3_00DE_41CD_E4BAA6CA3ED1_mobile.label = Classroom
+Button_5AB8AF7B_40D3_00DE_41CD_E4BAA6CA3ED1.label = Classroom
+Button_5CBE4515_4F38_7300_41D1_1CA43C43E7F8_mobile.label = Common Canteen
+Button_5CBE4515_4F38_7300_41D1_1CA43C43E7F8.label = Common Canteen
+Button_5CBE2516_4F38_7300_41B3_266EC752AC75.label = Demonstration Room
+Button_5CBE2516_4F38_7300_41B3_266EC752AC75_mobile.label = Demonstration Room
+Button_5CBE8514_4F38_7300_41C7_4C2B003C16FE.label = Dr. Ratansing Munot Hosp
+Button_5CBE8514_4F38_7300_41C7_4C2B003C16FE_mobile.label = Dr. Ratansing Munot Hosp
+Button_5C47EB13_4F38_5701_41D0_849C58570FD5_mobile.label = Dravyagun 
+Button_5C47EB13_4F38_5701_41D0_849C58570FD5.label = Dravyagun 
+Button_6ECE1198_4F7D_CE0F_41D1_D607B97BA20A_mobile.label = Explore More
+Button_6ECE1198_4F7D_CE0F_41D1_D607B97BA20A.label = Explore More
+Button_1D2C4FDF_2D7F_BAAB_4198_FBD1E9E469FF.label = FACILITIES >
+Button_1D2C4FDF_2D7F_BAAB_4198_FBD1E9E469FF_mobile.label = FACILITIES >
+Button_5B1F16A9_4F08_3101_41C0_148FE9D83410.label = FIRST FLOOR DEPTS. >
+Button_5B1F16A9_4F08_3101_41C0_148FE9D83410_mobile.label = FIRST FLOOR DEPTS. >
+Button_0AEB5577_2D08_CE7B_41B6_192923248F4E_mobile.label = GROUND FLOOR >
+Button_0AEB5577_2D08_CE7B_41B6_192923248F4E.label = GROUND FLOOR >
+Button_5CBEA514_4F38_7300_41C4_E7D746E7D487.label = Girls Hostel
+Button_5CBEA514_4F38_7300_41C4_E7D746E7D487_mobile.label = Girls Hostel
+Button_5CBF9517_4F38_7300_41BB_8710868B4E0A.label = Girls Mess
+Button_5CBF9517_4F38_7300_41BB_8710868B4E0A_mobile.label = Girls Mess
+Button_1D0C50DE_2D07_C6AD_41C1_CF4547A6CFAB_mobile.label = HOSTEL >
+Button_1D0C50DE_2D07_C6AD_41C1_CF4547A6CFAB.label = HOSTEL >
+Button_5C1ED376_4F3B_D703_41C6_ED2C0CFAEEDA.label = Kriya Sharir
+Button_5C1ED376_4F3B_D703_41C6_ED2C0CFAEEDA_mobile.label = Kriya Sharir
+Button_5C1F3376_4F3B_D703_41D1_B5D8230D600A_mobile.label = Library
+Button_5C1F3376_4F3B_D703_41D1_B5D8230D600A.label = Library
+Button_5CBE1515_4F38_7300_41B8_0BE61EE2A2AC_mobile.label = Lift
+Button_5CBE1515_4F38_7300_41B8_0BE61EE2A2AC.label = Lift
+Button_5C463B13_4F38_5701_41D3_7F808639BD58.pressedLabel = Lorem Ipsum
+Button_5C470B15_4F38_5701_41C8_8315EAA43F47.label = Lorem Ipsum
+Button_5CE1FDFE_4F38_7300_41CB_C0EFC8517F56.pressedLabel = Lorem Ipsum
+Button_5C475B14_4F38_5707_41B5_45CB509F3FEC.label = Lorem Ipsum
+Button_5CBE4515_4F38_7300_41D1_1CA43C43E7F8.pressedLabel = Lorem Ipsum
+Button_5CE17DFF_4F38_7300_41C6_8F855B436216.label = Lorem Ipsum
+Button_5CE04DFD_4F38_7300_41CF_9AA175DB4918.label = Lorem Ipsum
+Button_5CEEFE00_4F38_7100_41C4_47D712DA1F96.label = Lorem Ipsum
+Button_5CEEAE00_4F38_7100_41CA_772C2B0C9596.label = Lorem Ipsum
+Button_5CE02DFD_4F38_7300_41AC_5CCE35E28CCE.label = Lorem Ipsum
+Button_5CDE217F_4F38_5301_41C6_96F7478E4BCD.label = Lorem Ipsum
+Button_5CDFE180_4F38_53FF_41BA_C2AE8CF20676.label = Lorem Ipsum
+Button_5CDFA180_4F38_53FF_41B1_A82E7A427261.pressedLabel = Lorem Ipsum
+Button_5CDFA180_4F38_53FF_41B1_A82E7A427261.label = Lorem Ipsum
+Button_5CDF7181_4F38_5301_41D0_9F8175F5BACF.label = Lorem Ipsum
+Button_5CDF2181_4F38_5301_419E_50D4A975C358.label = Lorem Ipsum
+Button_5CE1FDFE_4F38_7300_41CB_C0EFC8517F56.label = Lorem Ipsum
+Button_5CDCD187_4F38_5301_41D2_1D9369EA7682.label = Lorem Ipsum
+Button_5CDC6188_4F38_530F_416D_D8C2C6CAD624.label = Lorem Ipsum
+Button_5C1FB377_4F3B_D701_41B8_31B63BB846ED.label = Lorem Ipsum
+Button_5CE1BDFE_4F38_7300_41AF_930026BA5A6C.label = Lorem Ipsum
+Button_5C1EE375_4F3B_D701_41C9_0ED79D773CB5_mobile.pressedLabel = Lorem Ipsum
+Button_5C1F4377_4F3B_D701_41C6_00BBE5EF20C9.label = Lorem Ipsum
+Button_5CDFA180_4F38_53FF_41B1_A82E7A427261_mobile.pressedLabel = Lorem Ipsum
+Button_5CEEFE00_4F38_7100_41C4_47D712DA1F96_mobile.label = Lorem Ipsum
+Button_5CDC6188_4F38_530F_416D_D8C2C6CAD624_mobile.label = Lorem Ipsum
+Button_5CDFE180_4F38_53FF_41BA_C2AE8CF20676_mobile.label = Lorem Ipsum
+Button_5C1FB377_4F3B_D701_41B8_31B63BB846ED_mobile.label = Lorem Ipsum
+Button_5CDFA180_4F38_53FF_41B1_A82E7A427261_mobile.label = Lorem Ipsum
+Button_5CDCD187_4F38_5301_41D2_1D9369EA7682_mobile.label = Lorem Ipsum
+Button_5CE17DFF_4F38_7300_41C6_8F855B436216_mobile.label = Lorem Ipsum
+Button_5CE1FDFE_4F38_7300_41CB_C0EFC8517F56_mobile.label = Lorem Ipsum
+Button_5CDF2181_4F38_5301_419E_50D4A975C358_mobile.label = Lorem Ipsum
+Button_5C1EE375_4F3B_D701_41C9_0ED79D773CB5.pressedLabel = Lorem Ipsum
+Button_5CE1BDFE_4F38_7300_41AF_930026BA5A6C_mobile.label = Lorem Ipsum
+Button_5C463B13_4F38_5701_41D3_7F808639BD58_mobile.pressedLabel = Lorem Ipsum
+Button_5CDF7181_4F38_5301_41D0_9F8175F5BACF_mobile.label = Lorem Ipsum
+Button_5CE1FDFE_4F38_7300_41CB_C0EFC8517F56_mobile.pressedLabel = Lorem Ipsum
+Button_5C1F4377_4F3B_D701_41C6_00BBE5EF20C9_mobile.label = Lorem Ipsum
+Button_5CBE4515_4F38_7300_41D1_1CA43C43E7F8_mobile.pressedLabel = Lorem Ipsum
+Button_5CE02DFD_4F38_7300_41AC_5CCE35E28CCE_mobile.label = Lorem Ipsum
+Button_5CEEAE00_4F38_7100_41CA_772C2B0C9596_mobile.label = Lorem Ipsum
+Button_5CDE217F_4F38_5301_41C6_96F7478E4BCD_mobile.label = Lorem Ipsum
+Button_5C470B15_4F38_5701_41C8_8315EAA43F47_mobile.label = Lorem Ipsum
+Button_5CE04DFD_4F38_7300_41CF_9AA175DB4918_mobile.label = Lorem Ipsum
+Button_5C475B14_4F38_5707_41B5_45CB509F3FEC_mobile.label = Lorem Ipsum
+Button_5C1F6376_4F3B_D703_41CC_A886AFB8DA74_mobile.label = Lorem ipsum
+Button_5CE13DFF_4F38_7300_4168_8B08D53E7557.label = Lorem ipsum
+Button_5C47BB14_4F38_5707_41C5_004237DF4BC7.label = Lorem ipsum
+Button_5CDCF182_4F38_5303_41BA_3B4FB28D5CC6_mobile.label = Lorem ipsum
+Button_5CDCF182_4F38_5303_41BA_3B4FB28D5CC6.label = Lorem ipsum
+Button_5C1F6376_4F3B_D703_41CC_A886AFB8DA74.label = Lorem ipsum
+Button_5C47BB14_4F38_5707_41C5_004237DF4BC7_mobile.label = Lorem ipsum
+Button_5CE13DFF_4F38_7300_4168_8B08D53E7557_mobile.label = Lorem ipsum
+Button_5AB86F7A_40D3_00DE_41BD_D1B9EFCA70D1.label = Main Entrance
+Button_5AB86F7A_40D3_00DE_41BD_D1B9EFCA70D1_mobile.label = Main Entrance
+Button_5CBFF516_4F38_7300_41C0_01CB82BCD11E.label = Mess Kitchen
+Button_5CBFF516_4F38_7300_41C0_01CB82BCD11E_mobile.label = Mess Kitchen
+Button_5AB84F7B_40D3_00DE_4195_429283488EB1_mobile.label = Principal Office
+Button_5AB84F7B_40D3_00DE_4195_429283488EB1.label = Principal Office
+Button_5C463B13_4F38_5701_41D3_7F808639BD58_mobile.label = Quality Testing
+Button_5C463B13_4F38_5701_41D3_7F808639BD58.label = Quality Testing
+Button_5C1EE375_4F3B_D701_41C9_0ED79D773CB5_mobile.label = Rachana Sharir Lab
+Button_5C1EE375_4F3B_D701_41C9_0ED79D773CB5.label = Rachana Sharir Lab
+Button_5C467B11_4F38_5701_41BD_6ADABBF10640_mobile.label = Rasa Shastra
+Button_5C467B11_4F38_5701_41BD_6ADABBF10640.label = Rasa Shastra
+Button_5AB84F7B_40D3_00DE_4195_429283488EB1.pressedLabel = Reception
+Button_5AB84F7B_40D3_00DE_4195_429283488EB1_mobile.pressedLabel = Reception
+Button_5C478B14_4F38_5707_41B7_E567FC5BFF03_mobile.label = Rognidan
+Button_5C478B14_4F38_5707_41B7_E567FC5BFF03.label = Rognidan
+Button_0A054365_2D09_CB9F_4145_8C365B373D19_mobile.label = SECOND FLOOR DEPTS >
+Button_0A054365_2D09_CB9F_4145_8C365B373D19.label = SECOND FLOOR DEPTS >
+Button_5AB85F7B_40D3_00DE_41A0_52785BEFA815.label = Samhita Dept.
+Button_5AB85F7B_40D3_00DE_41A0_52785BEFA815_mobile.label = Samhita Dept.
+Button_5C1E8374_4F3B_D707_41C8_C8242B461C37.label = Simulation Lab
+Button_5C1E8374_4F3B_D707_41C8_C8242B461C37_mobile.label = Simulation Lab
+Button_5C1EA374_4F3B_D707_41BE_00FEEB6D514B_mobile.label = Swasthavitta & Yoga
+Button_5C1EA374_4F3B_D707_41BE_00FEEB6D514B.label = Swasthavitta & Yoga
+Button_5AB89F7B_40D3_00DE_41CB_5B6BD4AD03BA_mobile.label = Terrace
+Button_5AB89F7B_40D3_00DE_41CB_5B6BD4AD03BA.label = Terrace
+
+### Image
+Image_0435F73B_2D0F_4BF4_4181_65F86A8DAC19.url = skin/Image_0435F73B_2D0F_4BF4_4181_65F86A8DAC19_en.png
+Image_0435F73B_2D0F_4BF4_4181_65F86A8DAC19_mobile.url = skin/Image_0435F73B_2D0F_4BF4_4181_65F86A8DAC19_mobile_en.png
+Image_132775BB_36C6_6231_41A9_ECDEB3DC9664.url = skin/Image_132775BB_36C6_6231_41A9_ECDEB3DC9664_en.png
+Image_132775BB_36C6_6231_41A9_ECDEB3DC9664_mobile.url = skin/Image_132775BB_36C6_6231_41A9_ECDEB3DC9664_mobile_en.png
+Image_17520AC5_57D1_805F_41CD_E7281C08A967.url = skin/Image_17520AC5_57D1_805F_41CD_E7281C08A967_en.jpeg
+Image_17520AC5_57D1_805F_41CD_E7281C08A967_mobile.url = skin/Image_17520AC5_57D1_805F_41CD_E7281C08A967_mobile_en.jpeg
+Image_17529AC5_57D1_805F_41BD_C64BF1F259C6.url = skin/Image_17529AC5_57D1_805F_41BD_C64BF1F259C6_en.png
+Image_17529AC5_57D1_805F_41BD_C64BF1F259C6_mobile.url = skin/Image_17529AC5_57D1_805F_41BD_C64BF1F259C6_mobile_en.png
+Image_2B0BA7C5_3C29_53A3_41C4_A6A50FC7CA97.url = skin/Image_2B0BA7C5_3C29_53A3_41C4_A6A50FC7CA97_en.jpg
+Image_2B6E5691_3C2F_55A0_41C4_5AEEA8A67537.url = skin/Image_2B6E5691_3C2F_55A0_41C4_5AEEA8A67537_en.jpg
+Image_6ECE6198_4F7D_CE0F_41B0_5E88CBDCBBB2.url = skin/Image_6ECE6198_4F7D_CE0F_41B0_5E88CBDCBBB2_en.jpg
+Image_6ECE6198_4F7D_CE0F_41B0_5E88CBDCBBB2_mobile.url = skin/Image_6ECE6198_4F7D_CE0F_41B0_5E88CBDCBBB2_mobile_en.jpg
+
+### Label
+Label_1351EFD5_3557_522C_41B5_BB195C2182AC_mobile.text = Contact :  +91 9405552280
+Label_1351EFD5_3557_522C_41B5_BB195C2182AC.text = Contact :  +91 9405552280
+Label_2980EDE6_3643_A253_41C8_04541DF551AA.text = www.ahinsaayurveda.in
+Label_2980EDE6_3643_A253_41C8_04541DF551AA_mobile.text = www.ahinsaayurveda.in
+
+### Multiline Text
+HTMLText_6ECE2198_4F7D_CE0F_41C1_6D512C0D0B76_mobile.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:left;font-size:8.090000000000002vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#04a3e1;font-size:8.09vmin;font-family:'Bebas Neue Bold';">___</SPAN></SPAN></DIV><DIV STYLE="text-align:center;font-size:3.6383682469680254vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:3.64vmin;font-family:'Oswald';"><B><I>Ahinsa Institute of Ayurveda</I></B></SPAN></SPAN></DIV><DIV STYLE="text-align:center;font-size:2.3000000000000016vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#04a3e1;font-size:2.3vmin;font-family:'Oswald';"><B>BAMS Medical College</B></SPAN></SPAN></DIV><p STYLE="margin:0; line-height:0.77vmin;"><BR STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-size:0.77vmin;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:justify;font-size:1.5435501653803747vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-line;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:1.54vmin;">College Of Ayurveda has been established under the aegis of Vardhman Education and Welfare Society, Dondaicha. The Institute is well established and has made a prestigious position in central India by providing value added quality education and ensuring overall development of students college of Ayurveda offers four and half years bachelor (B.A.M.S) course. The Institute has well-furnished digital class rooms, laboratories with sophisticated and modern instruments, software, and library with more than 2500 volumes of text and reference books and subscribed e-journals</SPAN></SPAN></DIV><p STYLE="margin:0; line-height:2.3vmin;"><BR STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-size:0.77vmin;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:left;font-size:2.3000000000000016vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.3vmin;font-family:'Oswald';"><B><I>Few Reasons Why People Choosing Us!</I></B></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:1.5435501653803747vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:1.54vmin;"> • Qualified ,Senior Teachers.. </SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:1.5435501653803747vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:1.54vmin;"> • Expert Faculty in their respective subjects.</SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:1.5435501653803747vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:1.54vmin;"> • Regular National Level Seminars and Workshops</SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:1.5435501653803747vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:1.54vmin;"> • Games, Yoga for Physical and Mental Health of Students</SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:1.5435501653803747vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:1.54vmin;"> • Other facilities like Transport, Canteen &amp; Nationalized Bank      </SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:1.5435501653803747vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:1.54vmin;">    with ATM are also available near campus.</SPAN></SPAN></DIV><p STYLE="margin:0; line-height:1.54vmin;"><BR STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-size:0.77vmin;font-family:Arial, Helvetica, sans-serif;"/></p></div>
+HTMLText_6ECE2198_4F7D_CE0F_41C1_6D512C0D0B76.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:left;font-size:8.090000000000002vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#04a3e1;font-size:8.09vmin;font-family:'Bebas Neue Bold';">___</SPAN></SPAN></DIV><DIV STYLE="text-align:center;font-size:3.6383682469680254vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:3.64vmin;font-family:'Oswald';"><B><I>Ahinsa Institute of Ayurveda</I></B></SPAN></SPAN></DIV><DIV STYLE="text-align:center;font-size:2.3000000000000016vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#04a3e1;font-size:2.3vmin;font-family:'Oswald';"><B>BAMS Medical College</B></SPAN></SPAN></DIV><p STYLE="margin:0; line-height:0.77vmin;"><BR STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-size:0.77vmin;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:justify;font-size:1.5435501653803747vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-line;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:1.54vmin;">College Of Ayurveda has been established under the aegis of Vardhman Education and Welfare Society, Dondaicha. The Institute is well established and has made a prestigious position in central India by providing value added quality education and ensuring overall development of students college of Ayurveda offers four and half years bachelor (B.A.M.S) course. The Institute has well-furnished digital class rooms, laboratories with sophisticated and modern instruments, software, and library with more than 2500 volumes of text and reference books and subscribed e-journals</SPAN></SPAN></DIV><p STYLE="margin:0; line-height:2.3vmin;"><BR STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-size:0.77vmin;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:left;font-size:2.3000000000000016vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.3vmin;font-family:'Oswald';"><B><I>Few Reasons Why People Choosing Us!</I></B></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:1.5435501653803747vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:1.54vmin;"> • Qualified ,Senior Teachers.. </SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:1.5435501653803747vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:1.54vmin;"> • Expert Faculty in their respective subjects.</SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:1.5435501653803747vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:1.54vmin;"> • Regular National Level Seminars and Workshops</SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:1.5435501653803747vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:1.54vmin;"> • Games, Yoga for Physical and Mental Health of Students</SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:1.5435501653803747vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:1.54vmin;"> • Other facilities like Transport, Canteen &amp; Nationalized Bank      </SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:1.5435501653803747vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:1.54vmin;">    with ATM are also available near campus.</SPAN></SPAN></DIV><p STYLE="margin:0; line-height:1.54vmin;"><BR STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-size:0.77vmin;font-family:Arial, Helvetica, sans-serif;"/></p></div>
+HTMLText_17528AC5_57D1_805F_41CC_502F9EE91657.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:left;font-size:2.5099999999999993vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#04a3e1;font-size:2.51vmin;font-family:'Oswald';"><B><I>President's Message</I></B></SPAN></SPAN></DIV><DIV STYLE="text-align:justify;font-size:1.6538037486218293vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-line;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:1.65vmin;">We take pride in being part of a nation that beautifully blends ancient traditions with a dynamic young population. While population is often seen as a challenge, it is truly our greatest strength when guided by education, dedication, and innovation. With the belief that empowered youth can drive meaningful change, Ahinsa Family is committed to fostering constructive development in society and the nation. By nurturing values, knowledge, and forward-thinking minds, we aim to prepare future leaders who can overcome challenges and contribute to the betterment of humanity.Though we are remotely located our efforts and thinking ahead of time will lead us to position that will allow us to prepare students that can lead the world with their innovative thought process and acquisition. I am sure that there will be many hurdles and shortcomings in this path but our collective desire to contribute for the well being of humanity will always surpass it. The values we are inculcating will blossom to a brighter future for everyone. I seek blessings of almighty and co-operation from everyone for this noble movement.</SPAN></SPAN></DIV></div>
+HTMLText_17528AC5_57D1_805F_41CC_502F9EE91657_mobile.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:left;font-size:2.5099999999999993vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#04a3e1;font-size:2.51vmin;font-family:'Oswald';"><B><I>President's Message</I></B></SPAN></SPAN></DIV><DIV STYLE="text-align:justify;font-size:1.6538037486218293vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-line;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:1.65vmin;">We take pride in being part of a nation that beautifully blends ancient traditions with a dynamic young population. While population is often seen as a challenge, it is truly our greatest strength when guided by education, dedication, and innovation. With the belief that empowered youth can drive meaningful change, Ahinsa Family is committed to fostering constructive development in society and the nation. By nurturing values, knowledge, and forward-thinking minds, we aim to prepare future leaders who can overcome challenges and contribute to the betterment of humanity.Though we are remotely located our efforts and thinking ahead of time will lead us to position that will allow us to prepare students that can lead the world with their innovative thought process and acquisition. I am sure that there will be many hurdles and shortcomings in this path but our collective desire to contribute for the well being of humanity will always surpass it. The values we are inculcating will blossom to a brighter future for everyone. I seek blessings of almighty and co-operation from everyone for this noble movement.</SPAN></SPAN></DIV></div>
+HTMLText_1752BAC5_57D1_805F_41C3_4D3FE0C946A5_mobile.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:left;font-size:8.42vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#04a3e1;font-size:8.42vh;font-family:'Bebas Neue Bold';">___</SPAN></SPAN></DIV><p STYLE="margin:0; line-height:0.87vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:0.87vh;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:left;font-size:2.567394094993581vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.57vh;font-family:'Oswald';"><B><I>Shri Rajesh R. Munot</I></B></SPAN></SPAN></DIV></div>
+HTMLText_1752BAC5_57D1_805F_41C3_4D3FE0C946A5.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:left;font-size:8.42vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#04a3e1;font-size:8.42vh;font-family:'Bebas Neue Bold';">___</SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:3.9691289966923926vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:3.97vh;font-family:'Oswald';"><B><I>Shri Rajesh R. Munot</I></B></SPAN></SPAN></DIV></div>
+HTMLText_29DD1615_3597_79DF_41C4_7593739E5260.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:left;font-size:14px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:14px;font-family:'Oswald Regular';"><I>Company Name</I></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:14px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:14px;font-family:'Oswald Regular';"><I>www.loremipsum.com</I></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:14px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:14px;font-family:'Oswald Regular';"><I>info@loremipsum.com</I></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:14px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:14px;font-family:'Oswald Regular';"><I>Tlf.: +11 111 111 111</I></SPAN></SPAN></DIV></div>
+HTMLText_29DD1615_3597_79DF_41C4_7593739E5260_mobile.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:left;font-size:7px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:7px;font-family:'Oswald Regular';"><I>Company Name</I></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:7px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:7px;font-family:'Oswald Regular';"><I>www.loremipsum.com</I></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:7px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:7px;font-family:'Oswald Regular';"><I>info@loremipsum.com</I></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:7px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:7px;font-family:'Oswald Regular';"><I>Tlf.: +11 111 111 111</I></SPAN></SPAN></DIV></div>
+
+## Tour
+
+### Description
+
+### Title
+tour.name = Ahinsa College
