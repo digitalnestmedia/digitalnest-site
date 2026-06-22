@@ -1320,19 +1320,31 @@ section {
 .btn-project-action {
   background-color: var(--forest-green);
   color: var(--chalk-white);
-  align-self: flex-start;
+  border: 1px solid var(--forest-green);
 }
 
 .btn-project-action:hover {
   background-color: var(--chalk-white);
   color: var(--ink-black);
+  border-color: var(--chalk-white);
 }
 
 .project-actions {
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
-  align-self: flex-start;
+  align-self: stretch;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.project-actions a {
+  flex: 1 1 calc(50% - 6px);
+  min-width: 220px;
+  justify-content: center;
+  text-align: center;
+  align-self: auto;
+  box-sizing: border-box;
 }
 
 .btn-project-action.btn-custom-tour {
