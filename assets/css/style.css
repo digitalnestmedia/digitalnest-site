@@ -3189,3 +3189,309 @@ section {
     aspect-ratio: 4 / 5;
   }
 }
+
+/* ==========================================================================
+   DIGITALNEST | PDF PRINT LAYOUT ENGINE
+   ========================================================================== */
+@media print {
+  /* 1. Global Reset & Print Adjustments */
+  *, *::before, *::after {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    animation: none !important;
+    transition: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  
+  html, body {
+    background-color: var(--chalk-white) !important;
+    color: var(--ink-black) !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    font-size: 13pt !important;
+    overflow: visible !important;
+    scroll-snap-type: none !important;
+  }
+
+  section {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    height: auto !important;
+    min-height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    padding: 40px 0 !important;
+    margin: 0 !important;
+  }
+
+  .container {
+    max-height: none !important;
+    height: auto !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+
+  /* 2. Hide Non-Printable UI Elements */
+  .fixed-site-logo,
+  .site-header,
+  .mobile-menu-trigger,
+  .mobile-menu-overlay,
+  .scroll-indicator,
+  .blueprint-grid,
+  #noise-overlay,
+  #ambient-spotlight,
+  .mouse-icon,
+  .exhibit-node-btn .node-dot,
+  .chrome-interactive-badge,
+  .iframe-interaction-shield,
+  .btn-chrome,
+  #spatial-tour-modal,
+  .btn-portfolio-archive,
+  .scroll-text,
+  .hero-orbit-rings,
+  .backdrop-fog-overlay {
+    display: none !important;
+  }
+
+  /* 3. Force Reveal Blocks to be Visible */
+  .reveal-block {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+    transition-delay: 0ms !important;
+  }
+
+  /* 4. Section Specific Adjustments */
+
+  /* Hero Section */
+  #hero {
+    background-color: var(--chalk-white) !important;
+    color: var(--ink-black) !important;
+    height: auto !important;
+    min-height: 100vh !important;
+    page-break-after: always !important;
+    break-after: page !important;
+  }
+  
+  .hero-revolving-backdrop {
+    position: absolute !important;
+    opacity: 0.15 !important;
+  }
+
+  /* About Section */
+  #about {
+    page-break-after: always !important;
+    break-after: page !important;
+  }
+
+  /* Services Section */
+  #services {
+    page-break-after: always !important;
+    break-after: page !important;
+  }
+  
+  /* Make all services rows and images visible and lay out cleanly in print */
+  .services-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 30px !important;
+  }
+
+  .services-index-side {
+    width: 100% !important;
+  }
+
+  .services-directory {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 20px !important;
+  }
+
+  .service-row {
+    opacity: 1 !important;
+    display: block !important;
+    border-bottom: 1px solid rgba(28, 28, 26, 0.1) !important;
+    padding-bottom: 15px !important;
+  }
+
+  .service-row-desc {
+    display: block !important;
+    opacity: 0.8 !important;
+    max-height: none !important;
+    font-size: 11pt !important;
+    margin-top: 5px !important;
+  }
+
+  /* Hide the preview side image switcher in print, as we list everything textually */
+  .services-preview-side {
+    display: none !important;
+  }
+
+  /* Portfolio Section */
+  #portfolio {
+    background-color: var(--ink-black) !important;
+    color: var(--chalk-white) !important;
+    page-break-before: always !important;
+    break-before: page !important;
+    page-break-after: always !important;
+    break-after: page !important;
+    padding: 60px 0 !important;
+  }
+
+  /* In print, show all featured spaces layout statically in a stack instead of hidden behind tabs! */
+  .portfolio-floating-panel {
+    position: static !important;
+    width: 100% !important;
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 40px !important;
+    z-index: auto !important;
+  }
+
+  .exhibit-info {
+    display: block !important;
+    opacity: 1 !important;
+    position: static !important;
+    visibility: visible !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+    padding-bottom: 30px !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  .project-actions {
+    display: none !important; /* Hide web action links in print PDF */
+  }
+
+  /* Hide viewports (Google Map frames / WebGL previews) as they don't load or look good in a static print */
+  .portfolio-viewports,
+  .portfolio-exhibition-nav {
+    display: none !important;
+  }
+
+  /* Mid-CTA Section */
+  #mid-cta {
+    background-color: var(--ink-black) !important;
+    color: var(--chalk-white) !important;
+    text-align: center !important;
+    page-break-after: always !important;
+    break-after: page !important;
+  }
+  
+  #mid-cta .btn-primary {
+    display: none !important;
+  }
+
+  /* Process Section */
+  #process {
+    page-break-after: always !important;
+    break-after: page !important;
+  }
+  
+  .process-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 30px !important;
+  }
+
+  .process-sticky {
+    position: static !important;
+    width: 100% !important;
+  }
+
+  .process-timeline {
+    width: 100% !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 20px !important;
+  }
+  
+  .process-step {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    border-left: 2px solid var(--forest-green) !important;
+    padding-left: 15px !important;
+    margin-bottom: 0 !important;
+  }
+  
+  .step-node {
+    display: none !important;
+  }
+
+  /* Team Section */
+  #team {
+    page-break-after: always !important;
+    break-after: page !important;
+  }
+
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 30px !important;
+  }
+
+  .team-card {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  .team-image-wrap img {
+    filter: none !important; /* Keep photos full color */
+  }
+
+  /* Contact Section */
+  #contact {
+    background-color: var(--ink-black) !important;
+    color: var(--chalk-white) !important;
+    page-break-before: always !important;
+    break-before: page !important;
+    page-break-after: avoid !important;
+    break-after: avoid !important;
+  }
+
+  /* Hide background elements for contact section */
+  .room-neon-strips,
+  .room-pendant-lamps,
+  .room-monolith,
+  .room-floor,
+  .room-viewfinder-marker {
+    display: none !important;
+  }
+
+  .contact-card-wrap {
+    position: static !important;
+    padding: 0 !important;
+  }
+
+  .contact-card {
+    max-width: 100% !important;
+    background: none !important;
+    border: none !important;
+    box-sizing: border-box;
+    box-shadow: none !important;
+    padding: 0 !important;
+  }
+
+  /* Hide interactive form fields, show contact info instead */
+  .studio-form {
+    display: none !important;
+  }
+
+  /* Footer */
+  .site-footer {
+    background-color: #2A2A28 !important;
+    color: var(--chalk-white) !important;
+    padding: 30px 40px !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  .footer-social-nav {
+    display: none !important;
+  }
+}
