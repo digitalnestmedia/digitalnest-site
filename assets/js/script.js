@@ -106,6 +106,7 @@ function initServicesDirectory() {
   });
 }
 
+
 /**
  * 6. Interactive Cinematic Portfolio Exhibition Selector Navigation
  */
@@ -354,10 +355,12 @@ function initExternalLinks() {
   const links = document.querySelectorAll('a');
   links.forEach((link) => {
     const href = link.getAttribute('href');
-    // Open all non-anchor, non-javascript action URLs in a new tab
-    if (href && !href.startsWith('#') && !href.startsWith('javascript:') && href !== '') {
-      link.setAttribute('target', '_blank');
-      link.setAttribute('rel', 'noopener noreferrer');
+    // Open only actual external URLs (starting with http/https and not pointing to our own domain) in a new tab
+    if (href && (href.startsWith('http://') || href.startsWith('https://'))) {
+      if (!href.includes(window.location.hostname)) {
+        link.setAttribute('target', '_blank');
+        link.setAttribute('rel', 'noopener noreferrer');
+      }
     }
   });
 }
@@ -387,6 +390,10 @@ function initIframeShields() {
         if (modalLabel && label) {
           modalLabel.textContent = `Spatial Exhibition / ${label}`;
         }
+        const fullscreenBtn = modal.querySelector('.modal-fullscreen-btn');
+        if (fullscreenBtn) {
+          fullscreenBtn.setAttribute('href', getDirectMapsUrl(embedUrl));
+        }
         modal.classList.add('active-modal');
         modal.setAttribute('aria-hidden', 'false');
       }
@@ -401,6 +408,10 @@ function initIframeShields() {
       if (modalIframe) {
         modalIframe.setAttribute('src', '');
       }
+      const fullscreenBtn = modal.querySelector('.modal-fullscreen-btn');
+      if (fullscreenBtn) {
+        fullscreenBtn.setAttribute('href', '#');
+      }
     };
     closeBtn.addEventListener('click', closeModal);
     modal.addEventListener('click', (e) => {
@@ -409,4 +420,55 @@ function initIframeShields() {
       }
     });
   }
+}
+
+/**
+ * Parses a Google Maps embed URL and returns the direct Google Maps page URL.
+ */
+function getDirectMapsUrl(embedUrl) {
+  if (!embedUrl || !embedUrl.includes('google.com/maps')) {
+    return embedUrl;
+  }
+  
+  // 1. Street View / Pano embed (contains !6m8!1m7!1s)
+  if (embedUrl.includes('!6m8') && embedUrl.includes('!1s')) {
+    try {
+      const panoMatch = embedUrl.match(/!1s([^!]+)/);
+      const latMatch = embedUrl.match(/!1d([^!]+)/);
+      const lngMatch = embedUrl.match(/!2d([^!]+)/);
+      const headingMatch = embedUrl.match(/!3f([^!]+)/);
+      const pitchMatch = embedUrl.match(/!4f([^!]+)/);
+      
+      if (panoMatch && latMatch && lngMatch) {
+        const pano = panoMatch[1];
+        const lat = latMatch[1];
+        const lng = lngMatch[1];
+        let directUrl = `https://www.google.com/maps/@?api=1&map_action=pano&pano=${pano}&viewpoint=${lat},${lng}`;
+        if (headingMatch) {
+          directUrl += `&heading=${headingMatch[1]}`;
+        }
+        if (pitchMatch) {
+          directUrl += `&pitch=${pitchMatch[1]}`;
+        }
+        return directUrl;
+      }
+    } catch (e) {
+      console.error('Error parsing Street View embed URL:', e);
+    }
+  }
+  
+  // 2. Search / Place embed (contains !2s followed by place name/query)
+  if (embedUrl.includes('!2s')) {
+    try {
+      const queryMatch = embedUrl.match(/!2s([^!]+)/);
+      if (queryMatch) {
+        const queryName = decodeURIComponent(queryMatch[1].replace(/\+/g, ' '));
+        return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(queryName)}`;
+      }
+    } catch (e) {
+      console.error('Error parsing Place embed URL:', e);
+    }
+  }
+
+  return embedUrl;
 }

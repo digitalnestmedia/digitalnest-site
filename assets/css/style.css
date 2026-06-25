@@ -1425,6 +1425,37 @@ section {
   color: var(--chalk-white);
 }
 
+.portfolio-bottom-cta {
+  display: flex;
+  justify-content: center;
+  margin-top: 4vh;
+  width: 100%;
+  z-index: 10;
+}
+
+#portfolio .btn-portfolio-view-more {
+  background-color: var(--forest-green);
+  color: var(--chalk-white);
+  border: 1px solid var(--forest-green);
+}
+
+#portfolio .btn-portfolio-view-more:hover {
+  background-color: var(--chalk-white);
+  color: var(--ink-black);
+  border-color: var(--chalk-white);
+}
+
+@media (max-width: 900px) {
+  .portfolio-bottom-cta {
+    margin-top: 32px;
+  }
+  #portfolio .btn-portfolio-view-more {
+    width: 100%;
+    max-width: 280px;
+    justify-content: center;
+  }
+}
+
 /* --- 5. PROCESS SECTION (Blueprint Timeline) --- */
 #process {
   background-color: var(--chalk-white);
@@ -2962,6 +2993,34 @@ section {
   border-color: var(--chalk-white);
 }
 
+/* Widescreen Modal Fullscreen Action Button */
+.modal-fullscreen-btn {
+  background: none;
+  border: 1px solid rgba(245, 244, 240, 0.25);
+  color: var(--chalk-white);
+  padding: 6px 16px;
+  font-family: var(--font-body);
+  font-size: 10.5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.modal-fullscreen-btn:hover {
+  background-color: var(--chalk-white);
+  color: var(--ink-black);
+  border-color: var(--chalk-white);
+}
+
+.modal-fullscreen-btn span {
+  font-size: 14px;
+}
+
 @media (max-width: 600px) {
   .modal-chrome {
     height: auto;
@@ -3190,6 +3249,157 @@ section {
   }
 }
 
+/* --- 3.5. BENEFITS SECTION (Editorial Stats Columns) --- */
+#benefits {
+  background-color: var(--chalk-white);
+  color: var(--ink-black);
+  padding: var(--section-gap) 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.benefits-editorial-grid {
+  display: flex;
+  gap: 64px;
+  align-items: stretch;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.benefit-editorial-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 48px;
+  border: 1.5px solid rgba(28, 28, 26, 0.08);
+  background-color: var(--paper-beige);
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.col-meta-num {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 700;
+  color: rgba(28, 28, 26, 0.3);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.col-header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.col-eyebrow {
+  font-family: var(--font-serif);
+  font-size: 20px;
+  font-style: italic;
+  color: var(--forest-green);
+  line-height: 1.2;
+}
+
+.col-title {
+  font-family: var(--font-sans);
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--ink-black);
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.editorial-stat-block {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin: 12px 0;
+  border-top: 1px solid rgba(28, 28, 26, 0.08);
+  border-bottom: 1px solid rgba(28, 28, 26, 0.08);
+  padding: 24px 0;
+}
+
+.stat-number-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 90px;
+}
+
+.stat-number {
+  font-family: var(--font-sans);
+  font-size: 76px;
+  font-weight: 800;
+  color: var(--ink-black);
+  line-height: 1;
+  letter-spacing: -0.04em;
+  transition: color 0.4s ease;
+}
+
+.stat-label {
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: rgba(28, 28, 26, 0.7);
+}
+
+.col-desc {
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.7;
+  color: rgba(28, 28, 26, 0.6);
+  margin: 0;
+}
+
+.benefits-column-divider {
+  width: 1px;
+  background-color: rgba(28, 28, 26, 0.08);
+  align-self: stretch;
+}
+
+/* Subtle architectural hover highlight states */
+.benefit-editorial-col:hover {
+  border-color: var(--forest-green);
+  background-color: rgba(45, 106, 79, 0.015);
+  box-shadow: 6px 6px 0px rgba(45, 106, 79, 0.05);
+  transform: translateY(-4px);
+}
+
+.benefit-editorial-col:hover .stat-number {
+  color: var(--forest-green);
+}
+
+/* Responsive constraints */
+@media (max-width: 1024px) {
+  .benefits-editorial-grid {
+    gap: 40px;
+  }
+  .benefit-editorial-col {
+    padding: 36px;
+  }
+  .stat-number {
+    font-size: 64px;
+  }
+}
+
+@media (max-width: 900px) {
+  #benefits {
+    padding: 80px 0 !important;
+  }
+  .benefits-editorial-grid {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .benefits-column-divider {
+    display: none;
+  }
+  .benefit-editorial-col {
+    padding: 32px 24px;
+  }
+}
+
 /* ==========================================================================
    DIGITALNEST | PDF PRINT LAYOUT ENGINE
    ========================================================================== */
@@ -3248,7 +3458,7 @@ section {
   .iframe-interaction-shield,
   .btn-chrome,
   #spatial-tour-modal,
-  .btn-portfolio-archive,
+  .portfolio-bottom-cta,
   .scroll-text,
   .hero-orbit-rings,
   .backdrop-fog-overlay {
@@ -3326,6 +3536,32 @@ section {
 
   /* Hide the preview side image switcher in print, as we list everything textually */
   .services-preview-side {
+    display: none !important;
+  }
+  /* Benefits Section */
+  #benefits {
+    page-break-after: always !important;
+    break-after: page !important;
+    background-color: var(--chalk-white) !important;
+    color: var(--ink-black) !important;
+  }
+  
+  .benefits-editorial-grid {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 30px !important;
+  }
+
+  .benefit-editorial-col {
+    flex: 1 !important;
+    padding: 24px !important;
+    border: 1px solid rgba(28, 28, 26, 0.1) !important;
+    background-color: var(--paper-beige) !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  .benefits-column-divider {
     display: none !important;
   }
 
