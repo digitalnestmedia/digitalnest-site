@@ -3015,6 +3015,9 @@ section {
   object-fit: cover;
   filter: contrast(98%) brightness(98%);
   transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), filter 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
 .team-underline {
