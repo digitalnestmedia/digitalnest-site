@@ -2101,6 +2101,11 @@ section {
   letter-spacing: 0.08em;
 }
 
+.footer-designed-by strong .brand-green {
+  color: var(--forest-green);
+  transition: color 0.4s ease;
+}
+
 /* --- MOTION & ANIMATION SYSTEM --- */
 .reveal-block {
   opacity: 0;
