@@ -2144,6 +2144,175 @@ section {
   display: none;
 }
 
+/* --- FAQ SECTION (Premium Minimalist Accordion) --- */
+#faq {
+  background-color: var(--chalk-white);
+  overflow: hidden;
+}
+
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: 0.95fr 1.05fr;
+  gap: 80px;
+  align-items: start;
+  width: 100%;
+  max-height: calc(100vh - 120px);
+}
+
+.faq-info-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.faq-heading {
+  margin-top: 16px;
+  margin-bottom: 24px;
+  color: var(--ink-black);
+}
+
+.faq-subheading {
+  max-width: 420px;
+  font-size: 19px;
+  line-height: 1.6;
+  color: rgba(28, 28, 26, 0.6);
+}
+
+.faq-accordion-side {
+  max-height: 58vh;
+  overflow-y: auto;
+  padding-right: 16px;
+  /* Premium minimalist scrollbar styling */
+  scrollbar-width: thin;
+  scrollbar-color: rgba(28, 28, 26, 0.15) transparent;
+}
+
+.faq-accordion-side::-webkit-scrollbar {
+  width: 3px;
+}
+
+.faq-accordion-side::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.faq-accordion-side::-webkit-scrollbar-thumb {
+  background-color: rgba(28, 28, 26, 0.15);
+  border-radius: 1.5px;
+}
+
+.faq-accordion {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.accordion-item {
+  border-bottom: 1px solid rgba(28, 28, 26, 0.08);
+  padding: 20px 0;
+  transition: border-color 0.4s ease;
+}
+
+.accordion-item:last-child {
+  border-bottom: none;
+}
+
+.accordion-item.active {
+  border-color: rgba(28, 28, 26, 0.15);
+}
+
+.accordion-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-align: left;
+  gap: 24px;
+}
+
+.accordion-title {
+  font-family: var(--font-sans);
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--ink-black);
+  transition: color 0.3s ease;
+  line-height: 1.4;
+}
+
+.accordion-header:hover .accordion-title {
+  color: var(--forest-green);
+}
+
+.accordion-icon {
+  font-size: 20px;
+  color: rgba(28, 28, 26, 0.4);
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), color 0.3s ease;
+  user-select: none;
+}
+
+.accordion-item.active .accordion-icon {
+  transform: rotate(45deg);
+  color: var(--forest-green);
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.4s ease;
+  opacity: 0;
+}
+
+.accordion-item.active .accordion-content {
+  opacity: 1;
+}
+
+.accordion-inner {
+  padding-top: 14px;
+  padding-bottom: 4px;
+}
+
+.accordion-inner p {
+  font-family: var(--font-body);
+  font-size: 15.5px;
+  line-height: 1.65;
+  color: rgba(28, 28, 26, 0.65);
+}
+
+/* Collapsible wrapper for more questions */
+.faq-more-wrapper {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.5s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.4s ease;
+}
+
+.faq-more-wrapper.active {
+  opacity: 1;
+}
+
+.faq-toggle-row {
+  margin-top: 28px;
+  display: flex;
+}
+
+.faq-toggle-btn {
+  background: none !important;
+  border: none !important;
+  border-bottom: 1.5px solid var(--ink-black) !important;
+  padding: 0 0 6px 0 !important;
+  cursor: pointer;
+  outline: none;
+}
+
 /* ==========================================================================
    DIGITALNEST | MOBILE RESPONSIVENESS ENGINE
    MEDIA QUERY: COVERS PHONES, TABLETS & PORTABLE SCREENS (max-width: 900px)
@@ -2196,6 +2365,35 @@ section {
   .container {
     max-height: none !important;
     height: auto !important;
+  }
+
+  /* FAQ Section Mobile */
+  #faq {
+    background-color: var(--chalk-white);
+  }
+
+  .faq-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    max-height: none;
+  }
+
+  .faq-accordion-side {
+    max-height: none;
+    overflow-y: visible;
+    padding-right: 0;
+  }
+
+  .accordion-item {
+    padding: 16px 0;
+  }
+
+  .accordion-title {
+    font-size: 16px;
+  }
+
+  .accordion-inner p {
+    font-size: 14.5px;
   }
 }
 
@@ -3354,6 +3552,43 @@ section {
   }
 
   /* 4. Section Specific Adjustments */
+
+  /* FAQ Section Print */
+  #faq {
+    page-break-after: always !important;
+    break-after: page !important;
+  }
+
+  .faq-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 20px !important;
+  }
+
+  .faq-accordion-side {
+    max-height: none !important;
+    overflow-y: visible !important;
+  }
+
+  .faq-more-wrapper {
+    max-height: none !important;
+    opacity: 1 !important;
+    display: block !important;
+  }
+
+  .faq-toggle-row {
+    display: none !important;
+  }
+
+  .accordion-content {
+    max-height: none !important;
+    opacity: 1 !important;
+    display: block !important;
+  }
+
+  .accordion-icon {
+    display: none !important;
+  }
 
   /* Hero Section */
   #hero {

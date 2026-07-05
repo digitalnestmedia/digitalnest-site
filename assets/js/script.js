@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initContactForm();
   initExternalLinks();
   initIframeShields();
+  initFaqAccordion();
 });
 
 function initAtmosphericTracker() {
@@ -471,4 +472,83 @@ function getDirectMapsUrl(embedUrl) {
   }
 
   return embedUrl;
+}
+
+/**
+ * 12. Interactive FAQ Accordion Controller
+ * Handles toggling, height transitions, ARIA attributes, and icon changes.
+ */
+function initFaqAccordion() {
+  const headers = document.querySelectorAll('.accordion-header');
+
+  headers.forEach((header) => {
+    header.addEventListener('click', () => {
+      const item = header.parentElement;
+      const content = item.querySelector('.accordion-content');
+      const icon = header.querySelector('.accordion-icon');
+      const isOpen = item.classList.contains('active');
+
+      // Close all other items for a clean single-open accordion feel
+      document.querySelectorAll('.accordion-item.active').forEach((activeItem) => {
+        if (activeItem !== item) {
+          activeItem.classList.remove('active');
+          const activeContent = activeItem.querySelector('.accordion-content');
+          const activeHeader = activeItem.querySelector('.accordion-header');
+          const activeIcon = activeItem.querySelector('.accordion-icon');
+          if (activeContent) activeContent.style.maxHeight = null;
+          if (activeHeader) activeHeader.setAttribute('aria-expanded', 'false');
+          if (activeContent) activeContent.setAttribute('aria-hidden', 'true');
+          if (activeIcon) activeIcon.textContent = 'add';
+        }
+      });
+
+      // Toggle current item
+      if (isOpen) {
+        item.classList.remove('active');
+        content.style.maxHeight = null;
+        header.setAttribute('aria-expanded', 'false');
+        content.setAttribute('aria-hidden', 'true');
+        icon.textContent = 'add';
+      } else {
+        item.classList.add('active');
+        content.style.maxHeight = content.scrollHeight + 'px';
+        header.setAttribute('aria-expanded', 'true');
+        content.setAttribute('aria-hidden', 'false');
+        icon.textContent = 'close';
+      }
+    });
+  });
+
+  // Handle Show More / Show Less toggle
+  const toggleBtn = document.getElementById('faq-toggle-more-btn');
+  const moreWrapper = document.getElementById('faq-more-wrapper');
+  if (toggleBtn && moreWrapper) {
+    toggleBtn.addEventListener('click', () => {
+      const isShowing = moreWrapper.classList.contains('active');
+      if (isShowing) {
+        // Set to current scrollHeight first to enable transition from current state to 0
+        moreWrapper.style.maxHeight = moreWrapper.scrollHeight + 'px';
+        moreWrapper.offsetHeight; // Force reflow
+        moreWrapper.classList.remove('active');
+        moreWrapper.style.maxHeight = '0px';
+        moreWrapper.style.opacity = '0';
+        toggleBtn.textContent = 'Show More Questions';
+        toggleBtn.setAttribute('aria-expanded', 'false');
+        moreWrapper.setAttribute('aria-hidden', 'true');
+      } else {
+        moreWrapper.classList.add('active');
+        moreWrapper.style.maxHeight = moreWrapper.scrollHeight + 'px';
+        moreWrapper.style.opacity = '1';
+        toggleBtn.textContent = 'Show Less Questions';
+        toggleBtn.setAttribute('aria-expanded', 'true');
+        moreWrapper.setAttribute('aria-hidden', 'false');
+        // Set height to none after transition to allow child accordions to expand freely
+        setTimeout(() => {
+          if (moreWrapper.classList.contains('active')) {
+            moreWrapper.style.maxHeight = 'none';
+          }
+        }, 500);
+      }
+    });
+  }
 }
