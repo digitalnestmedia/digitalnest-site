@@ -89,8 +89,8 @@ panorama_D8535CF7_D46D_1728_41E8_7B7C7E4DBA33.label = 3 (7)
 panorama_D85368D2_D46D_3F68_41E6_EFF2E86AFDBD.label = 3 (8)
 panorama_D85323E4_D46D_1128_41E0_042A0C340516.label = 3 (9)
 album_2C8378D3_029E_D398_417D_9EA1108C9648_2.label = 4
-video_C4B2B29B_D3C7_A806_41E5_D71A436FAE9E.label = Adi Elementis_Actual Show Flat Explanatory Video
-video_C6B8FCCE_D3C3_D81E_41E1_212CA937BA44.label = Adi Elementis_Actual Show Flat Explanatory Video
+video_C4B2B29B_D3C7_A806_41E5_D71A436FAE9E.label = Sample Building_Actual Show Flat Explanatory Video
+video_C6B8FCCE_D3C3_D81E_41E1_212CA937BA44.label = Sample Building_Actual Show Flat Explanatory Video
 panorama_DB25868B_D0A1_0A9C_41D9_0CDCB7E0D0D1.label = Bedroom 1
 panorama_DB26015B_D0A1_07BD_41C5_C1DBA228DDA9.label = Bedroom Entrance
 panorama_DB27F0FA_D0A1_067D_41E8_29C84C100329.label = Bedroom Kid
@@ -340,4 +340,4 @@ HTMLText_29DD1615_3597_79DF_41C4_7593739E5260_mobile.html = <div style="text-ali
 ### Description
 
 ### Title
-tour.name = Adi Elements
+tour.name = Sample Building
