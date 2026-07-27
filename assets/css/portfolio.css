@@ -269,6 +269,12 @@ section.portfolio-gallery {
   padding: 1px 6px;
 }
 
+.card-chrome-badge.featured {
+  background-color: #E0A96D;
+  color: #1C1C1A;
+}
+
+
 /* Viewport crosshairs */
 .card-viewport .spatial-crosshair {
   border-color: rgba(28, 28, 26, 0.15);
