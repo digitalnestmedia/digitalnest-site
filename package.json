@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "dev": "npx -y serve ."
+  },
   "dependencies": {
     "puppeteer-core": "^25.2.0"
   }
