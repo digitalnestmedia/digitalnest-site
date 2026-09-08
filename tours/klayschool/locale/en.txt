@@ -1,0 +1,367 @@
+#: locale=en
+
+## Action
+
+### URL
+LinkBehaviour_986EDB77_81CF_9142_41C6_0CD91AC19361.source = https://klay.co.in/
+LinkBehaviour_AEA4F15B_815C_B142_41C5_73A3AB1CDB4A.source = https://klay.co.in/
+LinkBehaviour_AEA16173_815C_B142_41D1_DEB593D33308.source = https://klay.co.in/
+LinkBehaviour_6D108739_7EA6_8E5B_41BF_57B7AEFAC0D2.source = https://klay.co.in/
+LinkBehaviour_AEB010F5_815C_8F46_41D7_98F450D1D024.source = https://klay.co.in/about-us/
+LinkBehaviour_A625B598_8177_B1CE_41D4_7AB2E7E717C8.source = https://klay.co.in/about-us/
+WebFrame_22F9EEFF_0C1A_2293_4165_411D4444EFEA_mobile.url = https://maps.google.com/maps?output=embed&center=18.5634677,73.7777268&z=17&q=KLAY+Baner+Preschools+and+Daycare
+WebFrame_22F9EEFF_0C1A_2293_4165_411D4444EFEA.url = https://maps.google.com/maps?output=embed&center=18.5634677,73.7777268&z=17&q=KLAY+Baner+Preschools+and+Daycare
+LinkBehaviour_94E7A629_815B_92CE_41D5_0C1424928B88.source = https://www.facebook.com/klaypreschools/
+LinkBehaviour_AEB760EA_815C_8F42_41C3_228924552BEA.source = https://www.facebook.com/klaypreschools/
+LinkBehaviour_AEB180F6_815C_8F42_41D3_E8F93AC8F1F2.source = https://www.youtube.com/@klaypreschoolsanddaycare
+LinkBehaviour_667130B2_7EFD_8269_41CE_DE25DE937FB2.source = https://www.youtube.com/@klaypreschoolsanddaycare
+
+## Hotspot
+
+### Text
+HotspotPanoramaOverlayTextImage_99B89ACD_815D_9346_41DD_4EC474B7866F.text = CENTER DIRECTOR ROOM
+HotspotPanoramaOverlayTextImage_59077358_7764_5CBB_41C6_453BBAC5D0B4.text = EXIT
+HotspotPanoramaOverlayTextImage_9922B014_814D_8EC6_41D8_1C30A8C30255.text = FIRST FLOOR
+HotspotPanoramaOverlayTextImage_9972ED92_815B_91C2_41BB_57FB6813B236.text = FOURTH FLOOR
+HotspotPanoramaOverlayTextImage_99263F5A_8157_7142_41B5_8680FE434DEE.text = KITCHEN
+HotspotPanoramaOverlayTextImage_9961928A_8154_F3C2_418C_967344D77E3B.text = NAP AREA
+HotspotPanoramaOverlayTextImage_96995667_8154_B342_41D9_566CB205EE72.text = SECOND FLOOR
+HotspotPanoramaOverlayTextImage_9686A932_8155_9EC2_41D0_1C5A16C01366.text = THIRD FLOOR
+
+## Media
+
+### Image
+imlevel_99C1A3B6_815C_91C2_41DE_BE030312E976.url = media/panorama_79D14D27_7524_6494_41C4_9435466BD838_HS_of7s5k6i_en.webp
+imlevel_961A2977_814D_B142_4187_89F3A27EF987.url = media/panorama_79D1740C_752C_649B_41BC_576A05D31131_HS_s1s23yjp_en.webp
+imlevel_99C0C3EE_815C_9142_41B6_3D124B45CB5D.url = media/panorama_79D3EF9E_7524_E3B4_41C4_D62362A31CAC_HS_wef7mqyk_en.webp
+imlevel_99E6A320_815C_92FE_41B1_CAA25BBFE522.url = media/panorama_79D62F37_752D_A4F4_41D1_007894F3F50C_HS_6zul0ztj_en.webp
+imlevel_99C6C369_815C_914E_41A4_CB89BBD7692F.url = media/panorama_79D6948C_7523_A594_4190_7C3F97964E07_HS_aj9lfmdz_en.webp
+imlevel_46E2CCF8_775C_A57C_41D2_4977E3BB0EDA.url = media/panorama_79D72615_7523_E4B4_41D5_421F8BAAED10_HS_bkxwhuau_en.webp
+imlevel_96C31A02_814D_B2C2_41C6_BC4B5CE5360B.url = media/panorama_79D787FD_752C_A374_41B5_F2161580D7B5_HS_i52jznfa_en.webp
+imlevel_96B90A58_814D_B34E_41CB_7379F81B293A.url = media/panorama_79D7F36D_752C_DC94_41DA_100566E1864A_HS_9b307uwy_en.webp
+imlevel_63A04940_7F62_8229_41D3_83727A246ADA.url = media/popup_6148FF1F_7F63_BE57_41D5_E79EA13F71B1_en_0_0.webp
+imlevel_63A13941_7F62_822B_4193_8F99A9839ADB.url = media/popup_6148FF1F_7F63_BE57_41D5_E79EA13F71B1_en_0_1.webp
+imlevel_63A14941_7F62_822B_41D6_2E6C3299E0C0.url = media/popup_6148FF1F_7F63_BE57_41D5_E79EA13F71B1_en_0_2.webp
+imlevel_62DC9907_7F66_8228_41D5_70365F482AD0.url = media/popup_6177C080_7F65_8228_41C4_FC3E9FBB293C_en_0_0.webp
+imlevel_62DC8908_7F66_8238_41D2_13AD12892FAB.url = media/popup_6177C080_7F65_8228_41C4_FC3E9FBB293C_en_0_1.webp
+imlevel_62DCB908_7F66_8238_41DB_904AA4C225F3.url = media/popup_6177C080_7F65_8228_41C4_FC3E9FBB293C_en_0_2.webp
+imlevel_62DCA908_7F66_8238_41C7_18D89CE8F74C.url = media/popup_6177C080_7F65_8228_41C4_FC3E9FBB293C_en_0_3.webp
+imlevel_61322D8B_7F6D_823F_41D5_648EFAB6371D.url = media/popup_61AB24DC_7F6D_83D9_41C0_34A288865485_en_0_0.webp
+imlevel_61332D8B_7F6D_823F_41B6_90088D394F4E.url = media/popup_61AB24DC_7F6D_83D9_41C0_34A288865485_en_0_1.webp
+imlevel_61333D8B_7F6D_823F_41D9_E299C5705640.url = media/popup_61AB24DC_7F6D_83D9_41C0_34A288865485_en_0_2.webp
+imlevel_61331D8B_7F6D_823F_41CF_EEE43F5A169E.url = media/popup_61AB24DC_7F6D_83D9_41C0_34A288865485_en_0_3.webp
+imlevel_616DDEAB_7F6D_7E7F_41DA_6CE9F1AC984C.url = media/popup_61E47728_7F62_8E78_41B6_819981AABF0E_en_0_0.webp
+imlevel_6162CEAC_7F6D_7E79_41D5_05E5F2568161.url = media/popup_61E47728_7F62_8E78_41B6_819981AABF0E_en_0_1.webp
+imlevel_6162BEAC_7F6D_7E79_41D4_2C4E4813017C.url = media/popup_61E47728_7F62_8E78_41B6_819981AABF0E_en_0_2.webp
+imlevel_6162AEAC_7F6D_7E79_41D2_A76598A4C1B4.url = media/popup_61E47728_7F62_8E78_41B6_819981AABF0E_en_0_3.webp
+imlevel_610D7ED9_7F6D_BFDB_41C5_E60D9E76AB82.url = media/popup_61E495F5_7F6E_8DEB_41DC_E5AA0BF52BA5_en_0_0.webp
+imlevel_610D1EDA_7F6D_BFD9_41D1_04CDB2E39670.url = media/popup_61E495F5_7F6E_8DEB_41DC_E5AA0BF52BA5_en_0_1.webp
+imlevel_610D0EDA_7F6D_BFD9_41DC_50BF73931766.url = media/popup_61E495F5_7F6E_8DEB_41DC_E5AA0BF52BA5_en_0_2.webp
+imlevel_610D3EDA_7F6D_BFD9_41DD_DBAEB207D475.url = media/popup_61E495F5_7F6E_8DEB_41DC_E5AA0BF52BA5_en_0_3.webp
+imlevel_8CC8D643_814D_9342_41D1_9C2A424E99A2.url = media/popup_61E9F63E_7F62_8E59_41D6_64B6BBE846B0_en_0_0.webp
+imlevel_8CC8E643_814D_9342_41B9_34ADFF6CA852.url = media/popup_61E9F63E_7F62_8E59_41D6_64B6BBE846B0_en_0_1.webp
+imlevel_8CC8F643_814D_9342_41D0_9CFAAEDC268F.url = media/popup_61E9F63E_7F62_8E59_41D6_64B6BBE846B0_en_0_2.webp
+imlevel_8CC80647_814D_9342_41DB_D1CDE1FD8B1B.url = media/popup_61E9F63E_7F62_8E59_41D6_64B6BBE846B0_en_0_3.webp
+imlevel_62D3B970_7F66_82E9_41BB_717D5A0FFCE9.url = media/popup_62184C5E_7F7E_82D9_41CC_8DAF5B852DDF_en_0_0.webp
+imlevel_62D04971_7F66_82EB_416C_09EC3A01D0C0.url = media/popup_62184C5E_7F7E_82D9_41CC_8DAF5B852DDF_en_0_1.webp
+imlevel_62D05971_7F66_82EB_41D9_1538C9A0A73C.url = media/popup_62184C5E_7F7E_82D9_41CC_8DAF5B852DDF_en_0_2.webp
+imlevel_62D07971_7F66_82EB_41D2_932127E1B4AE.url = media/popup_62184C5E_7F7E_82D9_41CC_8DAF5B852DDF_en_0_3.webp
+imlevel_63FE4EC0_7F66_9E29_41D4_0551B9BE4537.url = media/popup_629E58D4_7F67_8229_41C6_F1B0BD596474_en_0_0.webp
+imlevel_63FF7EC1_7F66_9E2B_41DC_9556B84974C3.url = media/popup_629E58D4_7F67_8229_41C6_F1B0BD596474_en_0_1.webp
+imlevel_63FFAEC1_7F66_9E2B_41B9_B1B2ECC355F7.url = media/popup_629E58D4_7F67_8229_41C6_F1B0BD596474_en_0_2.webp
+imlevel_99FAE309_815C_92CE_41B7_24B0C6AE552E.url = media/popup_983418C6_815C_9F42_41B1_8B24612374AF_en_0_0.webp
+imlevel_99FAF30A_815C_92C2_41D9_7AFCBC9CA82A.url = media/popup_983418C6_815C_9F42_41B1_8B24612374AF_en_0_1.webp
+imlevel_99FAD30A_815C_92C2_41D6_62F511B205BB.url = media/popup_983418C6_815C_9F42_41B1_8B24612374AF_en_0_2.webp
+
+### Popup Image
+
+### Title
+album_A6A59729_8174_92CE_418B_B100A9B1FCF9_0.label = 0001
+album_A6A59729_8174_92CE_418B_B100A9B1FCF9_1.label = 0002
+album_A6A59729_8174_92CE_418B_B100A9B1FCF9_2.label = 0003
+album_A6A59729_8174_92CE_418B_B100A9B1FCF9_3.label = 0004
+album_A6A59729_8174_92CE_418B_B100A9B1FCF9_4.label = 0005
+photo_A7D407D9_8175_714E_4182_DC87F30A5875.label = 01
+photo_A7D407D9_8175_714E_4182_DC87F30A5875.label = 01
+photo_A490D6E1_8175_B37E_41C4_3218CA2B42A1.label = 02
+photo_A490D6E1_8175_B37E_41C4_3218CA2B42A1.label = 02
+panorama_79D69A71_752C_6C8C_41CF_7FAE57A8C5A6.label = 1 (10)
+panorama_79D6F6F6_752D_A577_41C5_FCDB58301BA9.label = 1 (11)
+panorama_79D6A237_752D_BCF5_41B3_C4E42C3EFC4F.label = 1 (12)
+panorama_6C9F6AA5_7565_ED94_41C5_57F6FF08411B.label = 1 (14)
+panorama_79D6A4C9_752D_E59C_41C7_C6D4C461B209.label = 1 (15)
+panorama_79D6831B_752D_DCBC_4186_67D6F4DC46A0.label = 1 (16)
+panorama_79D62F37_752D_A4F4_41D1_007894F3F50C.label = 1 (17)
+panorama_79D66A68_752D_AC9C_41CC_49A5743553C6.label = 1 (18)
+panorama_79D7C677_752C_6574_41B3_7FC0F21C0B53.label = 1 (19)
+panorama_79A78D18_752C_A4BB_41D0_B3450AD4107A.label = 1 (2)
+panorama_79D7A3C0_752C_638C_41C1_E5886B97DDA6.label = 1 (20)
+panorama_79D63985_752C_EF94_41D5_65A9D7E12D3F.label = 1 (3)
+panorama_79D6455F_752C_E4B4_41C5_854D77DA235B.label = 1 (4)
+panorama_79D63108_752C_DC9C_41D9_C45D3BBCA1C3.label = 1 (5)
+panorama_79D64D03_752C_A48C_41A6_D0D49927292C.label = 1 (6)
+panorama_79D66878_752C_AD7C_41BE_106B6EB7375A.label = 1 (7)
+panorama_79D1740C_752C_649B_41BC_576A05D31131.label = 1 (8)
+panorama_79D6AF62_752C_648C_41B2_13B987C4C826.label = 1 (9)
+panorama_79D787FD_752C_A374_41B5_F2161580D7B5.label = 2 (1)
+panorama_79D751FA_752C_7F7F_41D4_AACF8E79803B.label = 2 (10)
+panorama_79D76D5F_752C_64B4_41D7_0C2BC588BF5A.label = 2 (11)
+panorama_79D71881_7523_AD8C_41D3_33C5D42287C1.label = 2 (12)
+panorama_79D6948C_7523_A594_4190_7C3F97964E07.label = 2 (13)
+panorama_79D75FCF_7523_A394_41C7_85FC031FDCF7.label = 2 (14)
+panorama_79D72615_7523_E4B4_41D5_421F8BAAED10.label = 2 (16)
+panorama_79D698E6_7523_AD94_41C4_D1C62B49F271.label = 2 (19)
+panorama_79D7A514_752C_A4B4_41CB_58F0C543A4CB.label = 2 (2)
+panorama_79D1447E_7524_6574_41D2_49D138B2B06D.label = 2 (20)
+panorama_79D14FE4_7524_6394_41D1_A7ED3E2B24F9.label = 2 (21)
+panorama_79D14BCD_7524_6394_41CA_4B9B58ED3A15.label = 2 (22)
+panorama_79D18762_7524_A48C_41DB_0B24EE086FA8.label = 2 (23)
+panorama_79D17243_7524_BC8C_4172_AB332069A8BE.label = 2 (24)
+panorama_79D14D03_7524_A48C_419A_CA284761DE1D.label = 2 (25)
+panorama_79D137B0_7524_E38C_41D7_D42EB0DDD927.label = 2 (26)
+panorama_79D19345_7524_FC94_41DB_6347B57D4F89.label = 2 (27)
+panorama_79D1CE76_7524_E574_41D0_26FE80A527B8.label = 2 (28)
+panorama_79D1D9DC_7524_AFB4_41D1_06F72BA45E4C.label = 2 (29)
+panorama_79D7F14E_752C_DC94_41CE_AEF03FC56623.label = 2 (3)
+panorama_6620358D_7690_7B03_41DC_10C5BF78B047.label = 2 (30)
+panorama_79D161D1_7524_5F8C_41BB_69686FC55BE9.label = 2 (31)
+panorama_79D29921_7524_6C8F_41D1_AD572FC716EE.label = 2 (33)
+panorama_79D14431_7525_A48C_41C0_68BEFB7D52BD.label = 2 (34)
+panorama_79D2BF01_7525_A48C_41DA_55E2D2941CB6.label = 2 (35)
+panorama_79D15A43_7525_AC8C_41D3_3DB2E9E08581.label = 2 (36)
+panorama_79D2E5A7_7525_E794_41A5_F22BEDCA2AA9.label = 2 (37)
+panorama_79D2B10E_7525_FC94_41CE_FA3762E5546D.label = 2 (38)
+panorama_79D28BCC_7525_E39B_41D8_1D8B9EA143E4.label = 2 (39)
+panorama_79D7FD6B_752C_E49C_41CD_03524ACF9DB9.label = 2 (4)
+panorama_79D2B785_7525_A395_41CA_8B784002731B.label = 2 (40)
+panorama_79D2930C_7525_BC9B_41D4_38DF98D63426.label = 2 (41)
+panorama_79D26F78_7525_A37C_41D5_56AD89488D04.label = 2 (42)
+panorama_79D3AD12_7524_648C_41D3_51FD891FE077.label = 2 (43)
+panorama_79D377E4_7524_638B_41D9_1536B7486041.label = 2 (44)
+panorama_79D35305_7524_5C95_418E_1F48A70FBC7C.label = 2 (45)
+panorama_79D3BE46_7524_A494_41C6_76952AB5B805.label = 2 (46)
+panorama_79D3A8F5_7524_AD74_41CE_EF0BDB974767.label = 2 (47)
+panorama_79D3E49E_7524_E5B4_41C0_AEB1A7659860.label = 2 (48)
+panorama_79D7E85E_752C_ECB7_41C1_D18308C2A78C.label = 2 (5)
+panorama_79D3FAA2_7524_ED8F_41CD_33EF3E1E66CA.label = 2 (50)
+panorama_79D39659_7524_A4BC_41CB_7078AFA4F637.label = 2 (51)
+panorama_79D3C1DA_7524_BFBC_41C9_90C0278D9E9B.label = 2 (52)
+panorama_79D38CDF_7524_A5B4_41DB_2D29F6EC8609.label = 2 (53)
+panorama_79D35882_7524_6D8C_41BD_FC4D5AA40CD2.label = 2 (54)
+panorama_79D29364_7524_7C94_41D5_26151955A3BE.label = 2 (55)
+panorama_79D36E56_7524_64B4_41D4_AC50314D6549.label = 2 (56)
+panorama_79D7F36D_752C_DC94_41DA_100566E1864A.label = 2 (6)
+panorama_79D7AF98_752C_A3BC_41D7_F8BBF6DB6539.label = 2 (7)
+panorama_79D78AFF_752C_AD74_41C4_FCA5B45B5ABF.label = 2 (8)
+panorama_79D7771A_752C_64BC_41BF_784D252C4A10.label = 2 (9)
+photo_A7F2E4F1_8175_975E_41C4_505F98DA278A.label = ChatGPT Image Sep 8, 2026, 08_01_43 AM
+photo_A7F2E4F1_8175_975E_41C4_505F98DA278A.label = ChatGPT Image Sep 8, 2026, 08_01_43 AM
+panorama_79D6DE0E_752D_A494_41D5_CD0F32AEEBA5.label = Lift 1
+panorama_79D14D27_7524_6494_41C4_9435466BD838.label = Lift 3
+panorama_79D3EF9E_7524_E3B4_41C4_D62362A31CAC.label = Lift Fourth
+panorama_6206177D_7565_A374_41C8_B60E4ED6207E.label = Lift Inside
+panorama_79D6CAE0_7523_ED8C_41C0_FD9CE5974A07.label = Lift Second
+album_A6A59729_8174_92CE_418B_B100A9B1FCF9.label = Photo Album 0001
+panorama_79D6CD42_7523_A48C_41C1_B12E60872CFD.label = Washroom
+panorama_79D6C168_7523_DC9C_41D3_F61DC3142F2B.label = Washroom Front
+
+## Skin
+
+### Button
+Button_2A2DA53B_310E_001C_41C7_8885E712C50B_mobile.label = BACK
+Button_2A2DA53B_310E_001C_41C7_8885E712C50B.label = BACK
+Button_1757CD7D_31FA_0015_4143_A9E37B16A50B_mobile.label = BACK
+Button_1757CD7D_31FA_0015_4143_A9E37B16A50B.label = BACK
+Button_15A15DDC_31FA_0014_41A4_CE4305FEC7D1.label = BACK
+Button_17EA82B7_3106_0014_41C2_C9B0D9E6F22C_mobile.label = BACK
+Button_15A15DDC_31FA_0014_41A4_CE4305FEC7D1_mobile.label = BACK
+Button_175A5214_31FA_0014_4198_930DF49BADD9.label = BACK
+Button_168CA310_3106_01EC_41C7_72CE0522951A_mobile.label = BACK
+Button_168CA310_3106_01EC_41C7_72CE0522951A.label = BACK
+Button_17EA82B7_3106_0014_41C2_C9B0D9E6F22C.label = BACK
+Button_175A5214_31FA_0014_4198_930DF49BADD9_mobile.label = BACK
+Button_2A2C553C_310E_0014_41C4_86393D0ADCC7.label = Bar
+Button_2A2C553C_310E_0014_41C4_86393D0ADCC7_mobile.label = Bar
+Button_15EF2665_3106_0035_41AE_9BACA1A48D02.label = Chill Out
+Button_15EF2665_3106_0035_41AE_9BACA1A48D02_mobile.label = Chill Out
+Button_062AF830_1140_E215_418D_D2FC11B12C47_mobile.label = EXPLORE MORE
+Button_062AF830_1140_E215_418D_D2FC11B12C47.label = EXPLORE MORE
+Button_1203FDB8_3106_001C_41B6_C9BE8EDD0DA9.label = Garden
+Button_1203FDB8_3106_001C_41B6_C9BE8EDD0DA9_mobile.label = Garden
+Button_2A2DE53B_310E_001C_41BB_C7AB6950A4DD_mobile.label = Lobby
+Button_2A2DE53B_310E_001C_41BB_C7AB6950A4DD.label = Lobby
+Button_159E8DDD_31FA_0014_41C5_F18F441AF371.label = Lorem Ipsum
+Button_159EBDDD_31FA_0014_41C8_935504B30727.label = Lorem Ipsum
+Button_159EEDDC_31FA_0014_41B6_22A86B2D2FEB.label = Lorem Ipsum
+Button_1757AD7D_31FA_0015_41C7_FB79F56FA149.label = Lorem Ipsum
+Button_17565D7D_31FA_0015_4193_78BBCB2DC70F.label = Lorem Ipsum
+Button_17564D7D_31FA_0015_41B8_A9191CD56C52.pressedLabel = Lorem Ipsum
+Button_17564D7D_31FA_0015_41B8_A9191CD56C52.label = Lorem Ipsum
+Button_17567D7D_31FA_0015_41C2_1E0D0AF05C7A.label = Lorem Ipsum
+Button_17566D7D_31FA_0015_41AD_98D7C60C694F.label = Lorem Ipsum
+Button_159ECDDC_31FA_0014_41B9_2D5AB1021813.label = Lorem Ipsum
+Button_17560D7D_31FA_0015_41C4_7F0EC7540CC2.label = Lorem Ipsum
+Button_17562D7D_31FA_0015_41A3_96B282B30DBA.label = Lorem Ipsum
+Button_1756DD7D_31FA_0015_41A5_988B67FCF8B7.label = Lorem Ipsum
+Button_1756FD7D_31FA_0015_41C7_DA2AAC2AAAEC.label = Lorem Ipsum
+Button_159EDDDC_31FA_0014_419A_61C18E43FE01.label = Lorem Ipsum
+Button_1759A215_31FA_0014_41C7_F6B1044E5BB3.label = Lorem Ipsum
+Button_1758B215_31FA_0014_41BC_C4EAC2A9544B.label = Lorem Ipsum
+Button_15A12DDC_31FA_0014_416B_ED845741AE5F.label = Lorem Ipsum
+Button_1759F215_31FA_0014_41BD_BBFA5FB0D882.label = Lorem Ipsum
+Button_15A12DDC_31FA_0014_416B_ED845741AE5F.pressedLabel = Lorem Ipsum
+Button_17593215_31FA_0014_41C0_42BAFB0080F0.label = Lorem Ipsum
+Button_15A13DDC_31FA_0014_41C5_41AE80876834.label = Lorem Ipsum
+Button_17590215_31FA_0014_41C1_2B2D012DCC76.label = Lorem Ipsum
+Button_17597215_31FA_0014_41C0_9BEE1DE4D7F6.label = Lorem Ipsum
+Button_17596215_31FA_0014_41C6_A42670770708.label = Lorem Ipsum
+Button_159E9DDC_31FA_0015_41B6_CB1D433C7673.label = Lorem Ipsum
+Button_15A10DDC_31FA_0014_4185_021C898E177D.label = Lorem Ipsum
+Button_17EAB2B7_3106_0014_41A7_209417AD3E9A.label = Lorem Ipsum
+Button_17EAD2B7_3106_0014_41C0_0B5453B4841D.label = Lorem Ipsum
+Button_17EAE2B7_3106_0014_41C7_DB7FC43AAEE0.pressedLabel = Lorem Ipsum
+Button_17EAE2B7_3106_0014_41C7_DB7FC43AAEE0.label = Lorem Ipsum
+Button_17EB02B7_3106_0014_41AF_05D9AC36B189.label = Lorem Ipsum
+Button_17EB32B7_3106_0014_41C8_467BF6AECBE8.label = Lorem Ipsum
+Button_13D4FC1E_310A_0017_41BA_DDA6D071C1BA.label = Lorem Ipsum
+Button_17EB52B7_3106_0014_419C_439E593AEC43.label = Lorem Ipsum
+Button_17EB62B7_3106_0014_41C5_43B38271B353.label = Lorem Ipsum
+Button_17EB72B7_3106_0014_41B9_61857077BF4A.label = Lorem Ipsum
+Button_17EB92B7_3106_0014_41B2_34A3E3F63779.label = Lorem Ipsum
+Button_168DD310_3106_01EC_4190_7815FA70349E_mobile.label = Lorem Ipsum
+Button_168D6310_3106_01EC_41B8_A0B6BE627547.label = Lorem Ipsum
+Button_168D5310_3106_01EC_41B5_96D9387401B8.label = Lorem Ipsum
+Button_168D3310_3106_01EC_41AC_5D524E4677A5.pressedLabel = Lorem Ipsum
+Button_168D3310_3106_01EC_41AC_5D524E4677A5.label = Lorem Ipsum
+Button_168D2310_3106_01EC_41B8_9D7D1B2B55FA.label = Lorem Ipsum
+Button_168D0310_3106_01EC_41A1_FA8FC42E6FF3.label = Lorem Ipsum
+Button_168DB310_3106_01EC_41B2_3511AA5E40E1_mobile.label = Lorem Ipsum
+Button_168D5310_3106_01EC_41B5_96D9387401B8_mobile.label = Lorem Ipsum
+Button_168DB310_3106_01EC_41B2_3511AA5E40E1.label = Lorem Ipsum
+Button_168DA310_3106_01EC_41BE_DF88732C2A28.label = Lorem Ipsum
+Button_168D9311_3106_01EC_41A8_3BD8769525D6.label = Lorem Ipsum
+Button_168DA310_3106_01EC_41BE_DF88732C2A28_mobile.label = Lorem Ipsum
+Button_168D9311_3106_01EC_41A8_3BD8769525D6_mobile.label = Lorem Ipsum
+Button_17598215_31FA_0014_41AC_1166AB319171.label = Lorem Ipsum
+Button_1759F215_31FA_0014_41BD_BBFA5FB0D882.pressedLabel = Lorem Ipsum
+Button_1759D215_31FA_0014_41AD_B6C5744A0B97.label = Lorem Ipsum
+Button_168D0310_3106_01EC_41A1_FA8FC42E6FF3_mobile.label = Lorem Ipsum
+Button_168D2310_3106_01EC_41B8_9D7D1B2B55FA_mobile.label = Lorem Ipsum
+Button_168D3310_3106_01EC_41AC_5D524E4677A5_mobile.label = Lorem Ipsum
+Button_168DD310_3106_01EC_4190_7815FA70349E.label = Lorem Ipsum
+Button_1756FD7D_31FA_0015_41C7_DA2AAC2AAAEC_mobile.label = Lorem Ipsum
+Button_168D3310_3106_01EC_41AC_5D524E4677A5_mobile.pressedLabel = Lorem Ipsum
+Button_1756DD7D_31FA_0015_41A5_988B67FCF8B7_mobile.label = Lorem Ipsum
+Button_13D4FC1E_310A_0017_41BA_DDA6D071C1BA_mobile.label = Lorem Ipsum
+Button_17EB92B7_3106_0014_41B2_34A3E3F63779_mobile.label = Lorem Ipsum
+Button_15A10DDC_31FA_0014_4185_021C898E177D_mobile.label = Lorem Ipsum
+Button_15A13DDC_31FA_0014_41C5_41AE80876834_mobile.label = Lorem Ipsum
+Button_15A12DDC_31FA_0014_416B_ED845741AE5F_mobile.pressedLabel = Lorem Ipsum
+Button_15A12DDC_31FA_0014_416B_ED845741AE5F_mobile.label = Lorem Ipsum
+Button_159EDDDC_31FA_0014_419A_61C18E43FE01_mobile.label = Lorem Ipsum
+Button_159ECDDC_31FA_0014_41B9_2D5AB1021813_mobile.label = Lorem Ipsum
+Button_17598215_31FA_0014_41AC_1166AB319171_mobile.label = Lorem Ipsum
+Button_159EEDDC_31FA_0014_41B6_22A86B2D2FEB_mobile.label = Lorem Ipsum
+Button_159E9DDC_31FA_0015_41B6_CB1D433C7673_mobile.label = Lorem Ipsum
+Button_159E8DDD_31FA_0014_41C5_F18F441AF371_mobile.label = Lorem Ipsum
+Button_159EBDDD_31FA_0014_41C8_935504B30727_mobile.label = Lorem Ipsum
+Button_1759F215_31FA_0014_41BD_BBFA5FB0D882_mobile.label = Lorem Ipsum
+Button_1757AD7D_31FA_0015_41C7_FB79F56FA149_mobile.label = Lorem Ipsum
+Button_17565D7D_31FA_0015_4193_78BBCB2DC70F_mobile.label = Lorem Ipsum
+Button_17564D7D_31FA_0015_41B8_A9191CD56C52_mobile.pressedLabel = Lorem Ipsum
+Button_17564D7D_31FA_0015_41B8_A9191CD56C52_mobile.label = Lorem Ipsum
+Button_17567D7D_31FA_0015_41C2_1E0D0AF05C7A_mobile.label = Lorem Ipsum
+Button_17566D7D_31FA_0015_41AD_98D7C60C694F_mobile.label = Lorem Ipsum
+Button_17590215_31FA_0014_41C1_2B2D012DCC76_mobile.label = Lorem Ipsum
+Button_17560D7D_31FA_0015_41C4_7F0EC7540CC2_mobile.label = Lorem Ipsum
+Button_17562D7D_31FA_0015_41A3_96B282B30DBA_mobile.label = Lorem Ipsum
+Button_17EB62B7_3106_0014_41C5_43B38271B353_mobile.label = Lorem Ipsum
+Button_17EB72B7_3106_0014_41B9_61857077BF4A_mobile.label = Lorem Ipsum
+Button_168D6310_3106_01EC_41B8_A0B6BE627547_mobile.label = Lorem Ipsum
+Button_1759A215_31FA_0014_41C7_F6B1044E5BB3_mobile.label = Lorem Ipsum
+Button_1758B215_31FA_0014_41BC_C4EAC2A9544B_mobile.label = Lorem Ipsum
+Button_1759F215_31FA_0014_41BD_BBFA5FB0D882_mobile.pressedLabel = Lorem Ipsum
+Button_17596215_31FA_0014_41C6_A42670770708_mobile.label = Lorem Ipsum
+Button_1759D215_31FA_0014_41AD_B6C5744A0B97_mobile.label = Lorem Ipsum
+Button_17593215_31FA_0014_41C0_42BAFB0080F0_mobile.label = Lorem Ipsum
+Button_17EB52B7_3106_0014_419C_439E593AEC43_mobile.label = Lorem Ipsum
+Button_17EB32B7_3106_0014_41C8_467BF6AECBE8_mobile.label = Lorem Ipsum
+Button_17597215_31FA_0014_41C0_9BEE1DE4D7F6_mobile.label = Lorem Ipsum
+Button_17EB02B7_3106_0014_41AF_05D9AC36B189_mobile.label = Lorem Ipsum
+Button_17EAE2B7_3106_0014_41C7_DB7FC43AAEE0_mobile.pressedLabel = Lorem Ipsum
+Button_17EAE2B7_3106_0014_41C7_DB7FC43AAEE0_mobile.label = Lorem Ipsum
+Button_17EAB2B7_3106_0014_41A7_209417AD3E9A_mobile.label = Lorem Ipsum
+Button_17EAD2B7_3106_0014_41C0_0B5453B4841D_mobile.label = Lorem Ipsum
+Button_17561D7D_31FA_0015_41B5_BD72FAC26B8B_mobile.label = Lorem ipsum
+Button_17592215_31FA_0014_41B2_AA3B5CC318B8_mobile.label = Lorem ipsum
+Button_159EFDDC_31FA_0014_41C6_9CF7032F84E0_mobile.label = Lorem ipsum
+Button_17EB42B7_3106_0014_41B0_CE70CBDDF438.label = Lorem ipsum
+Button_17EB42B7_3106_0014_41B0_CE70CBDDF438_mobile.label = Lorem ipsum
+Button_17561D7D_31FA_0015_41B5_BD72FAC26B8B.label = Lorem ipsum
+Button_168DE310_3106_01EC_4192_6A9F468A0ADE.label = Lorem ipsum
+Button_168DE310_3106_01EC_4192_6A9F468A0ADE_mobile.label = Lorem ipsum
+Button_17592215_31FA_0014_41B2_AA3B5CC318B8.label = Lorem ipsum
+Button_159EFDDC_31FA_0014_41C6_9CF7032F84E0.label = Lorem ipsum
+Button_2A2D853B_310E_001C_41C4_1C2E2BAFC35D.label = Main Entrance
+Button_2A2D853B_310E_001C_41C4_1C2E2BAFC35D_mobile.label = Main Entrance
+Button_2A2C053B_310E_001C_41A2_583DE489828C_mobile.label = Meeting Area 1
+Button_2A2C053B_310E_001C_41A2_583DE489828C.label = Meeting Area 1
+Button_2A2C753B_310E_001C_41C4_B649CCC20E3D.label = Meeting Area 2
+Button_2A2C753B_310E_001C_41C4_B649CCC20E3D_mobile.label = Meeting Area 2
+Button_2A2C253B_310E_001C_41B6_D3A7F4F68C3E.pressedLabel = Reception
+Button_2A2C253B_310E_001C_41B6_D3A7F4F68C3E_mobile.label = Reception
+Button_2A2C253B_310E_001C_41B6_D3A7F4F68C3E_mobile.pressedLabel = Reception
+Button_2A2C253B_310E_001C_41B6_D3A7F4F68C3E.label = Reception
+Button_15F5A318_3106_001C_41C5_9AA2EF2184CF_mobile.label = Terrace
+Button_15F5A318_3106_001C_41C5_9AA2EF2184CF.label = Terrace
+
+### Image
+Image_062A182F_1140_E20B_41B0_9CB8FFD6AA5A.url = skin/Image_062A182F_1140_E20B_41B0_9CB8FFD6AA5A_en.jpg
+Image_062A182F_1140_E20B_41B0_9CB8FFD6AA5A_mobile.url = skin/Image_062A182F_1140_E20B_41B0_9CB8FFD6AA5A_mobile_en.jpg
+Image_1E18723C_57F1_802D_41C5_8325536874A5.url = skin/Image_1E18723C_57F1_802D_41C5_8325536874A5_en.jpg
+Image_1E18723C_57F1_802D_41C5_8325536874A5_mobile.url = skin/Image_1E18723C_57F1_802D_41C5_8325536874A5_mobile_en.jpg
+Image_1E19C23C_57F1_802D_41D1_9DC72DB5C1E1.url = skin/Image_1E19C23C_57F1_802D_41D1_9DC72DB5C1E1_en.jpg
+Image_1E19C23C_57F1_802D_41D1_9DC72DB5C1E1_mobile.url = skin/Image_1E19C23C_57F1_802D_41D1_9DC72DB5C1E1_mobile_en.jpg
+Image_6DB0E977_7EAE_82D7_41C6_AA62C330D72E.url = skin/Image_6DB0E977_7EAE_82D7_41C6_AA62C330D72E_en.png
+Image_6DB0E977_7EAE_82D7_41C6_AA62C330D72E_mobile.url = skin/Image_6DB0E977_7EAE_82D7_41C6_AA62C330D72E_mobile_en.png
+
+### Label
+Label_6C32DC2B_7EA3_8278_41DD_63B612FF03BC_mobile.text = EXPLORE KLAY
+Label_6C32DC2B_7EA3_8278_41DD_63B612FF03BC.text = EXPLORE KLAY
+Label_6A884337_7EA5_8657_41C1_421F6994A49F.text = FIRST FLOOR 
+Label_6A884337_7EA5_8657_41C1_421F6994A49F_mobile.text = FIRST FLOOR 
+Label_6D50BED4_7EA6_BE28_41D2_B8953E7CE040.text = FOURTH FLOOR
+Label_6D50BED4_7EA6_BE28_41D2_B8953E7CE040_mobile.text = FOURTH FLOOR
+Label_6BEF7204_7EA3_8629_41CB_64CEFBB87DE3.text = GROUND FLOOR 
+Label_6BEF7204_7EA3_8629_41CB_64CEFBB87DE3_mobile.text = GROUND FLOOR 
+Label_6A1A03AD_7EA5_867B_41DA_0705C3EEA403_mobile.text = KITCHEN / DINNING
+Label_6A1A03AD_7EA5_867B_41DA_0705C3EEA403.text = KITCHEN / DINNING
+Label_6A3C2951_7EA3_822B_41DA_0FC03DB3B171.text = LIBRARY
+Label_6A3C2951_7EA3_822B_41DA_0FC03DB3B171_mobile.text = LIBRARY
+Label_68C9F90A_7EE6_8239_41C0_343DE74F1A45.text = NAP AREA
+Label_68C9F90A_7EE6_8239_41C0_343DE74F1A45_mobile.text = NAP AREA
+Label_68EDC4EF_7EE5_83F8_41B8_90EFA7E8A452_mobile.text = PLAY AREA
+Label_68EDC4EF_7EE5_83F8_41B8_90EFA7E8A452.text = PLAY AREA
+Label_6DE6F8B1_7EA2_826B_41DD_160C67C6019E.text = RECEPTION
+Label_6DE6F8B1_7EA2_826B_41DD_160C67C6019E_mobile.text = RECEPTION
+Label_6AFAF20D_7EA5_863B_4160_8093E8732607.text = SECOND FLOOR 
+Label_6AFAF20D_7EA5_863B_4160_8093E8732607_mobile.text = SECOND FLOOR 
+Label_6A31239B_7EA6_865D_41D1_E11EDFB6DC74_mobile.text = THIRD FLOOR 
+Label_6A31239B_7EA6_865D_41D1_E11EDFB6DC74.text = THIRD FLOOR 
+
+### Multiline Text
+HTMLText_062AD830_1140_E215_41B0_321699661E7F_mobile.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:left;font-size:8.059999999999997vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#04a3e1;font-size:8.06vmin;font-family:'Bebas Neue Bold';">___</SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:5.042016806722688vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:5.04vmin;font-family:'Oswald';"><B><I>KLAY</I></B></SPAN></SPAN></DIV><p STYLE="margin:0; line-height:2.08vmin;"><BR STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-size:0.69vmin;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:left;font-size:3.529411764705882vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#04a3e1;font-size:3.53vmin;font-family:'Oswald';"><B>Preschools &amp; Daycare</B></SPAN></SPAN></DIV><p STYLE="margin:0; line-height:0.83vmin;"><BR STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-size:0.69vmin;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:justify;font-size:1.6806722689075626vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-line;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:1.68vmin;"><B>KLAY is India’s leading chain of Preschools and Daycare centres, valued for supporting over 60,000 families through top-notch learning and care for their children. Our focus is on creating a safe, nurturing and engaging environment for little ones to learn and grow, supported by passionate facilitators, modern infrastructure, and a proven pedagogy. KLAY’s preschool learning program is managed by SHIKSHA Trust.</B></SPAN></SPAN></DIV><p STYLE="margin:0; line-height:2.02vmin;"><BR STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-size:0.69vmin;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:left;font-size:2.016806722689075vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.02vmin;font-family:'Oswald';"><B><I>What We Do:</I></B></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:1.512605042016807vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:1.51vmin;"><B> • HOLISTIC CHILD DEVELOPMENT APPROACH</B></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:1.512605042016807vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:1.51vmin;"><B> • HEALTH AND SAFETY</B></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:1.512605042016807vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:1.51vmin;"><B> • WORLD CLASS INFRASTRUCTURE</B></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:1.512605042016807vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:1.51vmin;"><B> • NURTURE LITTLE LEARNER</B></SPAN></SPAN></DIV><p STYLE="margin:0; line-height:1.31vmin;"><BR STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-size:0.69vmin;font-family:Arial, Helvetica, sans-serif;"/></p><p STYLE="margin:0; line-height:2.08vmin;"><BR STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-size:0.69vmin;font-family:Arial, Helvetica, sans-serif;"/></p><p STYLE="margin:0; line-height:2.5vmin;"><BR STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-size:0.69vmin;font-family:Arial, Helvetica, sans-serif;"/></p></div>
+HTMLText_062AD830_1140_E215_41B0_321699661E7F.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:left;font-size:8.059999999999997vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#04a3e1;font-size:8.06vmin;font-family:'Bebas Neue Bold';">___</SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:5.042016806722688vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:5.04vmin;font-family:'Oswald';"><B><I>KLAY</I></B></SPAN></SPAN></DIV><p STYLE="margin:0; line-height:2.08vmin;"><BR STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-size:0.69vmin;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:left;font-size:3.529411764705882vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#04a3e1;font-size:3.53vmin;font-family:'Oswald';"><B>Preschools &amp; Daycare</B></SPAN></SPAN></DIV><p STYLE="margin:0; line-height:0.83vmin;"><BR STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-size:0.69vmin;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:justify;font-size:1.6806722689075626vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-line;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:1.68vmin;"><B>KLAY is India’s leading chain of Preschools and Daycare centres, valued for supporting over 60,000 families through top-notch learning and care for their children. Our focus is on creating a safe, nurturing and engaging environment for little ones to learn and grow, supported by passionate facilitators, modern infrastructure, and a proven pedagogy. KLAY’s preschool learning program is managed by SHIKSHA Trust.</B></SPAN></SPAN></DIV><p STYLE="margin:0; line-height:2.02vmin;"><BR STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-size:0.69vmin;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:left;font-size:2.016806722689075vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.02vmin;font-family:'Oswald';"><B><I>What We Do:</I></B></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:1.512605042016807vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:1.51vmin;"><B> • HOLISTIC CHILD DEVELOPMENT APPROACH</B></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:1.512605042016807vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:1.51vmin;"><B> • HEALTH AND SAFETY</B></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:1.512605042016807vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:1.51vmin;"><B> • WORLD CLASS INFRASTRUCTURE</B></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:1.512605042016807vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:1.51vmin;"><B> • NURTURE LITTLE LEARNER</B></SPAN></SPAN></DIV><p STYLE="margin:0; line-height:1.31vmin;"><BR STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-size:0.69vmin;font-family:Arial, Helvetica, sans-serif;"/></p><p STYLE="margin:0; line-height:2.08vmin;"><BR STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-size:0.69vmin;font-family:Arial, Helvetica, sans-serif;"/></p><p STYLE="margin:0; line-height:2.5vmin;"><BR STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-size:0.69vmin;font-family:Arial, Helvetica, sans-serif;"/></p></div>
+HTMLText_1E18123C_57F1_802D_41D2_B0CD0D6533F4.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:left;font-size:8.36vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#04a3e1;font-size:8.36vh;font-family:'Bebas Neue Bold';">___</SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:4.769999999999998vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:4.77vh;font-family:'Oswald';"><B><I>LOREM IPSUM</I></B></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:4.769999999999998vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:4.77vh;font-family:'Oswald';"><B><I>DOLOR SIT AMET</I></B></SPAN></SPAN></DIV></div>
+HTMLText_1E18123C_57F1_802D_41D2_B0CD0D6533F4_mobile.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:left;font-size:8.36vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#04a3e1;font-size:8.36vh;font-family:'Bebas Neue Bold';">___</SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:4.769999999999998vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:4.77vh;font-family:'Oswald';"><B><I>LOREM IPSUM</I></B></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:4.769999999999998vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:4.77vh;font-family:'Oswald';"><B><I>DOLOR SIT AMET</I></B></SPAN></SPAN></DIV></div>
+HTMLText_1E18423C_57F1_802D_41C4_458DB7F892AC_mobile.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:left;font-size:2.5800000000000014vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#04a3e1;font-size:2.58vh;font-family:'Oswald';"><B><I>JOHN DOE</I></B></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:2.27vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.27vh;font-family:'Oswald';"><I>Licensed Real Estate Salesperson</I></SPAN></SPAN></DIV><p STYLE="margin:0; line-height:1.8vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:0.94vh;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:left;font-size:2.1100000000000008vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#999999;font-size:2.11vh;font-family:'Oswald';"><I>Tlf.: +11 111 111 111</I></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:2.1100000000000008vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#999999;font-size:2.11vh;font-family:'Oswald';"><I>jhondoe@realestate.com</I></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:2.1100000000000008vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#999999;font-size:2.11vh;font-family:'Oswald';"><I>www.loremipsum.com</I></SPAN></SPAN></DIV><p STYLE="margin:0; line-height:0.94vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:0.94vh;font-family:Arial, Helvetica, sans-serif;"/></p><p STYLE="margin:0; line-height:0.94vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:0.94vh;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:left;font-size:1.2500000000000002vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:1.25vh;">Mauris aliquet neque quis libero consequat vestibulum. Donec lacinia consequat dolor viverra sagittis. Praesent consequat porttitor risus, eu condimentum nunc. Proin et velit ac sapien luctus efficitur egestas ac augue. Nunc dictum, augue eget eleifend interdum, quam libero imperdiet lectus, vel scelerisque turpis lectus vel ligula. Duis a porta sem. Maecenas sollicitudin nunc id risus fringilla, a pharetra orci iaculis. Aliquam turpis ligula, tincidunt sit amet consequat ac, imperdiet non dolor.</SPAN></SPAN></DIV></div>
+HTMLText_1E18423C_57F1_802D_41C4_458DB7F892AC.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:left;font-size:2.5800000000000014vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#04a3e1;font-size:2.58vh;font-family:'Oswald';"><B><I>JOHN DOE</I></B></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:2.27vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.27vh;font-family:'Oswald';"><I>Licensed Real Estate Salesperson</I></SPAN></SPAN></DIV><p STYLE="margin:0; line-height:1.8vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:0.94vh;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:left;font-size:2.1100000000000008vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#999999;font-size:2.11vh;font-family:'Oswald';"><I>Tlf.: +11 111 111 111</I></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:2.1100000000000008vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#999999;font-size:2.11vh;font-family:'Oswald';"><I>jhondoe@realestate.com</I></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:2.1100000000000008vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#999999;font-size:2.11vh;font-family:'Oswald';"><I>www.loremipsum.com</I></SPAN></SPAN></DIV><p STYLE="margin:0; line-height:0.94vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:0.94vh;font-family:Arial, Helvetica, sans-serif;"/></p><p STYLE="margin:0; line-height:0.94vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:0.94vh;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:left;font-size:1.2500000000000002vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:1.25vh;">Mauris aliquet neque quis libero consequat vestibulum. Donec lacinia consequat dolor viverra sagittis. Praesent consequat porttitor risus, eu condimentum nunc. Proin et velit ac sapien luctus efficitur egestas ac augue. Nunc dictum, augue eget eleifend interdum, quam libero imperdiet lectus, vel scelerisque turpis lectus vel ligula. Duis a porta sem. Maecenas sollicitudin nunc id risus fringilla, a pharetra orci iaculis. Aliquam turpis ligula, tincidunt sit amet consequat ac, imperdiet non dolor.</SPAN></SPAN></DIV></div>
+HTMLText_29DD1615_3597_79DF_41C4_7593739E5260.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:left;font-size:14px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:14px;font-family:'Oswald Regular';"><I>Company Name</I></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:14px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:14px;font-family:'Oswald Regular';"><I>www.loremipsum.com</I></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:14px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:14px;font-family:'Oswald Regular';"><I>info@loremipsum.com</I></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:14px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:14px;font-family:'Oswald Regular';"><I>Tlf.: +11 111 111 111</I></SPAN></SPAN></DIV></div>
+HTMLText_29DD1615_3597_79DF_41C4_7593739E5260_mobile.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:left;font-size:7px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:7px;font-family:'Oswald Regular';"><I>Company Name</I></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:7px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:7px;font-family:'Oswald Regular';"><I>www.loremipsum.com</I></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:7px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:7px;font-family:'Oswald Regular';"><I>info@loremipsum.com</I></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:7px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:7px;font-family:'Oswald Regular';"><I>Tlf.: +11 111 111 111</I></SPAN></SPAN></DIV></div>
+
+## Tour
+
+### Description
+
+### Title
+tour.name = Klay School
