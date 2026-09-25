@@ -459,10 +459,10 @@ section.portfolio-gallery {
 
 /* Premium Glassmorphic Header Background for Portfolio Page */
 .portfolio-page-header {
-  background-color: rgba(245, 244, 240, 0.88) !important; /* Semi-transparent chalk-white */
-  backdrop-filter: blur(16px) !important;
-  -webkit-backdrop-filter: blur(16px) !important;
-  border-bottom: 1px solid rgba(28, 28, 26, 0.06) !important;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.02) !important;
+  background-color: rgba(245, 244, 240, 0.55) !important; /* Semi-transparent chalk-white */
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border: none !important;
+  box-shadow: none !important;
 }
 

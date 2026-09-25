@@ -99,7 +99,8 @@ function initPortfolioModal() {
 
       const fullscreenBtn = modal.querySelector('.modal-fullscreen-btn');
       if (fullscreenBtn) {
-        fullscreenBtn.setAttribute('href', getDirectMapsUrl(embedUrl));
+        const directMapsUrl = launcher.getAttribute('data-maps-url');
+        fullscreenBtn.setAttribute('href', directMapsUrl || getDirectMapsUrl(embedUrl));
       }
 
       modal.classList.add('active-modal');
